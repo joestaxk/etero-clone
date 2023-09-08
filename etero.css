@@ -500,7 +500,7 @@ body.ar-ae .languages > a {
   content: "";
   width: 18px;
   height: 13px;
-  background: url("../marketing.etorostatic.com/cache1/hp/v_251/images/flags-hd2022.png")
+  background: url("./asset/media/flags-hd2022.png")
     no-repeat 0 0;
   background-size: 415px 13px;
   position: absolute;
