@@ -883,7 +883,7 @@ body[data-fx*="down"] .navbar_mobile .icon_bar {
     top: 2px;
     width: 24px;
     height: 24px;
-    background: url(../marketing.etorostatic.com/cache1/hp/v_251/images/hp-2022/help.svg)
+    background: url("./asset/media/help.svg")
       no-repeat center center;
     background-size: contain;
   }
@@ -1327,7 +1327,7 @@ body[data-fx*="down"] .navbar_mobile .icon_bar {
   left: 50%;
   width: 24px;
   height: 24px;
-  background: url(//marketing.etorostatic.com/cache1/hp/v_251/images/header/close-grey.svg)
+  background: url(./asset/media/close-grey.svg)
     #f1f1f1 no-repeat center center;
   background-size: 10px;
   border-radius: 50%;
@@ -2874,7 +2874,7 @@ button.swiper-pagination-bullet {
   }
   .play-video-mobile {
     display: block;
-    background-image: url(../marketing.etorostatic.com/cache1/hp/v_251/images/hp-2022/play-icon.svg);
+    background-image: url(./asset/media/play-icon.svg);
     background-position: center;
     width: 50px;
     height: 40px;
