@@ -930,11 +930,11 @@ body[data-fx*="down"] .navbar_mobile .icon_bar {
     transition: none;
     transform: translateX(-101%);
   }
-  .navigation.open {
+  /* .navigation.open {
     transition: transform 0.3s ease-in-out;
     transform: translateX(0);
     z-index: 20;
-  }
+  } */
   body.ar-ae .navigation {
     transform: translateX(101%);
   }
