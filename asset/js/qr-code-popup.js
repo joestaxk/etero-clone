@@ -1,0 +1,7 @@
+(function(){function addPopupContent(popupSettings){document.getElementById('logo-qr-popup').src=popupSettings.logo;document.getElementById('title-qr-popup').innerHTML=popupSettings.title;document.getElementById('code-qr-popup').src=popupSettings.qr_code;document.getElementById('section-qr-popup').style.backgroundImage='url(\''+popupSettings.background_image+'\')';}
+function initEtoroQrPopup(){const popUp=document.getElementById('etoro-qr-popup');if(!popUp){return;}
+if(typeof window.qr_popup_data==='undefined'){return;}
+const html=document.documentElement;function handlePopupClick(popupSettings,e){e.preventDefault();addPopupContent(popupSettings);etoroTracking.track('eToro QR Popup - Show',{'qr_popup_href':e.currentTarget.href});popUp.classList.add('active');html.classList.add('disable-scroll');}
+window.qr_popup_data.forEach(function(popupSettings,index,arr){const buttons=document.getElementsByClassName('qr_'+popupSettings.popup_name);if(!buttons){return;}
+for(let i=0;i<buttons.length;i++){buttons[i].addEventListener('click',handlePopupClick.bind(null,popupSettings));}});document.getElementById('close-qr-popup').addEventListener('click',function(e){e.preventDefault();etoroTracking.track('eToro QR Popup - Click Cancel (X)',{});popUp.classList.remove('active');html.classList.remove('disable-scroll');});}
+if(!(/Android|iPhone|iPad|iPod/i.test(navigator.userAgent))){document.addEventListener('DOMContentLoaded',initEtoroQrPopup);}}());

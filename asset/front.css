@@ -1,0 +1,5512 @@
+.block-editor-content.block-editor-content-boxed > .container {
+  margin-bottom: 28px;
+  margin-top: 28px;
+}
+@media (min-width: 768px) {
+  .block-editor-content.block-editor-content-boxed > .container {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+}
+.block-editor-content a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #1337c6;
+  transition: 0.2s ease;
+}
+.block-editor-content a:hover {
+  color: #1337c6;
+}
+.block-editor-content.block-editor-content-boxed {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
+.block-editor-content.block-editor-content-boxed .wp-block-etoro-quiz {
+  width: 100%;
+}
+.block-editor-content.block-editor-content-boxed .hentry {
+  padding: 0 16px;
+}
+@media (min-width: 768px) {
+  .block-editor-content.block-editor-content-boxed .hentry {
+    padding: 0 12px;
+  }
+}
+.block-editor-content.block-editor-content-boxed #single_sidebar {
+  flex: initial;
+  padding: 0 12px;
+  width: 30%;
+}
+@media (min-width: 1025px) {
+  .block-editor-content.block-editor-content-boxed > .container {
+    padding-left: calc(min(72px, (100vw - 576px)/24 * 2) + 48px);
+    padding-right: calc(min(72px, (100vw - 576px)/24 * 2) + 48px);
+  }
+  .block-editor-content.block-editor-content-boxed .hentry {
+    padding: 0 calc(5% + 12px) 0 12px;
+    width: 70%;
+  }
+}
+@media (min-width: 1024px) {
+  .rtl .block-editor-content.block-editor-content-boxed .hentry {
+    padding: 0 12px 0 calc(5% - 12px);
+    width: 70%;
+  }
+}
+.block-editor-page {
+  background-color: #f7f7f7;
+  color: #000021;
+  font-family: Madera, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+@media (min-width: 768px) {
+  .block-editor-page {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.block-editor-page .wp-block-course-contents {
+  margin-top: -12px;
+}
+.block-editor-page .wp-block-course-contents-lesson {
+  animation: fadeIn 0.3s ease-in-out;
+  border-bottom: 1px solid #d0f4d7;
+  display: flex;
+  gap: 16px;
+  height: auto;
+  padding: 24px 0;
+}
+.block-editor-page
+  .wp-block-course-contents-lesson.wp-block-course-contents-lesson-hidden {
+  display: none;
+}
+.block-editor-page
+  .wp-block-course-contents-lesson
+  .wp-block-course-contents-lesson-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0 0 5px;
+}
+.block-editor-page
+  .wp-block-course-contents-lesson
+  .wp-block-course-contents-lesson-title
+  a {
+  color: #000021;
+  text-decoration: none;
+}
+.block-editor-page .wp-block-course-contents-lesson-number {
+  align-items: center;
+  background-color: #a1e8af;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  font-size: 21px;
+  font-weight: 700;
+  height: 40px;
+  justify-content: center;
+  line-height: 1;
+  min-width: 40px;
+  width: 40px;
+}
+.block-editor-page .wp-block-course-contents-lesson-details {
+  align-items: center;
+  color: #9999a6;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+.block-editor-page .wp-block-course-contents-lesson-details span {
+  margin: 0 8px;
+}
+.block-editor-page .wp-block-course-contents-lesson-cta {
+  min-width: -moz-max-content;
+  min-width: max-content;
+  text-decoration: underline;
+}
+.block-editor-page .wp-block-course-contents-navigation {
+  display: flex;
+  flex-direction: column-reverse;
+  line-height: 20px;
+  width: 100%;
+}
+.block-editor-page
+  .wp-block-course-contents-navigation
+  .wp-block-course-contents-back-to-all,
+.block-editor-page
+  .wp-block-course-contents-navigation
+  .wp-block-course-contents-show-all {
+  text-decoration: underline;
+  text-decoration-color: #000021;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  width: -moz-max-content;
+  width: max-content;
+}
+.block-editor-page
+  .wp-block-course-contents-navigation
+  .wp-block-course-contents-back-to-all:hover,
+.block-editor-page
+  .wp-block-course-contents-navigation
+  .wp-block-course-contents-show-all:hover {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .wp-block-course-contents-navigation
+  .wp-block-course-contents-show-all {
+  cursor: pointer;
+  margin-top: 40px;
+}
+.block-editor-page
+  .wp-block-course-contents-navigation
+  .wp-block-course-contents-back-to-all {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  margin-top: 24px;
+}
+.block-editor-page
+  .wp-block-course-contents-navigation
+  .wp-block-course-contents-back-to-all
+  .wp-block-course-contents-arrow-left {
+  display: none;
+}
+.block-editor-page .wp-block-course-contents-show-all {
+  display: inline-flex;
+}
+.block-editor-page
+  .wp-block-course-contents-show-all.wp-block-course-contents-show-all-hidden {
+  display: none;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-course-contents {
+    margin-top: 32px;
+  }
+  .block-editor-page .wp-block-course-contents-lesson {
+    align-items: center;
+    gap: 24px;
+    padding: 36px 0 36px 24px;
+  }
+  .block-editor-page .wp-block-course-contents-lesson:first-child {
+    border-top: 1px solid #d0f4d7;
+    margin-top: 14px;
+  }
+  .block-editor-page
+    .wp-block-course-contents-lesson:hover
+    .wp-block-course-contents-lesson-details {
+    color: #000021;
+  }
+  .block-editor-page
+    .wp-block-course-contents-lesson
+    .wp-block-course-contents-lesson-title {
+    font-size: 32px;
+    margin-bottom: 9px;
+  }
+  .block-editor-page .wp-block-course-contents-lesson-number {
+    font-size: 32px;
+    height: 60px;
+    min-width: 60px;
+    width: 60px;
+  }
+  .block-editor-page .wp-block-course-contents-lesson-info {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    gap: 25px;
+    justify-content: space-between;
+  }
+  .block-editor-page .wp-block-course-contents-lesson-details {
+    margin-bottom: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .block-editor-page .wp-block-course-contents-lesson-cta {
+    background-color: #000021;
+    border: 1px solid #000021;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 11px 44px 12px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  .block-editor-page .wp-block-course-contents-lesson-cta:hover {
+    background-color: transparent;
+    color: #000021;
+  }
+  .block-editor-page .wp-block-course-contents-navigation {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .block-editor-page
+    .wp-block-course-contents-navigation
+    .wp-block-course-contents-back-to-all {
+    flex-direction: row;
+    margin-top: 40px;
+  }
+  .block-editor-page
+    .wp-block-course-contents-navigation
+    .wp-block-course-contents-back-to-all
+    .wp-block-course-contents-arrow-right {
+    display: none;
+  }
+  .block-editor-page
+    .wp-block-course-contents-navigation
+    .wp-block-course-contents-back-to-all
+    .wp-block-course-contents-arrow-left {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .block-editor-page .wp-block-course-contents-navigation {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+.block-editor-page .wp-block-buttons {
+  gap: 24px;
+  margin: 32px 0;
+}
+.block-editor-page .wp-block-buttons:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-buttons:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-buttons {
+    margin: 40px 0;
+  }
+}
+.block-editor-page .e-cta {
+  background-color: #1337c6;
+  border: 1px solid #1337c6;
+  border-radius: 100px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 9px 28px 12px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.block-editor-page .e-cta-primary-bordered {
+  background-color: transparent;
+  border-color: #1337c6;
+  color: #1337c6;
+}
+.block-editor-page .e-cta-primary-bordered:focus,
+.block-editor-page .e-cta-primary-bordered:hover {
+  background-color: transparent;
+  border-color: #71dd86;
+  color: #71dd86;
+}
+.block-editor-page .e-cta:focus,
+.block-editor-page .e-cta:hover {
+  background-color: #71dd86;
+  border-color: #71dd86;
+  box-shadow: none;
+  color: #fff;
+  outline: none;
+}
+.block-editor-page .e-cta-alternative {
+  background-color: #000021;
+  border-color: #000021;
+}
+.block-editor-page .e-cta-alternative:focus,
+.block-editor-page .e-cta-alternative:hover {
+  background-color: #66667a;
+  border-color: #66667a;
+}
+.block-editor-page .e-cta-alternative-bordered {
+  background-color: transparent;
+  border-color: #000021;
+  color: #000021;
+}
+.block-editor-page .e-cta-alternative-bordered:focus,
+.block-editor-page .e-cta-alternative-bordered:hover {
+  background-color: transparent;
+  border-color: #66667a;
+  color: #66667a;
+}
+.block-editor-page .e-cta-white-bordered,
+.block-editor-page .e-cta-white-bordered:focus,
+.block-editor-page .e-cta-white-bordered:hover {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .block-editor-page .e-cta {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-left: 44px;
+    padding-right: 44px;
+  }
+}
+.block-editor-page .wp-block-etoro-cards .wp-block-etoro-card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  max-width: 253px;
+  min-width: 253px;
+  overflow: hidden;
+  padding: 16px 24px 44px;
+  width: 100%;
+}
+.block-editor-page
+  .wp-block-etoro-cards:not(.swiper-initialized)
+  .swiper-wrapper {
+  align-items: stretch;
+  display: flex;
+  justify-content: center;
+  margin: -8px;
+  max-width: none;
+  width: auto;
+}
+.block-editor-page
+  .wp-block-etoro-cards:not(.swiper-initialized)
+  .wp-block-etoro-card,
+.block-editor-page
+  .wp-block-etoro-cards:not(.swiper-initialized)
+  .wp-block-etoro-card:first-child,
+.block-editor-page
+  .wp-block-etoro-cards:not(.swiper-initialized)
+  .wp-block-etoro-card:last-child {
+  margin: 8px;
+}
+.block-editor-page
+  .wp-block-etoro-cards
+  .wp-block-etoro-card.wp-block-etoro-card-size-small {
+  display: block;
+  text-align: center;
+}
+.block-editor-page
+  .wp-block-etoro-cards
+  .wp-block-etoro-card.wp-block-etoro-card-size-small
+  .wp-block-etoro-card-thumbnail {
+  margin: 0 auto 10px;
+}
+.block-editor-page
+  .wp-block-etoro-cards
+  .wp-block-etoro-card.wp-block-etoro-card-size-small
+  .wp-block-etoro-card-body {
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .block-editor-page
+    .wp-block-etoro-cards
+    .wp-block-etoro-card.wp-block-etoro-card-size-small
+    .wp-block-etoro-card-thumbnail {
+    margin: 0 auto 24px;
+  }
+  .block-editor-page .wp-block-etoro-cards .wp-block-etoro-card {
+    flex: 0 0 calc(50% - 24px);
+    max-width: none;
+    min-width: auto;
+  }
+  .block-editor-page
+    .wp-block-etoro-cards:not(.swiper-initialized)
+    .swiper-wrapper {
+    flex-wrap: wrap;
+    margin: -12px;
+  }
+  .block-editor-page
+    .wp-block-etoro-cards:not(.swiper-initialized)
+    .wp-block-etoro-card,
+  .block-editor-page
+    .wp-block-etoro-cards:not(.swiper-initialized)
+    .wp-block-etoro-card:first-child,
+  .block-editor-page
+    .wp-block-etoro-cards:not(.swiper-initialized)
+    .wp-block-etoro-card:last-child {
+    margin: 12px;
+  }
+}
+@media (min-width: 1441px) {
+  .block-editor-page .wp-block-etoro-cards .wp-block-etoro-card {
+    flex: 0 0 calc(25% - 24px);
+  }
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-column-align-desktop-left,
+  .block-editor-page .wp-block-column-align-desktop-left .has-text-align-center,
+  .block-editor-page
+    .wp-block-column-align-desktop-left
+    .has-text-align-center.wp-block-heading,
+  .block-editor-page .wp-block-column-align-desktop-left .has-text-align-left,
+  .block-editor-page
+    .wp-block-column-align-desktop-left
+    .has-text-align-left.wp-block-heading,
+  .block-editor-page .wp-block-column-align-desktop-left .has-text-align-right,
+  .block-editor-page
+    .wp-block-column-align-desktop-left
+    .has-text-align-right.wp-block-heading {
+    text-align: left;
+  }
+  .block-editor-page .wp-block-column-align-desktop-left img {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .block-editor-page .wp-block-column-align-desktop-left .wp-block-buttons {
+    justify-content: flex-start;
+  }
+  .block-editor-page .wp-block-column-align-desktop-center,
+  .block-editor-page
+    .wp-block-column-align-desktop-center
+    .has-text-align-center,
+  .block-editor-page
+    .wp-block-column-align-desktop-center
+    .has-text-align-center.wp-block-heading,
+  .block-editor-page .wp-block-column-align-desktop-center .has-text-align-left,
+  .block-editor-page
+    .wp-block-column-align-desktop-center
+    .has-text-align-left.wp-block-heading,
+  .block-editor-page
+    .wp-block-column-align-desktop-center
+    .has-text-align-right,
+  .block-editor-page
+    .wp-block-column-align-desktop-center
+    .has-text-align-right.wp-block-heading {
+    text-align: center;
+  }
+  .block-editor-page .wp-block-column-align-desktop-center img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .block-editor-page .wp-block-column-align-desktop-center .wp-block-buttons {
+    justify-content: center;
+  }
+  .block-editor-page .wp-block-column-align-desktop-right {
+    text-align: right;
+  }
+  .block-editor-page
+    .wp-block-column-align-desktop-right
+    .has-text-align-center,
+  .block-editor-page .wp-block-column-align-desktop-right .has-text-align-left,
+  .block-editor-page
+    .wp-block-column-align-desktop-right
+    .has-text-align-right {
+    text-align: center;
+  }
+  .block-editor-page
+    .wp-block-column-align-desktop-right
+    .has-text-align-center.wp-block-heading,
+  .block-editor-page
+    .wp-block-column-align-desktop-right
+    .has-text-align-left.wp-block-heading,
+  .block-editor-page
+    .wp-block-column-align-desktop-right
+    .has-text-align-right.wp-block-heading {
+    text-align: right;
+  }
+  .block-editor-page .wp-block-column-align-desktop-right img {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .block-editor-page .wp-block-column-align-desktop-right .wp-block-buttons {
+    justify-content: flex-end;
+  }
+}
+@media (max-width: 767px) {
+  .block-editor-page .wp-block-column-align-mobile-left,
+  .block-editor-page .wp-block-column-align-mobile-left .has-text-align-center,
+  .block-editor-page
+    .wp-block-column-align-mobile-left
+    .has-text-align-center.wp-block-heading,
+  .block-editor-page .wp-block-column-align-mobile-left .has-text-align-left,
+  .block-editor-page
+    .wp-block-column-align-mobile-left
+    .has-text-align-left.wp-block-heading,
+  .block-editor-page .wp-block-column-align-mobile-left .has-text-align-right,
+  .block-editor-page
+    .wp-block-column-align-mobile-left
+    .has-text-align-right.wp-block-heading {
+    text-align: left;
+  }
+  .block-editor-page .wp-block-column-align-mobile-left img {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .block-editor-page .wp-block-column-align-mobile-left .wp-block-buttons {
+    justify-content: flex-start;
+  }
+  .block-editor-page .wp-block-column-align-mobile-center,
+  .block-editor-page
+    .wp-block-column-align-mobile-center
+    .has-text-align-center,
+  .block-editor-page
+    .wp-block-column-align-mobile-center
+    .has-text-align-center.wp-block-heading,
+  .block-editor-page .wp-block-column-align-mobile-center .has-text-align-left,
+  .block-editor-page
+    .wp-block-column-align-mobile-center
+    .has-text-align-left.wp-block-heading,
+  .block-editor-page .wp-block-column-align-mobile-center .has-text-align-right,
+  .block-editor-page
+    .wp-block-column-align-mobile-center
+    .has-text-align-right.wp-block-heading {
+    text-align: center;
+  }
+  .block-editor-page .wp-block-column-align-mobile-center img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .block-editor-page .wp-block-column-align-mobile-center .wp-block-buttons {
+    justify-content: center;
+  }
+  .block-editor-page .wp-block-column-align-mobile-right {
+    text-align: right;
+  }
+  .block-editor-page .wp-block-column-align-mobile-right .has-text-align-center,
+  .block-editor-page .wp-block-column-align-mobile-right .has-text-align-left,
+  .block-editor-page .wp-block-column-align-mobile-right .has-text-align-right {
+    text-align: center;
+  }
+  .block-editor-page
+    .wp-block-column-align-mobile-right
+    .has-text-align-center.wp-block-heading,
+  .block-editor-page
+    .wp-block-column-align-mobile-right
+    .has-text-align-left.wp-block-heading,
+  .block-editor-page
+    .wp-block-column-align-mobile-right
+    .has-text-align-right.wp-block-heading {
+    text-align: right;
+  }
+  .block-editor-page .wp-block-column-align-mobile-right img {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .block-editor-page .wp-block-column-align-mobile-right .wp-block-buttons {
+    justify-content: flex-end;
+  }
+}
+.block-editor-page
+  .block-editor-content.block-editor-content-boxed
+  > .container,
+.block-editor-page .entry-content > .wp-block-columns,
+.block-editor-page .wp-block-etoro-course-navigation,
+.block-editor-page .wp-block-etoro-emphasis,
+.block-editor-page .wp-block-etoro-image-and-text,
+.block-editor-page .wp-block-etoro-pros-cons,
+.block-editor-page .wp-block-etoro-quizzes,
+.block-editor-page .wp-block-etoro-side-by-side-wrapper,
+.block-editor-page .wp-block-etoro-tip,
+.block-editor-page .wp-block-image,
+.block-editor-page .wp-block-quote,
+.block-editor-page .wp-block-separator,
+.block-editor-page .wp-block-table {
+  margin-bottom: 28px;
+  margin-top: 28px;
+}
+@media (min-width: 768px) {
+  .block-editor-page
+    .block-editor-content.block-editor-content-boxed
+    > .container,
+  .block-editor-page .entry-content > .wp-block-columns,
+  .block-editor-page .wp-block-etoro-course-navigation,
+  .block-editor-page .wp-block-etoro-emphasis,
+  .block-editor-page .wp-block-etoro-image-and-text,
+  .block-editor-page .wp-block-etoro-pros-cons,
+  .block-editor-page .wp-block-etoro-quizzes,
+  .block-editor-page .wp-block-etoro-side-by-side-wrapper,
+  .block-editor-page .wp-block-etoro-tip,
+  .block-editor-page .wp-block-image,
+  .block-editor-page .wp-block-quote,
+  .block-editor-page .wp-block-separator,
+  .block-editor-page .wp-block-table {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+}
+.block-editor-page .wp-block-columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+  margin-top: 40px;
+}
+.block-editor-page .wp-block-columns:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-columns:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-columns .wp-block-column {
+  flex: 1 1 0;
+  width: 0;
+}
+.block-editor-page .wp-block-columns.is-layout-flex {
+  gap: 16px;
+}
+.block-editor-page .wp-block-columns.are-vertically-aligned-top {
+  align-items: flex-start;
+}
+.block-editor-page .wp-block-columns.are-vertically-aligned-center {
+  align-items: center;
+}
+.block-editor-page .wp-block-columns.are-vertically-aligned-bottom {
+  align-items: flex-end;
+}
+@media (max-width: 767px) {
+  .block-editor-page .wp-block-columns.is-not-stacked-on-mobile {
+    flex-wrap: wrap !important;
+    gap: 16px !important;
+    justify-content: center;
+  }
+  .block-editor-page
+    .wp-block-columns.is-not-stacked-on-mobile
+    .wp-block-column {
+    flex: auto;
+    max-width: calc(50% - 8px);
+    width: calc(50% - 8px);
+  }
+  .block-editor-page .wp-block-columns.is-swapped-on-mobile {
+    flex-direction: row-reverse;
+  }
+  .block-editor-page .wp-block-columns:not(.is-not-stacked-on-mobile) {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .block-editor-page
+    .wp-block-columns:not(.is-not-stacked-on-mobile).is-swapped-on-mobile {
+    flex-direction: column-reverse;
+  }
+  .block-editor-page
+    .wp-block-columns:not(.is-not-stacked-on-mobile)
+    .wp-block-column {
+    flex: initial;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-columns-2 .wp-block-column {
+    flex: 1 1 50%;
+  }
+  .block-editor-page
+    .wp-block-columns-2
+    .wp-block-column.is-text-column:first-child {
+    padding-right: 60px;
+  }
+  .block-editor-page
+    .wp-block-columns-2
+    .wp-block-column.is-text-column:last-child {
+    padding-left: 60px;
+  }
+  .block-editor-page .wp-block-columns.is-layout-flex {
+    gap: 24px;
+  }
+}
+.block-editor-page .wp-block-heading + .wp-block-columns {
+  margin-top: 28px;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-heading + .wp-block-columns {
+    margin-top: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .block-editor-page .wp-block-columns-size-14,
+  .block-editor-page .wp-block-columns-size-16,
+  .block-editor-page .wp-block-columns-size-18 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .block-editor-page .wp-block-columns-size-18 {
+    max-width: calc((min(100vw, 1440px) - 576px) / 24 * 18 + 408px);
+  }
+  .block-editor-page .wp-block-columns-size-16 {
+    max-width: calc((min(100vw, 1440px) - 576px) / 24 * 16 + 360px);
+  }
+  .block-editor-page .wp-block-columns-size-14 {
+    max-width: calc((min(100vw, 1440px) - 576px) / 24 * 14 + 312px);
+  }
+}
+.block-editor-page .entry-content > .wp-block-columns:first-child {
+  margin-top: 0;
+}
+.block-editor-page .entry-content > .wp-block-columns:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-etoro-course-info {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.block-editor-page
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.block-editor-page
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item:before {
+  background-color: #000021;
+  content: "";
+  display: inline-block;
+  height: 19px;
+  margin-right: 6px;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  width: 19px;
+}
+.block-editor-page
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item-lessons:before {
+  -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iMTQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkuMjg4IDIuNjA3cy40ODgtMS4zNzQgMi4xMzEtMS4zNzRoNS45MTV2MTEuNDVoLTYuMDA3cy0xLjA3OC0uMTQ3LTEuNjI1LjY2aC0uNDE0VjIuNjA2Wk05LjI4NyAyLjYwN1M4LjggMS4yMzMgNy4xNTcgMS4yMzNIMS4yMzh2MTEuNDVoNi4wMDdzMS4wNzctLjE0NyAxLjYyNS42NmguNDE2VjIuNjA2Wk0zLjcgNC44NWgyLjc3NU0zLjcgNy4yNzhoMi43NzVNMy43IDkuNzA2aDIuNzc1TTEyLjAyNSA0Ljg1SDE0LjhNMTIuMDI1IDcuMjc4SDE0LjhNMTIuMDI1IDkuNzA2SDE0LjgiIHN0cm9rZT0iIzAwMDAyMSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=);
+  mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iMTQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkuMjg4IDIuNjA3cy40ODgtMS4zNzQgMi4xMzEtMS4zNzRoNS45MTV2MTEuNDVoLTYuMDA3cy0xLjA3OC0uMTQ3LTEuNjI1LjY2aC0uNDE0VjIuNjA2Wk05LjI4NyAyLjYwN1M4LjggMS4yMzMgNy4xNTcgMS4yMzNIMS4yMzh2MTEuNDVoNi4wMDdzMS4wNzctLjE0NyAxLjYyNS42NmguNDE2VjIuNjA2Wk0zLjcgNC44NWgyLjc3NU0zLjcgNy4yNzhoMi43NzVNMy43IDkuNzA2aDIuNzc1TTEyLjAyNSA0Ljg1SDE0LjhNMTIuMDI1IDcuMjc4SDE0LjhNMTIuMDI1IDkuNzA2SDE0LjgiIHN0cm9rZT0iIzAwMDAyMSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=);
+}
+.block-editor-page
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item-duration:before {
+  -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNyIgY3k9IjguNSIgcj0iNS41IiBzdHJva2U9IiMwMDAwMjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIHN0cm9rZT0iIzAwMDAyMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNSAuNWg0TTcgOC41di0zTTkgOC41SDciLz48L3N2Zz4=);
+  mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNyIgY3k9IjguNSIgcj0iNS41IiBzdHJva2U9IiMwMDAwMjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIHN0cm9rZT0iIzAwMDAyMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNSAuNWg0TTcgOC41di0zTTkgOC41SDciLz48L3N2Zz4=);
+}
+.block-editor-page
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item-level:before {
+  -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIiBzdHJva2U9IiMwMDAwMjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTcuODI4IDEuNTEzaC0uNDQ1QTIuNTU4IDIuNTU4IDAgMCAwIDQuODI1IDQuMDd2MS4wNjJhMi41NTggMi41NTggMCAwIDAgMi41NTggMi41NThoLjQ0NWEyLjU1OCAyLjU1OCAwIDAgMCAyLjU1OC0yLjU1OFY0LjA3MWEyLjU1OCAyLjU1OCAwIDAgMC0yLjU1OC0yLjU1OFpNMTMuODgzIDE0LjQ4N3MtLjIwNC0zLjAwMi0xLjg1NC00LjAwM0w5LjkyMiA5LjM1OWE0LjE1OCA0LjE1OCAwIDAgMS00Ljg2MiAwbC0yLjA4OCAxLjEyNWMtMS42NSAxLTEuODU0IDQuMDAzLTEuODU0IDQuMDAzIi8+PC9nPjxkZWZzPjxjbGlwUGF0aCBpZD0iYSI+PHBhdGggZmlsbD0iI2ZmZiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjUgLjg5NSkiIGQ9Ik0wIDBoMTR2MTQuMjFIMHoiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=);
+  mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIiBzdHJva2U9IiMwMDAwMjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTcuODI4IDEuNTEzaC0uNDQ1QTIuNTU4IDIuNTU4IDAgMCAwIDQuODI1IDQuMDd2MS4wNjJhMi41NTggMi41NTggMCAwIDAgMi41NTggMi41NThoLjQ0NWEyLjU1OCAyLjU1OCAwIDAgMCAyLjU1OC0yLjU1OFY0LjA3MWEyLjU1OCAyLjU1OCAwIDAgMC0yLjU1OC0yLjU1OFpNMTMuODgzIDE0LjQ4N3MtLjIwNC0zLjAwMi0xLjg1NC00LjAwM0w5LjkyMiA5LjM1OWE0LjE1OCA0LjE1OCAwIDAgMS00Ljg2MiAwbC0yLjA4OCAxLjEyNWMtMS42NSAxLTEuODU0IDQuMDAzLTEuODU0IDQuMDAzIi8+PC9nPjxkZWZzPjxjbGlwUGF0aCBpZD0iYSI+PHBhdGggZmlsbD0iI2ZmZiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjUgLjg5NSkiIGQ9Ik0wIDBoMTR2MTQuMjFIMHoiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=);
+}
+.block-editor-page
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item:after {
+  content: "•";
+  opacity: 0.3;
+  padding: 0 12px;
+}
+.block-editor-page
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item:last-child:after {
+  content: none;
+}
+.block-editor-page
+  .wp-block-etoro-course-info-style-external
+  .wp-block-etoro-course-info-item
+  + .wp-block-etoro-course-info-item:before {
+  content: "|";
+  display: inline-block;
+  padding: 0 16px 0 20px;
+}
+.block-editor-page .wp-block-etoro-course-info-style-external .e-cta {
+  background-color: #000021;
+  border-color: #000021;
+}
+.block-editor-page .wp-block-etoro-course-info-style-external .e-cta:focus,
+.block-editor-page .wp-block-etoro-course-info-style-external .e-cta:hover {
+  background-color: #66667a;
+  border-color: #66667a;
+}
+@media (min-width: 1024px) {
+  .block-editor-page .wp-block-etoro-course-info {
+    font-size: 16px;
+  }
+  .block-editor-page
+    .wp-block-etoro-course-info
+    .wp-block-course-info-duration:after,
+  .block-editor-page
+    .wp-block-etoro-course-info
+    .wp-block-course-info-lessons:after {
+    padding: 0 12px;
+  }
+}
+.block-editor-page .wp-block-etoro-course-navigation {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.block-editor-page .wp-block-etoro-course-navigation:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-etoro-course-navigation:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-course-navigation {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .block-editor-page
+    .wp-block-etoro-course-navigation
+    .wp-block-etoro-course-navigation-item-next {
+    margin-left: auto;
+  }
+}
+.block-editor-page .wp-block-group {
+  margin: 0;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  width: 100%;
+}
+.block-editor-page .wp-block-group-inner {
+  padding: 0 16px;
+}
+.block-editor-page .wp-block-group.wp-block-group-small-top-padding {
+  padding-top: 20px;
+}
+.block-editor-page .wp-block-group.wp-block-group-small-bottom-padding {
+  padding-bottom: 20px;
+}
+.block-editor-page .wp-block-group-boxed .wp-block-group-inner {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 16px;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .block-editor-page .wp-block-group-boxed .wp-block-group-inner {
+    padding: 0 calc(min(72px, (100vw - 576px)/24 * 2) + 60px);
+  }
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-group {
+    padding: 80px 0;
+  }
+  .block-editor-page .wp-block-group-inner {
+    padding: 0 12px;
+  }
+  .block-editor-page .wp-block-group.wp-block-group-medium-top-padding {
+    padding-top: 40px;
+  }
+  .block-editor-page .wp-block-group.wp-block-group-medium-bottom-padding {
+    padding-bottom: 40px;
+  }
+}
+.block-editor-page .is-style-heading-1 {
+  color: inherit;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 12px;
+  margin-top: 28px;
+}
+@media (min-width: 768px) {
+  .block-editor-page .is-style-heading-1 {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 24px;
+    margin-top: 80px;
+  }
+}
+.block-editor-page .is-style-heading-2,
+.block-editor-page h2.is-style-default,
+.block-editor-page h2:not([class*="is-style-"]) {
+  color: inherit;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 12px;
+  margin-top: 28px;
+}
+@media (min-width: 768px) {
+  .block-editor-page .is-style-heading-2,
+  .block-editor-page h2.is-style-default,
+  .block-editor-page h2:not([class*="is-style-"]) {
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 16px;
+    margin-top: 80px;
+  }
+}
+.block-editor-page .is-style-heading-3,
+.block-editor-page .wp-block-etoro-card-title,
+.block-editor-page h3.is-style-default,
+.block-editor-page h3:not([class*="is-style-"]) {
+  color: inherit;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 12px;
+  margin-top: 28px;
+}
+@media (min-width: 768px) {
+  .block-editor-page .is-style-heading-3,
+  .block-editor-page .wp-block-etoro-card-title,
+  .block-editor-page h3.is-style-default,
+  .block-editor-page h3:not([class*="is-style-"]) {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    margin-top: 60px;
+  }
+}
+.block-editor-page .is-style-heading-4,
+.block-editor-page h4.is-style-default,
+.block-editor-page h4:not([class*="is-style-"]) {
+  color: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .block-editor-page .is-style-heading-4,
+  .block-editor-page h4.is-style-default,
+  .block-editor-page h4:not([class*="is-style-"]) {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 16px;
+    margin-top: 40px;
+  }
+}
+.block-editor-page .wp-block-image figcaption,
+.block-editor-page .wp-block-table figcaption {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+.block-editor-page p {
+  color: inherit;
+  margin: 0 0 1em;
+}
+.block-editor-page p:first-child {
+  margin-top: 0;
+}
+.block-editor-page p:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .has-text-align-left {
+  text-align: left;
+}
+.block-editor-page .has-text-align-center {
+  text-align: center;
+}
+.block-editor-page .has-text-align-right {
+  text-align: right;
+}
+.block-editor-page .wp-block-heading {
+  margin-bottom: 16px;
+}
+.block-editor-page .wp-block-heading.has-text-align-left {
+  text-align: left;
+}
+.block-editor-page .wp-block-heading.has-text-align-center {
+  text-align: center;
+}
+.block-editor-page .wp-block-heading.has-text-align-right {
+  text-align: right;
+}
+.block-editor-page .wp-block-heading:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-heading:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-etoro-hero {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+}
+.block-editor-page .wp-block-etoro-hero-thumbnail,
+.block-editor-page .wp-block-etoro-hero-thumbnail-full-hd {
+  min-height: 250px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+.block-editor-page .wp-block-etoro-hero-thumbnail-full-hd {
+  display: none;
+}
+.block-editor-page .wp-block-etoro-hero-body {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 250px);
+  padding: 40px 28px;
+  width: 100%;
+}
+.block-editor-page .swiper-slide .wp-block-etoro-hero-body {
+  padding-bottom: 80px;
+}
+@media (min-width: 1024px) {
+  .block-editor-page .wp-block-etoro-hero {
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .block-editor-page .wp-block-etoro-hero-thumbnail,
+  .block-editor-page .wp-block-etoro-hero-thumbnail-full-hd {
+    height: 100%;
+    width: 50%;
+  }
+  .block-editor-page
+    .wp-block-etoro-hero-height-480
+    .wp-block-etoro-hero-thumbnail,
+  .block-editor-page
+    .wp-block-etoro-hero-height-480
+    .wp-block-etoro-hero-thumbnail-full-hd {
+    min-height: 480px;
+  }
+  .block-editor-page
+    .wp-block-etoro-hero-height-600
+    .wp-block-etoro-hero-thumbnail,
+  .block-editor-page
+    .wp-block-etoro-hero-height-600
+    .wp-block-etoro-hero-thumbnail-full-hd {
+    min-height: 600px;
+  }
+  .block-editor-page .wp-block-etoro-hero-body {
+    height: auto;
+    max-width: min(41.6666666667% - 12px, 588px);
+    padding: 52px 0 52px 52px;
+    width: 50%;
+  }
+}
+@media (min-width: 1441px) {
+  .block-editor-page .wp-block-etoro-hero-body {
+    padding: 72px 0 72px 72px;
+  }
+}
+@media (min-width: 1921px) {
+  .block-editor-page .wp-block-etoro-hero-thumbnail,
+  .block-editor-page .wp-block-etoro-hero-thumbnail-full-hd {
+    overflow: hidden;
+  }
+  .block-editor-page
+    .wp-block-etoro-hero-height-480
+    .wp-block-etoro-hero-thumbnail,
+  .block-editor-page
+    .wp-block-etoro-hero-height-480
+    .wp-block-etoro-hero-thumbnail-full-hd {
+    max-height: 480px;
+  }
+  .block-editor-page
+    .wp-block-etoro-hero-height-600
+    .wp-block-etoro-hero-thumbnail,
+  .block-editor-page
+    .wp-block-etoro-hero-height-600
+    .wp-block-etoro-hero-thumbnail-full-hd {
+    max-height: 600px;
+  }
+  .block-editor-page
+    .wp-block-etoro-hero.wp-block-etoro-hero-has-full-hd
+    .wp-block-etoro-hero-thumbnail {
+    display: none;
+  }
+  .block-editor-page
+    .wp-block-etoro-hero.wp-block-etoro-hero-has-full-hd
+    .wp-block-etoro-hero-thumbnail-full-hd {
+    display: block;
+  }
+}
+.block-editor-page .wp-block-etoro-emphasis {
+  background-color: #fff;
+  border-bottom: 1px solid #1337c6;
+  border-left: 0;
+  border-right: 0;
+  border-top: 1px solid #1337c6;
+  color: #000021;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 17px 16px;
+  position: relative;
+  text-align: left;
+}
+.block-editor-page .wp-block-etoro-emphasis:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-etoro-emphasis:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-etoro-emphasis p {
+  margin: 0;
+}
+.block-editor-page .wp-block-etoro-emphasis p + p {
+  padding-top: 1em;
+}
+.block-editor-page .wp-block-etoro-emphasis.has-text-align-left {
+  text-align: left;
+}
+.block-editor-page .wp-block-etoro-emphasis.has-text-align-center {
+  text-align: center;
+}
+.block-editor-page .wp-block-etoro-emphasis.has-text-align-right {
+  text-align: right;
+}
+.block-editor-page .wp-block-etoro-emphasis-border-green {
+  border-color: #1337c6;
+}
+.block-editor-page .wp-block-etoro-emphasis-border-dark-blue {
+  border-color: #000021;
+}
+.block-editor-page .wp-block-etoro-emphasis-border-white {
+  border-color: #fff;
+}
+.block-editor-page .wp-block-etoro-emphasis-border-light-blue {
+  border-color: #c0e8fd;
+}
+.block-editor-page .wp-block-etoro-emphasis-border-tangerine {
+  border-color: #e96e14;
+}
+.block-editor-page .wp-block-etoro-emphasis-border-pink-pop {
+  border-color: #f887cc;
+}
+.block-editor-page .wp-block-etoro-emphasis-border-turquoise {
+  border-color: #6bf5c0;
+}
+.block-editor-page .wp-block-etoro-emphasis-border-yellow {
+  border-color: #f7b42c;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-emphasis {
+    font-size: 22px;
+    line-height: 1.73;
+    padding: 37px 40px;
+  }
+}
+.block-editor-page .wp-block-etoro-faq-item {
+  font-size: 16px;
+  line-height: 26px;
+}
+.block-editor-page .wp-block-etoro-faq-item-question {
+  border-top: 1px solid #e4e4e4;
+  cursor: pointer;
+  padding: 22px 15px 10px 0;
+  position: relative;
+}
+.block-editor-page .wp-block-etoro-faq-item-question:after,
+.block-editor-page .wp-block-etoro-faq-item-question:before {
+  background-color: #000021;
+  content: "";
+  height: 2px;
+  position: absolute;
+  right: 0;
+  top: 35px;
+  transition: 0.3s ease;
+  width: 12px;
+}
+.block-editor-page .wp-block-etoro-faq-item-question:after {
+  transform: rotate(90deg);
+}
+.block-editor-page .wp-block-etoro-faq-item-answer {
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+  padding: 12px 0 0;
+  transition: 0.3s ease;
+}
+.block-editor-page .wp-block-etoro-faq-item-answer figure {
+  margin: 1em 0;
+}
+.block-editor-page .wp-block-etoro-faq-item-answer p:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page
+  .wp-block-etoro-faq-item-active
+  .wp-block-etoro-faq-item-question {
+  font-weight: 600;
+}
+.block-editor-page
+  .wp-block-etoro-faq-item-active
+  .wp-block-etoro-faq-item-question:after,
+.block-editor-page
+  .wp-block-etoro-faq-item-active
+  .wp-block-etoro-faq-item-question:before {
+  background-color: #1337c6;
+}
+.block-editor-page
+  .wp-block-etoro-faq-item-active
+  .wp-block-etoro-faq-item-question:before {
+  transform: rotate(45deg);
+}
+.block-editor-page
+  .wp-block-etoro-faq-item-active
+  .wp-block-etoro-faq-item-question:after {
+  transform: rotate(135deg);
+}
+.block-editor-page
+  .wp-block-etoro-faq-item-active
+  .wp-block-etoro-faq-item-answer {
+  padding-bottom: 22px;
+  padding-top: 0;
+}
+.block-editor-page
+  .wp-block-etoro-faq-item:last-child
+  .wp-block-etoro-faq-item-answer {
+  border-bottom: 1px solid #e4e4e4;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-faq-item {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+@media (max-width: 768px) {
+  .block-editor-page .wp-block-group :has(.wp-block-etoro-faq) {
+    margin-bottom: -40px;
+    margin-top: -40px;
+  }
+}
+.block-editor-page .wp-block-group .wp-block-etoro-faq {
+  padding-top: 20px;
+}
+.block-editor-page .wp-block-group .wp-block-etoro-faq-item-question {
+  padding-right: 45px;
+}
+.block-editor-page .wp-block-group .wp-block-etoro-faq-item-answer {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media (min-width: 1024px) {
+  .block-editor-page .wp-block-group .wp-block-etoro-faq-item-question {
+    padding-left: 60px;
+    padding-right: 75px;
+  }
+  .block-editor-page .wp-block-group .wp-block-etoro-faq-item-question:after,
+  .block-editor-page .wp-block-group .wp-block-etoro-faq-item-question:before {
+    right: 60px;
+  }
+  .block-editor-page .wp-block-group .wp-block-etoro-faq-item-answer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+.block-editor-page .wp-block-etoro-card {
+  display: block;
+  margin: 28px auto;
+  text-align: center;
+  text-decoration: none;
+}
+.block-editor-page .wp-block-etoro-card:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-etoro-card:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-etoro-card-thumbnail {
+  display: block;
+  height: auto;
+  margin: 0 auto 12px;
+  max-height: 300px;
+  max-width: 300px;
+  width: auto;
+}
+.block-editor-page .wp-block-etoro-card-body {
+  margin: 0 auto;
+}
+.block-editor-page .wp-block-etoro-card-size-small {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+.block-editor-page .wp-block-etoro-card-size-small .wp-block-etoro-card-body {
+  margin: 0 0 0 16px;
+  width: 100%;
+}
+.block-editor-page
+  .wp-block-etoro-card-size-small
+  .wp-block-etoro-card-thumbnail {
+  margin: 0;
+  max-height: 60px;
+  max-width: 60px;
+}
+.block-editor-page
+  .wp-block-etoro-card-size-medium
+  .wp-block-etoro-card-thumbnail {
+  max-height: 150px;
+  max-width: 150px;
+}
+.block-editor-page
+  .wp-block-etoro-card-size-large
+  .wp-block-etoro-card-thumbnail {
+  max-height: 300px;
+  max-width: 300px;
+}
+.block-editor-page .wp-block-etoro-card-title {
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+.block-editor-page .wp-block-etoro-card-content p:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-card {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+  .block-editor-page .wp-block-etoro-card-thumbnail-position-side,
+  .block-editor-page
+    .wp-block-etoro-card-thumbnail-position-side.wp-block-etoro-card-size-small {
+    display: flex;
+  }
+  .block-editor-page
+    .wp-block-etoro-card-thumbnail-position-side
+    .wp-block-etoro-card-thumbnail,
+  .block-editor-page
+    .wp-block-etoro-card-thumbnail-position-side.wp-block-etoro-card-size-small
+    .wp-block-etoro-card-thumbnail {
+    margin: 0 24px 0 max((min(100vw, 1440px) - 576px)/24 * 2 + 24px - 80px, 0px);
+  }
+  .block-editor-page
+    .wp-block-etoro-card-thumbnail-position-side
+    .wp-block-etoro-card-body,
+  .block-editor-page
+    .wp-block-etoro-card-thumbnail-position-side.wp-block-etoro-card-size-small
+    .wp-block-etoro-card-body {
+    margin: 0;
+    padding-right: calc((min(100vw, 1440px) - 576px) / 24 + 12px);
+    text-align: initial;
+  }
+  .block-editor-page .wp-block-etoro-card-body {
+    margin: 24px 0 0;
+  }
+  .block-editor-page .wp-block-etoro-card-size-small {
+    display: block;
+    text-align: center;
+  }
+  .block-editor-page
+    .wp-block-etoro-card-size-small
+    .wp-block-etoro-card-thumbnail {
+    margin: 0 auto 24px;
+    max-height: 80px;
+    max-width: 80px;
+  }
+  .block-editor-page .wp-block-etoro-card-size-small .wp-block-etoro-card-body {
+    margin: 24px 0 0;
+  }
+}
+.block-editor-page .wp-block-etoro-card-modern {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+.block-editor-page .wp-block-etoro-card-modern .wp-block-etoro-card-image {
+  margin: 0;
+  max-width: 100%;
+}
+.block-editor-page .wp-block-etoro-card-modern .wp-block-etoro-card-body {
+  margin: 0;
+  padding: 10px 20px 35px;
+}
+.block-editor-page .wp-block-etoro-card-modern .wp-block-etoro-card-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  margin-bottom: 4px;
+}
+.block-editor-page .wp-block-etoro-card-modern .wp-block-etoro-card-thumbnail {
+  margin-bottom: 0;
+  max-width: 100%;
+}
+.block-editor-page .wp-block-etoro-card-modern .wp-block-etoro-card-content {
+  color: #66667a;
+  font-size: 14px;
+  line-height: 18px;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-card-modern .wp-block-etoro-card-title {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .block-editor-page .wp-block-etoro-card-modern .wp-block-etoro-card-content {
+    font-size: 17px;
+    line-height: 22px;
+  }
+}
+.block-editor-page .wp-block-etoro-card-accent {
+  background-color: #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+  padding: 0;
+  transition: 0.2s ease;
+}
+.block-editor-page .wp-block-etoro-card-accent .wp-block-etoro-card-thumbnail {
+  display: none;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.block-editor-page
+  .wp-block-etoro-card-accent
+  .wp-block-etoro-card-thumbnail-mobile {
+  display: block;
+}
+@media (min-width: 768px) {
+  .block-editor-page
+    .wp-block-etoro-card-accent
+    .wp-block-etoro-card-thumbnail {
+    display: block;
+    margin: auto;
+  }
+  .block-editor-page
+    .wp-block-etoro-card-accent
+    .wp-block-etoro-card-thumbnail-mobile {
+    display: none;
+  }
+}
+.block-editor-page a.wp-block-etoro-card-accent:hover {
+  background-color: #f7f7f7;
+}
+@media (max-width: 767px) {
+  .block-editor-page
+    .wp-block-columns.is-not-stacked-on-mobile
+    .wp-block-etoro-card-size-small
+    .wp-block-etoro-card-body {
+    width: auto;
+  }
+}
+.block-editor-page .wp-block-image {
+  margin-left: auto;
+  margin-right: auto;
+}
+.block-editor-page .wp-block-image.aligncenter,
+.block-editor-page .wp-block-image.alignleft,
+.block-editor-page .wp-block-image.alignright {
+  display: block;
+  margin: 28px auto;
+}
+.block-editor-page .wp-block-image img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.block-editor-page .wp-block-image.aligncenter img {
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-image {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .block-editor-page .wp-block-image.alignright {
+    display: inline-block;
+    margin: 20px 0 20px 20px;
+  }
+  .block-editor-page .wp-block-image.alignleft {
+    display: inline-block;
+    margin: 20px 20px 20px 0;
+  }
+  .block-editor-page .wp-block-image.aligncenter {
+    margin: 20px auto;
+  }
+}
+.block-editor-page .wp-block-image:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-image:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-image.aligncenter:first-child,
+.block-editor-page .wp-block-image.alignleft:first-child,
+.block-editor-page .wp-block-image.alignright:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-image.aligncenter:last-child,
+.block-editor-page .wp-block-image.alignleft:last-child,
+.block-editor-page .wp-block-image.alignright:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-image-has-mobile {
+  display: flex;
+  justify-content: center;
+}
+.block-editor-page .wp-block-image-has-mobile .wp-image-desktop {
+  display: none;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-image-has-mobile .wp-image-desktop {
+    display: block;
+  }
+  .block-editor-page .wp-block-image-has-mobile .wp-image-mobile {
+    display: none;
+  }
+}
+.block-editor-page .wp-block-etoro-investor,
+.block-editor-page .wp-block-etoro-portfolio {
+  color: #fff;
+  display: block;
+  position: relative;
+  text-align: left;
+}
+.block-editor-page .wp-block-etoro-investor:hover,
+.block-editor-page .wp-block-etoro-portfolio:hover {
+  color: #fff;
+}
+.block-editor-page .wp-block-etoro-investor:after,
+.block-editor-page .wp-block-etoro-portfolio:after {
+  background: linear-gradient(180deg, rgba(0, 0, 33, 0), rgba(0, 0, 33, 0.8));
+  bottom: 0;
+  content: "";
+  height: 216px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: auto;
+  z-index: 1;
+}
+.block-editor-page .wp-block-etoro-investor-image,
+.block-editor-page .wp-block-etoro-portfolio-image {
+  margin: 0;
+  max-width: 100%;
+  padding-top: 107.246377%;
+  position: relative;
+}
+.block-editor-page .wp-block-etoro-investor-image img,
+.block-editor-page .wp-block-etoro-portfolio-image img {
+  bottom: 0;
+  display: block;
+  height: 100%;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.block-editor-page .wp-block-etoro-investor-body,
+.block-editor-page .wp-block-etoro-portfolio-body {
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  left: 20px;
+  max-height: 180px;
+  overflow: hidden;
+  position: absolute;
+  right: 20px;
+  z-index: 2;
+}
+.block-editor-page .wp-block-etoro-investor-title,
+.block-editor-page .wp-block-etoro-portfolio-title {
+  color: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.block-editor-page .wp-block-etoro-investor-number,
+.block-editor-page .wp-block-etoro-portfolio-number {
+  color: #6bf5c0;
+  font-family: DIN Alternate, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.block-editor-page .wp-block-etoro-investor-number-negative,
+.block-editor-page .wp-block-etoro-portfolio-number-negative {
+  color: #f66;
+}
+.block-editor-page .wp-block-etoro-investor-description,
+.block-editor-page .wp-block-etoro-portfolio-description {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  color: #f7f7f7;
+  display: -webkit-box;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+.block-editor-page .wp-block-list {
+  margin: 12px 0;
+  padding: 0 0 0 28px;
+}
+.block-editor-page .wp-block-list.wp-block-list-check {
+  padding-left: 33px;
+}
+.block-editor-page .wp-block-list li {
+  margin: 0;
+  padding: 0;
+}
+.block-editor-page .wp-block-list li + li {
+  margin-top: 16px;
+}
+.block-editor-page .wp-block-list li ol,
+.block-editor-page .wp-block-list li ul {
+  margin: 16px 0 0 40px;
+}
+.block-editor-page .wp-block-list:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-list:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page ul.wp-block-list div > li:before,
+.block-editor-page ul.wp-block-list li:before {
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 12px;
+  margin-right: 16px;
+  position: absolute;
+  right: 100%;
+  top: 0.5em;
+  width: 12px;
+}
+.block-editor-page ul.wp-block-list {
+  list-style: none;
+}
+.block-editor-page ul.wp-block-list div > li,
+.block-editor-page ul.wp-block-list li {
+  position: relative;
+}
+.block-editor-page ul.wp-block-list ul {
+  list-style: none;
+}
+.block-editor-page ul.wp-block-list ul > div > li,
+.block-editor-page ul.wp-block-list ul > li {
+  position: relative;
+}
+.block-editor-page ul.wp-block-list-circle > div > li:before,
+.block-editor-page ul.wp-block-list-circle > li:before {
+  background-color: #1337c6;
+  background-image: none;
+  height: 12px;
+  width: 12px;
+}
+.block-editor-page ul.wp-block-list-circle ul > div > li:before,
+.block-editor-page ul.wp-block-list-circle ul > li:before {
+  background-color: #71dd86;
+  background-image: none;
+  height: 12px;
+  width: 12px;
+}
+.block-editor-page ul.wp-block-list-check div > li:before,
+.block-editor-page ul.wp-block-list-check li:before {
+  background-color: transparent;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTIgNSA1IDUgOS04IiBzdHJva2U9IiMxM0M2MzYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+);
+  height: 14px;
+  width: 18px;
+}
+.block-editor-page ul.wp-block-list-cross div > li:before,
+.block-editor-page ul.wp-block-list-cross li:before {
+  background-color: transparent;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBkPSJtMTAuODk5IDIuNjE5LTguNzggNy45ODJtOC43NjIgMC04Ljc4LTcuOTgyIi8+PC9zdmc+);
+  height: 14px;
+  width: 14px;
+}
+.block-editor-page .is-style-banner-title {
+  color: #000021;
+  font-family: var(--etoro-title-font);
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.block-editor-page .is-style-banner-title strong {
+  color: #fff;
+  display: block;
+}
+@media (min-width: 1024px) {
+  .block-editor-page .is-style-banner-title {
+    font-size: 88px;
+    line-height: 100px;
+  }
+}
+@media (min-width: 1441px) {
+  .block-editor-page .is-style-banner-title {
+    font-size: clamp(52px, 9vw, 100px);
+    line-height: 1.2;
+  }
+}
+.block-editor-page .is-style-heading-2 small,
+.block-editor-page h2.is-style-default small,
+.block-editor-page h2:not([class*="is-style-"]) small {
+  font-size: 19px;
+  line-height: 26px;
+}
+.block-editor-page .is-style-heading-2 span,
+.block-editor-page h2.is-style-default span,
+.block-editor-page h2:not([class*="is-style-"]) span {
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .block-editor-page .is-style-heading-2 small,
+  .block-editor-page h2.is-style-default small,
+  .block-editor-page h2:not([class*="is-style-"]) small {
+    font-size: 31px;
+    line-height: 37px;
+  }
+}
+.block-editor-page .is-style-heading-3 span,
+.block-editor-page h3.is-style-default span,
+.block-editor-page h3:not([class*="is-style-"]) span {
+  font-weight: 400;
+}
+.block-editor-page .is-style-heading-3 small,
+.block-editor-page h3.is-style-default small,
+.block-editor-page h3:not([class*="is-style-"]) small {
+  font-size: 23px;
+  line-height: 26px;
+}
+@media (min-width: 768px) {
+  .block-editor-page .is-style-heading-3 small,
+  .block-editor-page h3.is-style-default small,
+  .block-editor-page h3:not([class*="is-style-"]) small {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+.block-editor-page .is-style-heading-4 span,
+.block-editor-page h4.is-style-default span,
+.block-editor-page h4:not([class*="is-style-"]) span {
+  font-weight: 400;
+}
+.block-editor-page .is-style-heading-4 small,
+.block-editor-page h4.is-style-default small,
+.block-editor-page h4:not([class*="is-style-"]) small {
+  font-size: 14px;
+  line-height: 23px;
+}
+@media (min-width: 768px) {
+  .block-editor-page .is-style-heading-4 small,
+  .block-editor-page h4.is-style-default small,
+  .block-editor-page h4:not([class*="is-style-"]) small {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.block-editor-page .is-style-summary {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+.block-editor-page .is-style-disclaimer {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+@media (min-width: 1024px) {
+  .block-editor-page .is-style-disclaimer {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.block-editor-page .wp-block-etoro-pros-cons {
+  background-color: #fff;
+  border-bottom: 1px solid #e4e4e4;
+  color: #000021;
+}
+.block-editor-page .wp-block-etoro-pros-cons:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-etoro-pros-cons:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-etoro-pros-cons-title {
+  background: #e7f9eb;
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  padding: 20px 24px 24px 55px;
+  position: relative;
+}
+.block-editor-page .wp-block-etoro-pros-cons-title:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMTgnIGhlaWdodD0nMTgnIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBhdGggZD0nbTIgOCA1IDUgOS04JyBzdHJva2U9JyMxM0M2MzYnIHN0cm9rZS13aWR0aD0nMicvPjwvc3ZnPg==);
+  content: "";
+  display: block;
+  height: 19px;
+  left: 24px;
+  margin-right: 12px;
+  position: absolute;
+  top: 24px;
+  width: 19px;
+}
+.block-editor-page .wp-block-etoro-pros-cons-content {
+  padding: 20px 22px 24px;
+}
+.block-editor-page .wp-block-etoro-pros-cons-content .wp-block-etoro-list,
+.block-editor-page
+  .wp-block-etoro-pros-cons-content
+  .wp-block-etoro-list:not(.ul_with_icons),
+.block-editor-page .wp-block-etoro-pros-cons-content p {
+  margin: 0 0 1.4em;
+}
+.block-editor-page
+  .wp-block-etoro-pros-cons-content
+  .wp-block-etoro-list:last-child,
+.block-editor-page
+  .wp-block-etoro-pros-cons-content
+  .wp-block-etoro-list:not(.ul_with_icons):last-child,
+.block-editor-page .wp-block-etoro-pros-cons-content p:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page
+  .wp-block-etoro-pros-cons.wp-block-etoro-cons
+  .wp-block-etoro-pros-cons-title {
+  background: #ffe6e6;
+}
+.block-editor-page
+  .wp-block-etoro-pros-cons.wp-block-etoro-cons
+  .wp-block-etoro-pros-cons-title:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMTgnIGhlaWdodD0nMTgnIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBhdGggZD0nbTUgMTQgOS05bTAgOUw1IDUnIHN0cm9rZT0ncmVkJyBzdHJva2Utd2lkdGg9JzInLz48L3N2Zz4=);
+}
+.block-editor-page
+  .wp-block-etoro-pros-cons.wp-block-etoro-cons
+  .wp-block-etoro-pros-cons-content
+  ul.wp-block-list.wp-block-list-circle
+  > li:before {
+  background: red;
+}
+.block-editor-page
+  .wp-block-etoro-pros-cons.wp-block-etoro-cons
+  .wp-block-etoro-pros-cons-content
+  ul.wp-block-list.wp-block-list-circle
+  .wp-block-list-circle
+  > li:before {
+  background-color: #f99;
+}
+.block-editor-page .wp-block-etoro-quiz {
+  font-size: 14px;
+  line-height: 1.5;
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-quiz {
+    width: calc(50% - 12px);
+  }
+}
+.block-editor-page .wp-block-etoro-quiz-body {
+  background-color: #fff;
+  border-radius: 4px;
+  border-top: 8px solid #66667a;
+  box-shadow: 2px 4px 20px 0 rgba(0, 0, 0, 0.15);
+  color: #000021;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 12px 20px 32px;
+  position: relative;
+}
+.block-editor-page .wp-block-etoro-quiz-result {
+  color: #1337c6;
+  font-weight: 500;
+  margin-top: 8px;
+  padding: 0 20px;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+.block-editor-page .wp-block-etoro-quiz-correct .wp-block-etoro-quiz-body {
+  border-color: #1337c6;
+}
+.block-editor-page .wp-block-etoro-quiz-wrong .wp-block-etoro-quiz-body {
+  border-color: red;
+}
+.block-editor-page .wp-block-etoro-quiz-wrong .wp-block-etoro-quiz-result {
+  color: red;
+}
+.block-editor-page .wp-block-etoro-quiz-question {
+  color: #66667a;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.block-editor-page .wp-block-etoro-quiz-item {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+}
+.block-editor-page .wp-block-etoro-quiz-item:before {
+  border: 1px solid #000021;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 12px;
+  margin-right: 8px;
+  min-width: 12px;
+  position: relative;
+  top: 5px;
+  width: 12px;
+}
+.block-editor-page .wp-block-etoro-quiz-item:after {
+  background-color: #000021;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 6px;
+  left: 3px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transition: 0.25s ease;
+  width: 6px;
+}
+.block-editor-page .wp-block-etoro-quiz-item + .wp-block-etoro-quiz-item {
+  margin-top: 12px;
+}
+.block-editor-page .wp-block-etoro-quiz-item-checked:after {
+  opacity: 1;
+}
+.block-editor-page .wp-block-etoro-quizzes {
+  align-content: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 0;
+  margin-bottom: 48px;
+}
+.block-editor-page .wp-block-etoro-quizzes:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-etoro-quizzes:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-quizzes {
+    gap: 48px 24px;
+  }
+}
+.block-editor-page .wp-block-quote {
+  background-color: #fff;
+  border-bottom: 1px solid #1337c6;
+  border-left: 0;
+  border-right: 0;
+  border-top: 1px solid #1337c6;
+  color: #000021;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 33px 16px 36px 66px;
+  position: relative;
+  text-align: left;
+}
+.block-editor-page .wp-block-quote:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-quote:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-quote p {
+  margin: 0;
+}
+.block-editor-page .wp-block-quote p + p {
+  margin-top: 0.5em;
+}
+.block-editor-page .wp-block-quote:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzQnIGhlaWdodD0nMjInIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGcgY2xpcC1wYXRoPSd1cmwoI2EpJyBmaWxsPScjQTFFOEFGJz48cGF0aCBkPSdNMjMuMjEgMTMuNDQ1Yy43ODkuMzY3IDEuNjU2LjU1MyAyLjUzNi44MzZhNS42MjUgNS42MjUgMCAwIDEtLjkwNCAyLjE0NiA1LjQxOSA1LjQxOSAwIDAgMS0xLjY4MiAxLjU2OGMtLjcwMy4zODUtMS40MzIuNzE5LTIuMTguOTk4LS4zMTQuMTI4LS40NjIuMjg4LS4zODguNjM4LjEwNC41ODYuMjA4IDEuMTc0LjI3MiAxLjc2Ny4wNTUuNTA0LjI5OC42OC43NjMuNTcxIDEuMDQ3LS4yMzggMi4xMi0uNDA3IDMuMTM3LS43NSA2LjA3OC0yLjA1MiA5LjkyNy03LjYwNyA5LjEzNS0xMy45NzEtLjYxMS00LjkxLTQuMzQtNy43OS04LjY0OS03LjE2Mi0zLjAxNy40NDMtNS4zOTUgMi44NDUtNS45MDUgNi4xMDItLjQ1OCAyLjkwNyAxLjE1NSA2LjAwMyAzLjg2NiA3LjI1N1ptLTIwLjI1LS42YTcuMDgyIDcuMDgyIDAgMCAwIDMuNTYgMS4zMTJsLjE2Ny4xNzljLS40NjEuODIxLS44NjcgMS43MDItMS40MjcgMi40NTUtLjg3IDEuMTY2LTIuMTUgMS43NDItMy40NzQgMi4xNzYtLjQxLjEzNS0uNTQ4LjMzLS40Ni43NTcuMTEyLjU0My4xOTggMS4wOS4yNTcgMS42NDMuMDUxLjU0LjMwMi42OC43OTguNjA3IDMuODA4LS41NjcgNy4xMi0yLjEzMSA5LjU4LTUuMjYyIDIuMzYyLTMuMDA3IDMuMjg0LTYuNDgxIDIuNTEtMTAuMjg4LS44ODgtNC4zNDUtNC4zMzYtNi44Ni04LjQzNy02LjM0YTYuNjcgNi42NyAwIDAgMC0zLjcxNiAxLjY4OCA3LjAzNyA3LjAzNyAwIDAgMC0yLjExMyAzLjU4Yy0uNjg5IDIuNzY3LjQzOCA1LjgxIDIuNzU1IDcuNDkzWicvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9J2EnPjxwYXRoIGZpbGw9JyNmZmYnIGQ9J00wIDBoMzR2MjJIMHonLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  height: 22px;
+  left: 16px;
+  position: absolute;
+  top: 33px;
+  width: 34px;
+}
+.block-editor-page .wp-block-quote cite {
+  color: #1337c6;
+  display: block;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1;
+  margin-top: 10px;
+}
+.block-editor-page .wp-block-quote-scheme-green {
+  border-color: #1337c6;
+}
+.block-editor-page .wp-block-quote-scheme-green:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzQnIGhlaWdodD0nMjInIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGcgY2xpcC1wYXRoPSd1cmwoI2EpJyBmaWxsPScjYTFlOGFmJz48cGF0aCBkPSdNMjMuMjEgMTMuNDQ1Yy43ODkuMzY3IDEuNjU2LjU1MyAyLjUzNi44MzZhNS42MjUgNS42MjUgMCAwIDEtLjkwNCAyLjE0NiA1LjQxOSA1LjQxOSAwIDAgMS0xLjY4MiAxLjU2OGMtLjcwMy4zODUtMS40MzIuNzE5LTIuMTguOTk4LS4zMTQuMTI4LS40NjIuMjg4LS4zODguNjM4LjEwNC41ODYuMjA4IDEuMTc0LjI3MiAxLjc2Ny4wNTUuNTA0LjI5OC42OC43NjMuNTcxIDEuMDQ3LS4yMzggMi4xMi0uNDA3IDMuMTM3LS43NSA2LjA3OC0yLjA1MiA5LjkyNy03LjYwNyA5LjEzNS0xMy45NzEtLjYxMS00LjkxLTQuMzQtNy43OS04LjY0OS03LjE2Mi0zLjAxNy40NDMtNS4zOTUgMi44NDUtNS45MDUgNi4xMDItLjQ1OCAyLjkwNyAxLjE1NSA2LjAwMyAzLjg2NiA3LjI1N1ptLTIwLjI1LS42YTcuMDgyIDcuMDgyIDAgMCAwIDMuNTYgMS4zMTJsLjE2Ny4xNzljLS40NjEuODIxLS44NjcgMS43MDItMS40MjcgMi40NTUtLjg3IDEuMTY2LTIuMTUgMS43NDItMy40NzQgMi4xNzYtLjQxLjEzNS0uNTQ4LjMzLS40Ni43NTcuMTEyLjU0My4xOTggMS4wOS4yNTcgMS42NDMuMDUxLjU0LjMwMi42OC43OTguNjA3IDMuODA4LS41NjcgNy4xMi0yLjEzMSA5LjU4LTUuMjYyIDIuMzYyLTMuMDA3IDMuMjg0LTYuNDgxIDIuNTEtMTAuMjg4LS44ODgtNC4zNDUtNC4zMzYtNi44Ni04LjQzNy02LjM0YTYuNjcgNi42NyAwIDAgMC0zLjcxNiAxLjY4OCA3LjAzNyA3LjAzNyAwIDAgMC0yLjExMyAzLjU4Yy0uNjg5IDIuNzY3LjQzOCA1LjgxIDIuNzU1IDcuNDkzWicvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9J2EnPjxwYXRoIGZpbGw9JyNmZmYnIGQ9J00wIDBoMzR2MjJIMHonLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=);
+}
+.block-editor-page .wp-block-quote-scheme-green cite {
+  color: #1337c6;
+}
+.block-editor-page .wp-block-quote-scheme-dark-blue {
+  border-color: #000021;
+}
+.block-editor-page .wp-block-quote-scheme-dark-blue:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzQnIGhlaWdodD0nMjInIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGcgY2xpcC1wYXRoPSd1cmwoI2EpJyBmaWxsPScjOTk5OWE2Jz48cGF0aCBkPSdNMjMuMjEgMTMuNDQ1Yy43ODkuMzY3IDEuNjU2LjU1MyAyLjUzNi44MzZhNS42MjUgNS42MjUgMCAwIDEtLjkwNCAyLjE0NiA1LjQxOSA1LjQxOSAwIDAgMS0xLjY4MiAxLjU2OGMtLjcwMy4zODUtMS40MzIuNzE5LTIuMTguOTk4LS4zMTQuMTI4LS40NjIuMjg4LS4zODguNjM4LjEwNC41ODYuMjA4IDEuMTc0LjI3MiAxLjc2Ny4wNTUuNTA0LjI5OC42OC43NjMuNTcxIDEuMDQ3LS4yMzggMi4xMi0uNDA3IDMuMTM3LS43NSA2LjA3OC0yLjA1MiA5LjkyNy03LjYwNyA5LjEzNS0xMy45NzEtLjYxMS00LjkxLTQuMzQtNy43OS04LjY0OS03LjE2Mi0zLjAxNy40NDMtNS4zOTUgMi44NDUtNS45MDUgNi4xMDItLjQ1OCAyLjkwNyAxLjE1NSA2LjAwMyAzLjg2NiA3LjI1N1ptLTIwLjI1LS42YTcuMDgyIDcuMDgyIDAgMCAwIDMuNTYgMS4zMTJsLjE2Ny4xNzljLS40NjEuODIxLS44NjcgMS43MDItMS40MjcgMi40NTUtLjg3IDEuMTY2LTIuMTUgMS43NDItMy40NzQgMi4xNzYtLjQxLjEzNS0uNTQ4LjMzLS40Ni43NTcuMTEyLjU0My4xOTggMS4wOS4yNTcgMS42NDMuMDUxLjU0LjMwMi42OC43OTguNjA3IDMuODA4LS41NjcgNy4xMi0yLjEzMSA5LjU4LTUuMjYyIDIuMzYyLTMuMDA3IDMuMjg0LTYuNDgxIDIuNTEtMTAuMjg4LS44ODgtNC4zNDUtNC4zMzYtNi44Ni04LjQzNy02LjM0YTYuNjcgNi42NyAwIDAgMC0zLjcxNiAxLjY4OCA3LjAzNyA3LjAzNyAwIDAgMC0yLjExMyAzLjU4Yy0uNjg5IDIuNzY3LjQzOCA1LjgxIDIuNzU1IDcuNDkzWicvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9J2EnPjxwYXRoIGZpbGw9JyNmZmYnIGQ9J00wIDBoMzR2MjJIMHonLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=);
+}
+.block-editor-page .wp-block-quote-scheme-dark-blue cite {
+  color: #000021;
+}
+.block-editor-page .wp-block-quote-scheme-white {
+  border-color: #fff;
+}
+.block-editor-page .wp-block-quote-scheme-white:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzQnIGhlaWdodD0nMjInIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGcgY2xpcC1wYXRoPSd1cmwoI2EpJyBmaWxsPScjaGl0ZSc+PHBhdGggZD0nTTIzLjIxIDEzLjQ0NWMuNzg5LjM2NyAxLjY1Ni41NTMgMi41MzYuODM2YTUuNjI1IDUuNjI1IDAgMCAxLS45MDQgMi4xNDYgNS40MTkgNS40MTkgMCAwIDEtMS42ODIgMS41NjhjLS43MDMuMzg1LTEuNDMyLjcxOS0yLjE4Ljk5OC0uMzE0LjEyOC0uNDYyLjI4OC0uMzg4LjYzOC4xMDQuNTg2LjIwOCAxLjE3NC4yNzIgMS43NjcuMDU1LjUwNC4yOTguNjguNzYzLjU3MSAxLjA0Ny0uMjM4IDIuMTItLjQwNyAzLjEzNy0uNzUgNi4wNzgtMi4wNTIgOS45MjctNy42MDcgOS4xMzUtMTMuOTcxLS42MTEtNC45MS00LjM0LTcuNzktOC42NDktNy4xNjItMy4wMTcuNDQzLTUuMzk1IDIuODQ1LTUuOTA1IDYuMTAyLS40NTggMi45MDcgMS4xNTUgNi4wMDMgMy44NjYgNy4yNTdabS0yMC4yNS0uNmE3LjA4MiA3LjA4MiAwIDAgMCAzLjU2IDEuMzEybC4xNjcuMTc5Yy0uNDYxLjgyMS0uODY3IDEuNzAyLTEuNDI3IDIuNDU1LS44NyAxLjE2Ni0yLjE1IDEuNzQyLTMuNDc0IDIuMTc2LS40MS4xMzUtLjU0OC4zMy0uNDYuNzU3LjExMi41NDMuMTk4IDEuMDkuMjU3IDEuNjQzLjA1MS41NC4zMDIuNjguNzk4LjYwNyAzLjgwOC0uNTY3IDcuMTItMi4xMzEgOS41OC01LjI2MiAyLjM2Mi0zLjAwNyAzLjI4NC02LjQ4MSAyLjUxLTEwLjI4OC0uODg4LTQuMzQ1LTQuMzM2LTYuODYtOC40MzctNi4zNGE2LjY3IDYuNjcgMCAwIDAtMy43MTYgMS42ODggNy4wMzcgNy4wMzcgMCAwIDAtMi4xMTMgMy41OGMtLjY4OSAyLjc2Ny40MzggNS44MSAyLjc1NSA3LjQ5M1onLz48L2c+PGRlZnM+PGNsaXBQYXRoIGlkPSdhJz48cGF0aCBmaWxsPScjZmZmJyBkPSdNMCAwaDM0djIySDB6Jy8+PC9jbGlwUGF0aD48L2RlZnM+PC9zdmc+);
+}
+.block-editor-page .wp-block-quote-scheme-white cite {
+  color: #fff;
+}
+.block-editor-page .wp-block-quote-scheme-light-blue {
+  border-color: #c0e8fd;
+}
+.block-editor-page .wp-block-quote-scheme-light-blue:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzQnIGhlaWdodD0nMjInIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGcgY2xpcC1wYXRoPSd1cmwoI2EpJyBmaWxsPScjZTZmNmZlJz48cGF0aCBkPSdNMjMuMjEgMTMuNDQ1Yy43ODkuMzY3IDEuNjU2LjU1MyAyLjUzNi44MzZhNS42MjUgNS42MjUgMCAwIDEtLjkwNCAyLjE0NiA1LjQxOSA1LjQxOSAwIDAgMS0xLjY4MiAxLjU2OGMtLjcwMy4zODUtMS40MzIuNzE5LTIuMTguOTk4LS4zMTQuMTI4LS40NjIuMjg4LS4zODguNjM4LjEwNC41ODYuMjA4IDEuMTc0LjI3MiAxLjc2Ny4wNTUuNTA0LjI5OC42OC43NjMuNTcxIDEuMDQ3LS4yMzggMi4xMi0uNDA3IDMuMTM3LS43NSA2LjA3OC0yLjA1MiA5LjkyNy03LjYwNyA5LjEzNS0xMy45NzEtLjYxMS00LjkxLTQuMzQtNy43OS04LjY0OS03LjE2Mi0zLjAxNy40NDMtNS4zOTUgMi44NDUtNS45MDUgNi4xMDItLjQ1OCAyLjkwNyAxLjE1NSA2LjAwMyAzLjg2NiA3LjI1N1ptLTIwLjI1LS42YTcuMDgyIDcuMDgyIDAgMCAwIDMuNTYgMS4zMTJsLjE2Ny4xNzljLS40NjEuODIxLS44NjcgMS43MDItMS40MjcgMi40NTUtLjg3IDEuMTY2LTIuMTUgMS43NDItMy40NzQgMi4xNzYtLjQxLjEzNS0uNTQ4LjMzLS40Ni43NTcuMTEyLjU0My4xOTggMS4wOS4yNTcgMS42NDMuMDUxLjU0LjMwMi42OC43OTguNjA3IDMuODA4LS41NjcgNy4xMi0yLjEzMSA5LjU4LTUuMjYyIDIuMzYyLTMuMDA3IDMuMjg0LTYuNDgxIDIuNTEtMTAuMjg4LS44ODgtNC4zNDUtNC4zMzYtNi44Ni04LjQzNy02LjM0YTYuNjcgNi42NyAwIDAgMC0zLjcxNiAxLjY4OCA3LjAzNyA3LjAzNyAwIDAgMC0yLjExMyAzLjU4Yy0uNjg5IDIuNzY3LjQzOCA1LjgxIDIuNzU1IDcuNDkzWicvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9J2EnPjxwYXRoIGZpbGw9JyNmZmYnIGQ9J00wIDBoMzR2MjJIMHonLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=);
+}
+.block-editor-page .wp-block-quote-scheme-light-blue cite {
+  color: #c0e8fd;
+}
+.block-editor-page .wp-block-quote-scheme-tangerine {
+  border-color: #e96e14;
+}
+.block-editor-page .wp-block-quote-scheme-tangerine:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzQnIGhlaWdodD0nMjInIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGcgY2xpcC1wYXRoPSd1cmwoI2EpJyBmaWxsPScjZjZjNWExJz48cGF0aCBkPSdNMjMuMjEgMTMuNDQ1Yy43ODkuMzY3IDEuNjU2LjU1MyAyLjUzNi44MzZhNS42MjUgNS42MjUgMCAwIDEtLjkwNCAyLjE0NiA1LjQxOSA1LjQxOSAwIDAgMS0xLjY4MiAxLjU2OGMtLjcwMy4zODUtMS40MzIuNzE5LTIuMTguOTk4LS4zMTQuMTI4LS40NjIuMjg4LS4zODguNjM4LjEwNC41ODYuMjA4IDEuMTc0LjI3MiAxLjc2Ny4wNTUuNTA0LjI5OC42OC43NjMuNTcxIDEuMDQ3LS4yMzggMi4xMi0uNDA3IDMuMTM3LS43NSA2LjA3OC0yLjA1MiA5LjkyNy03LjYwNyA5LjEzNS0xMy45NzEtLjYxMS00LjkxLTQuMzQtNy43OS04LjY0OS03LjE2Mi0zLjAxNy40NDMtNS4zOTUgMi44NDUtNS45MDUgNi4xMDItLjQ1OCAyLjkwNyAxLjE1NSA2LjAwMyAzLjg2NiA3LjI1N1ptLTIwLjI1LS42YTcuMDgyIDcuMDgyIDAgMCAwIDMuNTYgMS4zMTJsLjE2Ny4xNzljLS40NjEuODIxLS44NjcgMS43MDItMS40MjcgMi40NTUtLjg3IDEuMTY2LTIuMTUgMS43NDItMy40NzQgMi4xNzYtLjQxLjEzNS0uNTQ4LjMzLS40Ni43NTcuMTEyLjU0My4xOTggMS4wOS4yNTcgMS42NDMuMDUxLjU0LjMwMi42OC43OTguNjA3IDMuODA4LS41NjcgNy4xMi0yLjEzMSA5LjU4LTUuMjYyIDIuMzYyLTMuMDA3IDMuMjg0LTYuNDgxIDIuNTEtMTAuMjg4LS44ODgtNC4zNDUtNC4zMzYtNi44Ni04LjQzNy02LjM0YTYuNjcgNi42NyAwIDAgMC0zLjcxNiAxLjY4OCA3LjAzNyA3LjAzNyAwIDAgMC0yLjExMyAzLjU4Yy0uNjg5IDIuNzY3LjQzOCA1LjgxIDIuNzU1IDcuNDkzWicvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9J2EnPjxwYXRoIGZpbGw9JyNmZmYnIGQ9J00wIDBoMzR2MjJIMHonLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=);
+}
+.block-editor-page .wp-block-quote-scheme-tangerine cite {
+  color: #e96e14;
+}
+.block-editor-page .wp-block-quote-scheme-pink-pop {
+  border-color: #f887cc;
+}
+.block-editor-page .wp-block-quote-scheme-pink-pop:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzQnIGhlaWdodD0nMjInIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGcgY2xpcC1wYXRoPSd1cmwoI2EpJyBmaWxsPScjZmNjZmViJz48cGF0aCBkPSdNMjMuMjEgMTMuNDQ1Yy43ODkuMzY3IDEuNjU2LjU1MyAyLjUzNi44MzZhNS42MjUgNS42MjUgMCAwIDEtLjkwNCAyLjE0NiA1LjQxOSA1LjQxOSAwIDAgMS0xLjY4MiAxLjU2OGMtLjcwMy4zODUtMS40MzIuNzE5LTIuMTguOTk4LS4zMTQuMTI4LS40NjIuMjg4LS4zODguNjM4LjEwNC41ODYuMjA4IDEuMTc0LjI3MiAxLjc2Ny4wNTUuNTA0LjI5OC42OC43NjMuNTcxIDEuMDQ3LS4yMzggMi4xMi0uNDA3IDMuMTM3LS43NSA2LjA3OC0yLjA1MiA5LjkyNy03LjYwNyA5LjEzNS0xMy45NzEtLjYxMS00LjkxLTQuMzQtNy43OS04LjY0OS03LjE2Mi0zLjAxNy40NDMtNS4zOTUgMi44NDUtNS45MDUgNi4xMDItLjQ1OCAyLjkwNyAxLjE1NSA2LjAwMyAzLjg2NiA3LjI1N1ptLTIwLjI1LS42YTcuMDgyIDcuMDgyIDAgMCAwIDMuNTYgMS4zMTJsLjE2Ny4xNzljLS40NjEuODIxLS44NjcgMS43MDItMS40MjcgMi40NTUtLjg3IDEuMTY2LTIuMTUgMS43NDItMy40NzQgMi4xNzYtLjQxLjEzNS0uNTQ4LjMzLS40Ni43NTcuMTEyLjU0My4xOTggMS4wOS4yNTcgMS42NDMuMDUxLjU0LjMwMi42OC43OTguNjA3IDMuODA4LS41NjcgNy4xMi0yLjEzMSA5LjU4LTUuMjYyIDIuMzYyLTMuMDA3IDMuMjg0LTYuNDgxIDIuNTEtMTAuMjg4LS44ODgtNC4zNDUtNC4zMzYtNi44Ni04LjQzNy02LjM0YTYuNjcgNi42NyAwIDAgMC0zLjcxNiAxLjY4OCA3LjAzNyA3LjAzNyAwIDAgMC0yLjExMyAzLjU4Yy0uNjg5IDIuNzY3LjQzOCA1LjgxIDIuNzU1IDcuNDkzWicvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9J2EnPjxwYXRoIGZpbGw9JyNmZmYnIGQ9J00wIDBoMzR2MjJIMHonLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=);
+}
+.block-editor-page .wp-block-quote-scheme-pink-pop cite {
+  color: #f887cc;
+}
+.block-editor-page .wp-block-quote-scheme-turquoise {
+  border-color: #6bf5c0;
+}
+.block-editor-page .wp-block-quote-scheme-turquoise:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzQnIGhlaWdodD0nMjInIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGcgY2xpcC1wYXRoPSd1cmwoI2EpJyBmaWxsPScjYzRmYmU2Jz48cGF0aCBkPSdNMjMuMjEgMTMuNDQ1Yy43ODkuMzY3IDEuNjU2LjU1MyAyLjUzNi44MzZhNS42MjUgNS42MjUgMCAwIDEtLjkwNCAyLjE0NiA1LjQxOSA1LjQxOSAwIDAgMS0xLjY4MiAxLjU2OGMtLjcwMy4zODUtMS40MzIuNzE5LTIuMTguOTk4LS4zMTQuMTI4LS40NjIuMjg4LS4zODguNjM4LjEwNC41ODYuMjA4IDEuMTc0LjI3MiAxLjc2Ny4wNTUuNTA0LjI5OC42OC43NjMuNTcxIDEuMDQ3LS4yMzggMi4xMi0uNDA3IDMuMTM3LS43NSA2LjA3OC0yLjA1MiA5LjkyNy03LjYwNyA5LjEzNS0xMy45NzEtLjYxMS00LjkxLTQuMzQtNy43OS04LjY0OS03LjE2Mi0zLjAxNy40NDMtNS4zOTUgMi44NDUtNS45MDUgNi4xMDItLjQ1OCAyLjkwNyAxLjE1NSA2LjAwMyAzLjg2NiA3LjI1N1ptLTIwLjI1LS42YTcuMDgyIDcuMDgyIDAgMCAwIDMuNTYgMS4zMTJsLjE2Ny4xNzljLS40NjEuODIxLS44NjcgMS43MDItMS40MjcgMi40NTUtLjg3IDEuMTY2LTIuMTUgMS43NDItMy40NzQgMi4xNzYtLjQxLjEzNS0uNTQ4LjMzLS40Ni43NTcuMTEyLjU0My4xOTggMS4wOS4yNTcgMS42NDMuMDUxLjU0LjMwMi42OC43OTguNjA3IDMuODA4LS41NjcgNy4xMi0yLjEzMSA5LjU4LTUuMjYyIDIuMzYyLTMuMDA3IDMuMjg0LTYuNDgxIDIuNTEtMTAuMjg4LS44ODgtNC4zNDUtNC4zMzYtNi44Ni04LjQzNy02LjM0YTYuNjcgNi42NyAwIDAgMC0zLjcxNiAxLjY4OCA3LjAzNyA3LjAzNyAwIDAgMC0yLjExMyAzLjU4Yy0uNjg5IDIuNzY3LjQzOCA1LjgxIDIuNzU1IDcuNDkzWicvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9J2EnPjxwYXRoIGZpbGw9JyNmZmYnIGQ9J00wIDBoMzR2MjJIMHonLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=);
+}
+.block-editor-page .wp-block-quote-scheme-turquoise cite {
+  color: #6bf5c0;
+}
+.block-editor-page .wp-block-quote-scheme-yellow {
+  border-color: #f7b42c;
+}
+.block-editor-page .wp-block-quote-scheme-yellow:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzQnIGhlaWdodD0nMjInIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGcgY2xpcC1wYXRoPSd1cmwoI2EpJyBmaWxsPScjZmNlMWFiJz48cGF0aCBkPSdNMjMuMjEgMTMuNDQ1Yy43ODkuMzY3IDEuNjU2LjU1MyAyLjUzNi44MzZhNS42MjUgNS42MjUgMCAwIDEtLjkwNCAyLjE0NiA1LjQxOSA1LjQxOSAwIDAgMS0xLjY4MiAxLjU2OGMtLjcwMy4zODUtMS40MzIuNzE5LTIuMTguOTk4LS4zMTQuMTI4LS40NjIuMjg4LS4zODguNjM4LjEwNC41ODYuMjA4IDEuMTc0LjI3MiAxLjc2Ny4wNTUuNTA0LjI5OC42OC43NjMuNTcxIDEuMDQ3LS4yMzggMi4xMi0uNDA3IDMuMTM3LS43NSA2LjA3OC0yLjA1MiA5LjkyNy03LjYwNyA5LjEzNS0xMy45NzEtLjYxMS00LjkxLTQuMzQtNy43OS04LjY0OS03LjE2Mi0zLjAxNy40NDMtNS4zOTUgMi44NDUtNS45MDUgNi4xMDItLjQ1OCAyLjkwNyAxLjE1NSA2LjAwMyAzLjg2NiA3LjI1N1ptLTIwLjI1LS42YTcuMDgyIDcuMDgyIDAgMCAwIDMuNTYgMS4zMTJsLjE2Ny4xNzljLS40NjEuODIxLS44NjcgMS43MDItMS40MjcgMi40NTUtLjg3IDEuMTY2LTIuMTUgMS43NDItMy40NzQgMi4xNzYtLjQxLjEzNS0uNTQ4LjMzLS40Ni43NTcuMTEyLjU0My4xOTggMS4wOS4yNTcgMS42NDMuMDUxLjU0LjMwMi42OC43OTguNjA3IDMuODA4LS41NjcgNy4xMi0yLjEzMSA5LjU4LTUuMjYyIDIuMzYyLTMuMDA3IDMuMjg0LTYuNDgxIDIuNTEtMTAuMjg4LS44ODgtNC4zNDUtNC4zMzYtNi44Ni04LjQzNy02LjM0YTYuNjcgNi42NyAwIDAgMC0zLjcxNiAxLjY4OCA3LjAzNyA3LjAzNyAwIDAgMC0yLjExMyAzLjU4Yy0uNjg5IDIuNzY3LjQzOCA1LjgxIDIuNzU1IDcuNDkzWicvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9J2EnPjxwYXRoIGZpbGw9JyNmZmYnIGQ9J00wIDBoMzR2MjJIMHonLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=);
+}
+.block-editor-page .wp-block-quote-scheme-yellow cite {
+  color: #f7b42c;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-quote {
+    font-size: 22px;
+    line-height: 1.73;
+    padding: 40px 40px 30px 84px;
+  }
+  .block-editor-page .wp-block-quote:before {
+    left: 40px;
+    top: 37px;
+  }
+}
+.block-editor-page .wp-block-quote-scheme-white:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzQnIGhlaWdodD0nMjInIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGcgY2xpcC1wYXRoPSd1cmwoI2EpJyBmaWxsPScjRkZGJz48cGF0aCBkPSdNMjMuMjEgMTMuNDQ1Yy43ODkuMzY3IDEuNjU2LjU1MyAyLjUzNi44MzZhNS42MjUgNS42MjUgMCAwIDEtLjkwNCAyLjE0NiA1LjQxOSA1LjQxOSAwIDAgMS0xLjY4MiAxLjU2OGMtLjcwMy4zODUtMS40MzIuNzE5LTIuMTguOTk4LS4zMTQuMTI4LS40NjIuMjg4LS4zODguNjM4LjEwNC41ODYuMjA4IDEuMTc0LjI3MiAxLjc2Ny4wNTUuNTA0LjI5OC42OC43NjMuNTcxIDEuMDQ3LS4yMzggMi4xMi0uNDA3IDMuMTM3LS43NSA2LjA3OC0yLjA1MiA5LjkyNy03LjYwNyA5LjEzNS0xMy45NzEtLjYxMS00LjkxLTQuMzQtNy43OS04LjY0OS03LjE2Mi0zLjAxNy40NDMtNS4zOTUgMi44NDUtNS45MDUgNi4xMDItLjQ1OCAyLjkwNyAxLjE1NSA2LjAwMyAzLjg2NiA3LjI1N1ptLTIwLjI1LS42YTcuMDgyIDcuMDgyIDAgMCAwIDMuNTYgMS4zMTJsLjE2Ny4xNzljLS40NjEuODIxLS44NjcgMS43MDItMS40MjcgMi40NTUtLjg3IDEuMTY2LTIuMTUgMS43NDItMy40NzQgMi4xNzYtLjQxLjEzNS0uNTQ4LjMzLS40Ni43NTcuMTEyLjU0My4xOTggMS4wOS4yNTcgMS42NDMuMDUxLjU0LjMwMi42OC43OTguNjA3IDMuODA4LS41NjcgNy4xMi0yLjEzMSA5LjU4LTUuMjYyIDIuMzYyLTMuMDA3IDMuMjg0LTYuNDgxIDIuNTEtMTAuMjg4LS44ODgtNC4zNDUtNC4zMzYtNi44Ni04LjQzNy02LjM0YTYuNjcgNi42NyAwIDAgMC0zLjcxNiAxLjY4OCA3LjAzNyA3LjAzNyAwIDAgMC0yLjExMyAzLjU4Yy0uNjg5IDIuNzY3LjQzOCA1LjgxIDIuNzU1IDcuNDkzWicvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9J2EnPjxwYXRoIGZpbGw9JyNmZmYnIGQ9J00wIDBoMzR2MjJIMHonLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=);
+}
+.block-editor-page .wp-block-quote-scheme-light-blue,
+.block-editor-page .wp-block-quote-scheme-turquoise,
+.block-editor-page .wp-block-quote-scheme-white {
+  background-color: #000021;
+  color: #fff;
+}
+.block-editor-page .wp-block-separator {
+  border: 0;
+  height: 1px;
+  max-width: 100%;
+  padding: 0;
+  position: relative;
+}
+.block-editor-page .wp-block-separator:before {
+  background-color: #777;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+}
+.block-editor-page .wp-block-separator.wp-block-separator-light-grey:before {
+  background-color: #9999a6;
+}
+.block-editor-page .wp-block-separator.wp-block-separator-dark-blue:before {
+  background-color: #000021;
+}
+.block-editor-page .wp-block-separator.wp-block-separator-spaces-small {
+  margin: 12px 0;
+}
+.block-editor-page .wp-block-separator.wp-block-separator-spaces-zero {
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-separator.wp-block-separator-spaces-small {
+    margin: 24px 0 40px;
+  }
+}
+.block-editor-page .wp-block-separator.wp-block-separator-weight-2,
+.block-editor-page .wp-block-separator.wp-block-separator-weight-2:before {
+  height: 2px;
+}
+.block-editor-page .wp-block-separator:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .swiper-button-next,
+.block-editor-page .swiper-button-prev {
+  align-items: center;
+  border: 1px solid #b3b3bc;
+  border-radius: 50%;
+  bottom: 0;
+  color: #000021;
+  cursor: pointer;
+  font-size: 0;
+  height: 30px;
+  justify-content: center;
+  left: 50%;
+  padding: 8px;
+  position: absolute;
+  width: 30px;
+  z-index: 2;
+}
+.block-editor-page .swiper-button-next:hover,
+.block-editor-page .swiper-button-prev:hover {
+  border-color: #000021;
+}
+.block-editor-page .wp-block-etoro-slider ~ .swiper-button-next,
+.block-editor-page .wp-block-etoro-slider ~ .swiper-button-prev {
+  display: none !important;
+}
+@media (min-width: 768px) {
+  .block-editor-page
+    .wp-block-etoro-slider.swiper-initialized
+    ~ .swiper-button-next,
+  .block-editor-page
+    .wp-block-etoro-slider.swiper-initialized
+    ~ .swiper-button-prev {
+    display: flex !important;
+  }
+}
+.block-editor-page .swiper-button-prev,
+.block-editor-page .swiper-rtl .swiper-button-next {
+  transform: translateX(-46px);
+}
+.block-editor-page .swiper-button-next,
+.block-editor-page .swiper-rtl .swiper-button-prev {
+  transform: translateX(16px);
+}
+.block-editor-page .swiper-button-next:after,
+.block-editor-page .swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 12px;
+  font-variant: normal;
+  letter-spacing: 0;
+  line-height: 1;
+  text-transform: none !important;
+}
+.block-editor-page .swiper-button-prev:after,
+.block-editor-page .swiper-rtl .swiper-button-next:after {
+  content: "prev";
+}
+.block-editor-page .swiper-button-next:after,
+.block-editor-page .swiper-rtl .swiper-button-prev:after {
+  content: "next";
+}
+.block-editor-page .swiper-button-lock {
+  display: none;
+}
+.block-editor-page .swiper-button-next.swiper-button-disabled,
+.block-editor-page .swiper-button-prev.swiper-button-disabled {
+  cursor: auto;
+  opacity: 0.35;
+  pointer-events: none;
+}
+.block-editor-page .swiper-button-next.swiper-button-hidden,
+.block-editor-page .swiper-button-prev.swiper-button-hidden {
+  cursor: auto;
+  opacity: 0;
+  pointer-events: none;
+}
+.block-editor-page .swiper-navigation-disabled .swiper-button-next,
+.block-editor-page .swiper-navigation-disabled .swiper-button-prev {
+  display: none !important;
+}
+.block-editor-page
+  .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-has-arrows {
+  padding-bottom: 50px;
+}
+.block-editor-page
+  .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-has-arrows
+  .swiper-button-prev {
+  transform: translateX(-46px);
+}
+.block-editor-page
+  .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-has-arrows
+  .swiper-button-next {
+  transform: translateX(16px);
+}
+@media (min-width: 1024px) {
+  .block-editor-page
+    .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-has-arrows {
+    padding-bottom: 58px;
+  }
+  .block-editor-page
+    .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-has-arrows.wp-block-etoro-slider-has-arrows-position-side {
+    padding-bottom: 0;
+    padding-left: calc((min(100vw, 1440px) - 576px) / 24 + 24px);
+    padding-right: calc((min(100vw, 1440px) - 576px) / 24 + 24px);
+  }
+  .block-editor-page
+    .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-has-arrows.wp-block-etoro-slider-has-arrows-position-side
+    .swiper-button-next,
+  .block-editor-page
+    .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-has-arrows.wp-block-etoro-slider-has-arrows-position-side
+    .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .block-editor-page
+    .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-has-arrows.wp-block-etoro-slider-has-arrows-position-side
+    .swiper-button-prev {
+    left: 0;
+    right: auto;
+  }
+  .block-editor-page
+    .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-has-arrows.wp-block-etoro-slider-has-arrows-position-side
+    .swiper-button-next {
+    left: auto;
+    right: 0;
+  }
+}
+.block-editor-page .swiper-pagination {
+  margin-top: 32px;
+  text-align: center;
+  transform: translateZ(0);
+  transition: opacity 0.3s;
+  z-index: 2;
+}
+.block-editor-page .swiper-pagination.swiper-pagination-hidden {
+  opacity: 0;
+}
+.block-editor-page .swiper-pagination-disabled > .swiper-pagination,
+.block-editor-page .swiper-pagination.swiper-pagination-disabled {
+  display: none !important;
+}
+.block-editor-page .swiper-horizontal > .swiper-pagination-bullets,
+.block-editor-page .swiper-pagination-bullets.swiper-pagination-horizontal,
+.block-editor-page .swiper-pagination-custom,
+.block-editor-page .swiper-pagination-fraction {
+  width: 100%;
+}
+.block-editor-page .swiper-pagination-bullets-dynamic {
+  font-size: 0;
+  overflow: hidden;
+}
+.block-editor-page
+  .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet {
+  position: relative;
+  transform: scale(0.33);
+}
+.block-editor-page
+  .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet-active,
+.block-editor-page
+  .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet-active-main {
+  transform: scale(1);
+}
+.block-editor-page
+  .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet-active-prev {
+  transform: scale(0.66);
+}
+.block-editor-page
+  .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet-active-prev-prev {
+  transform: scale(0.33);
+}
+.block-editor-page
+  .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet-active-next {
+  transform: scale(0.66);
+}
+.block-editor-page
+  .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet-active-next-next {
+  transform: scale(0.33);
+}
+.block-editor-page .swiper-pagination-bullet {
+  background: 0 0;
+  border: 1px solid #000021;
+  border-radius: 50%;
+  display: inline-block;
+  height: var(
+    --swiper-pagination-bullet-height,
+    var(--swiper-pagination-bullet-size, 12px)
+  );
+  opacity: 1;
+  position: relative;
+  width: var(
+    --swiper-pagination-bullet-width,
+    var(--swiper-pagination-bullet-size, 12px)
+  );
+}
+.block-editor-page button.swiper-pagination-bullet {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+.block-editor-page .swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+}
+.block-editor-page .swiper-pagination-bullet:only-child {
+  display: none !important;
+}
+.block-editor-page .swiper-pagination-bullet-active {
+  background: 0 0;
+}
+.block-editor-page .swiper-pagination-bullet-active:before {
+  background-color: #000021;
+  border-radius: 50%;
+  content: "";
+  height: calc(
+    var(
+        --swiper-pagination-bullet-height,
+        var(--swiper-pagination-bullet-size, 12px)
+      ) - 6px
+  );
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(
+    var(
+        --swiper-pagination-bullet-width,
+        var(--swiper-pagination-bullet-size, 12px)
+      ) - 6px
+  );
+}
+.block-editor-page .swiper-pagination-vertical.swiper-pagination-bullets,
+.block-editor-page .swiper-vertical > .swiper-pagination-bullets {
+  left: var(--swiper-pagination-left, auto);
+  right: var(--swiper-pagination-right, 8px);
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+}
+.block-editor-page
+  .swiper-pagination-vertical.swiper-pagination-bullets
+  .swiper-pagination-bullet,
+.block-editor-page
+  .swiper-vertical
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  display: block;
+  margin: var(--swiper-pagination-bullet-vertical-gap, 6px) 0;
+}
+.block-editor-page
+  .swiper-pagination-vertical.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.block-editor-page
+  .swiper-vertical
+  > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+}
+.block-editor-page
+  .swiper-pagination-vertical.swiper-pagination-bullets.swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet,
+.block-editor-page
+  .swiper-vertical
+  > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet {
+  display: inline-block;
+  transition: transform 0.2s, top 0.2s;
+}
+.block-editor-page
+  .swiper-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet,
+.block-editor-page
+  .swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 4px;
+}
+.block-editor-page
+  .swiper-horizontal
+  > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.block-editor-page
+  .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.block-editor-page
+  .swiper-horizontal
+  > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet,
+.block-editor-page
+  .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet {
+  transition: transform 0.2s, left 0.2s;
+}
+.block-editor-page
+  .swiper-horizontal.swiper-rtl
+  > .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet,
+.block-editor-page
+  :host(.swiper-horizontal.swiper-rtl)
+  .swiper-pagination-bullets-dynamic
+  .swiper-pagination-bullet {
+  transition: transform 0.2s, right 0.2s;
+}
+.block-editor-page .swiper-pagination-fraction {
+  color: var(--swiper-pagination-fraction-color, inherit);
+}
+.block-editor-page .swiper-pagination-progressbar {
+  background: var(
+    --swiper-pagination-progressbar-bg-color,
+    rgba(0, 0, 0, 0.25)
+  );
+  position: absolute;
+}
+.block-editor-page
+  .swiper-pagination-progressbar
+  .swiper-pagination-progressbar-fill {
+  background: var(
+    --swiper-pagination-color,
+    var(--swiper-theme-color),
+    #000021
+  );
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0);
+  transform-origin: left top;
+  width: 100%;
+}
+.block-editor-page
+  .swiper-rtl
+  .swiper-pagination-progressbar
+  .swiper-pagination-progressbar-fill {
+  transform-origin: right top;
+}
+.block-editor-page .swiper-horizontal > .swiper-pagination-progressbar,
+.block-editor-page .swiper-pagination-progressbar.swiper-pagination-horizontal,
+.block-editor-page
+  .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
+.block-editor-page
+  .swiper-vertical
+  > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+  height: var(--swiper-pagination-progressbar-size, 4px);
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.block-editor-page
+  .swiper-horizontal
+  > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.block-editor-page
+  .swiper-pagination-progressbar.swiper-pagination-horizontal.swiper-pagination-progressbar-opposite,
+.block-editor-page .swiper-pagination-progressbar.swiper-pagination-vertical,
+.block-editor-page .swiper-vertical > .swiper-pagination-progressbar {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: var(--swiper-pagination-progressbar-size, 4px);
+}
+.block-editor-page .swiper-pagination-lock {
+  display: none;
+}
+.block-editor-page
+  .wp-block-etoro-slider-full-screen-slides
+  .swiper-pagination-bullet {
+  border-color: #fff;
+}
+.block-editor-page
+  .wp-block-etoro-slider-full-screen-slides
+  .swiper-pagination-bullet-active:before {
+  background-color: #fff;
+}
+.block-editor-page
+  .wp-block-etoro-slider-full-screen-slides
+  .swiper-pagination-dark
+  .swiper-pagination-bullet {
+  border-color: #000021;
+}
+.block-editor-page
+  .wp-block-etoro-slider-full-screen-slides
+  .swiper-pagination-dark
+  .swiper-pagination-bullet-active:before {
+  background-color: #000021;
+}
+@font-face {
+  font-family: swiper-icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url("data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA")
+    format("woff");
+}
+.block-editor-page :root {
+  --swiper-theme-color: #007aff;
+}
+.block-editor-page .swiper {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+.block-editor-page .swiper-vertical > .swiper-wrapper {
+  flex-direction: column;
+}
+.block-editor-page .swiper-wrapper {
+  box-sizing: content-box;
+  display: flex;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  width: 100%;
+  z-index: 1;
+}
+.block-editor-page .swiper-android .swiper-slide,
+.block-editor-page .swiper-wrapper {
+  transform: translateZ(0);
+}
+.block-editor-page .swiper-pointer-events {
+  touch-action: pan-y;
+}
+.block-editor-page .swiper-pointer-events.swiper-vertical {
+  touch-action: pan-x;
+}
+.block-editor-page .swiper-slide {
+  flex-shrink: 0;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  width: 100%;
+}
+.block-editor-page .swiper-slide-invisible-blank {
+  visibility: hidden;
+}
+.block-editor-page .swiper-autoheight,
+.block-editor-page .swiper-autoheight .swiper-slide {
+  height: auto;
+}
+.block-editor-page .swiper-autoheight .swiper-wrapper {
+  align-items: flex-start;
+  transition-property: transform, height;
+}
+.block-editor-page .swiper-backface-hidden .swiper-slide {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+.block-editor-page .swiper-3d,
+.block-editor-page .swiper-3d.swiper-css-mode .swiper-wrapper {
+  perspective: 1200px;
+}
+.block-editor-page .swiper-3d .swiper-cube-shadow,
+.block-editor-page .swiper-3d .swiper-slide,
+.block-editor-page .swiper-3d .swiper-slide-shadow,
+.block-editor-page .swiper-3d .swiper-slide-shadow-bottom,
+.block-editor-page .swiper-3d .swiper-slide-shadow-left,
+.block-editor-page .swiper-3d .swiper-slide-shadow-right,
+.block-editor-page .swiper-3d .swiper-slide-shadow-top,
+.block-editor-page .swiper-3d .swiper-wrapper {
+  transform-style: preserve-3d;
+}
+.block-editor-page .swiper-3d .swiper-slide-shadow,
+.block-editor-page .swiper-3d .swiper-slide-shadow-bottom,
+.block-editor-page .swiper-3d .swiper-slide-shadow-left,
+.block-editor-page .swiper-3d .swiper-slide-shadow-right,
+.block-editor-page .swiper-3d .swiper-slide-shadow-top {
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.block-editor-page .swiper-3d .swiper-slide-shadow {
+  background: rgba(0, 0, 0, 0.15);
+}
+.block-editor-page .swiper-3d .swiper-slide-shadow-left {
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.block-editor-page .swiper-3d .swiper-slide-shadow-right {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.block-editor-page .swiper-3d .swiper-slide-shadow-top {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.block-editor-page .swiper-3d .swiper-slide-shadow-bottom {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.block-editor-page .swiper-css-mode > .swiper-wrapper {
+  -ms-overflow-style: none;
+  overflow: auto;
+  scrollbar-width: none;
+}
+.block-editor-page .swiper-css-mode > .swiper-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.block-editor-page .swiper-css-mode > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: start start;
+}
+.block-editor-page .swiper-horizontal.swiper-css-mode > .swiper-wrapper {
+  scroll-snap-type: x mandatory;
+}
+.block-editor-page .swiper-vertical.swiper-css-mode > .swiper-wrapper {
+  scroll-snap-type: y mandatory;
+}
+.block-editor-page .swiper-centered > .swiper-wrapper:before {
+  content: "";
+  flex-shrink: 0;
+  order: 9999;
+}
+.block-editor-page
+  .swiper-centered.swiper-horizontal
+  > .swiper-wrapper
+  > .swiper-slide:first-child {
+  -webkit-margin-start: var(--swiper-centered-offset-before);
+  margin-inline-start: var(--swiper-centered-offset-before);
+}
+.block-editor-page .swiper-centered.swiper-horizontal > .swiper-wrapper:before {
+  height: 100%;
+  width: var(--swiper-centered-offset-after);
+}
+.block-editor-page
+  .swiper-centered.swiper-vertical
+  > .swiper-wrapper
+  > .swiper-slide:first-child {
+  -webkit-margin-before: var(--swiper-centered-offset-before);
+  margin-block-start: var(--swiper-centered-offset-before);
+}
+.block-editor-page .swiper-centered.swiper-vertical > .swiper-wrapper:before {
+  height: var(--swiper-centered-offset-after);
+  width: 100%;
+}
+.block-editor-page .swiper-centered > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: center center;
+  scroll-snap-stop: always;
+}
+.block-editor-page .swiper-fade.swiper-free-mode .swiper-slide {
+  transition-timing-function: ease-out;
+}
+.block-editor-page .swiper-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+.block-editor-page .swiper-fade .swiper-slide .swiper-slide {
+  pointer-events: none;
+}
+.block-editor-page .swiper-fade .swiper-slide-active,
+.block-editor-page .swiper-fade .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto;
+}
+.block-editor-page .no-transition * {
+  transition: none !important;
+}
+.block-editor-page .wp-block-etoro-slider-wrapper {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  position: relative;
+}
+.block-editor-page .wp-block-etoro-slider-wrapper:first-child {
+  margin-top: -8px;
+}
+.block-editor-page .wp-block-etoro-slider-wrapper:last-child {
+  margin-bottom: -8px;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-slider-wrapper {
+    margin-bottom: 28px;
+    margin-top: 28px;
+  }
+  .block-editor-page .wp-block-etoro-slider-wrapper:first-child {
+    margin-top: -12px;
+  }
+  .block-editor-page .wp-block-etoro-slider-wrapper:last-child {
+    margin-bottom: -12px;
+  }
+}
+.block-editor-page
+  .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-full-screen-slides {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.block-editor-page
+  .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-full-screen-slides
+  .swiper-slide {
+  max-width: none;
+  padding: 0;
+  width: 100%;
+}
+.block-editor-page
+  .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-full-screen-slides
+  .swiper-pagination {
+  margin-left: -4px;
+  margin-right: 0;
+  margin-top: -27px;
+  padding: 0 28px;
+  position: relative;
+  text-align: left;
+  top: -35px;
+  z-index: 2;
+}
+@media (min-width: 1024px) {
+  .block-editor-page
+    .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-full-screen-slides
+    .swiper-pagination {
+    left: 50%;
+    max-width: 50%;
+    padding-left: 52px;
+    top: -15px;
+  }
+}
+@media (min-width: 1441px) {
+  .block-editor-page
+    .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-full-screen-slides
+    .swiper-pagination {
+    padding-left: 72px;
+  }
+}
+.block-editor-page
+  .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-full-screen-slides
+  .wp-block-etoro-slider:not(.swiper-initialized)
+  .swiper-wrapper {
+  justify-content: flex-start;
+}
+.block-editor-page .wp-block-etoro-slider .swiper-wrapper {
+  align-items: stretch;
+}
+.block-editor-page
+  .wp-block-etoro-slider:not(.swiper-initialized)
+  .swiper-wrapper {
+  justify-content: center;
+}
+.block-editor-page .wp-block-etoro-slider .swiper-slide {
+  height: auto;
+  max-width: 269px;
+  overflow: hidden;
+  padding: 8px;
+  transition: all 0.3s ease;
+}
+.block-editor-page .wp-block-etoro-slider .swiper-slide * {
+  box-sizing: border-box;
+}
+.block-editor-page .wp-block-etoro-slider .swiper-slide .wp-block-etoro-card,
+.block-editor-page
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-investor,
+.block-editor-page
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-portfolio {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  overflow: hidden;
+  padding: 16px 24px 44px;
+  width: 100%;
+}
+.block-editor-page
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-card-modern,
+.block-editor-page
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-investor,
+.block-editor-page
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-portfolio {
+  padding: 0;
+}
+.block-editor-page
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-investor,
+.block-editor-page
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-portfolio {
+  height: auto;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-slider .swiper-slide {
+    max-width: 300px;
+    padding: 12px;
+  }
+}
+.block-editor-page
+  .wp-block-etoro-slider
+  .wp-block-etoro-card.wp-block-etoro-card-size-small {
+  display: block;
+  text-align: center;
+}
+.block-editor-page
+  .wp-block-etoro-slider
+  .wp-block-etoro-card.wp-block-etoro-card-size-small
+  .wp-block-etoro-card-thumbnail {
+  margin: 0 auto 10px;
+}
+.block-editor-page
+  .wp-block-etoro-slider
+  .wp-block-etoro-card.wp-block-etoro-card-size-small
+  .wp-block-etoro-card-body {
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .block-editor-page
+    .wp-block-etoro-slider
+    .wp-block-etoro-card.wp-block-etoro-card-size-small
+    .wp-block-etoro-card-thumbnail {
+    margin: 0 auto 24px;
+  }
+}
+.block-editor-page .wp-block-group .wp-block-etoro-slider {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-group .wp-block-etoro-slider {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .block-editor-page .wp-block-etoro-slider-bigger-slides .swiper-slide {
+    max-width: 360px;
+  }
+  .block-editor-page
+    .wp-block-etoro-slider.wp-block-etoro-slider-highlight-center
+    .swiper-slide {
+    max-width: 314px;
+    opacity: 0.6;
+    padding-bottom: 37px;
+    padding-top: 37px;
+  }
+  .block-editor-page
+    .wp-block-etoro-slider.wp-block-etoro-slider-highlight-center
+    .swiper-slide-active {
+    max-width: 360px;
+    opacity: 1;
+    padding-bottom: 12px;
+    padding-top: 12px;
+  }
+  .block-editor-page
+    .wp-block-etoro-slider.wp-block-etoro-slider-highlight-center.wp-block-etoro-slider-bigger-slides
+    .swiper-slide {
+    max-width: 420px;
+  }
+  .block-editor-page
+    .wp-block-etoro-slider.wp-block-etoro-slider-highlight-center.wp-block-etoro-slider-bigger-slides
+    .swiper-slide-active {
+    max-width: 480px;
+  }
+}
+.block-editor-page .wp-block-table {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+.block-editor-page .wp-block-table:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-table:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-table-content {
+  position: relative;
+}
+.block-editor-page .wp-block-table-content-table {
+  color: #000021;
+  overflow-x: auto;
+}
+.block-editor-page
+  .wp-block-table-content-table-sticky-first-column
+  table
+  td:first-child {
+  background: #e7f9eb;
+}
+.block-editor-page
+  .wp-block-table-content-table-sticky-first-column
+  table
+  td:first-child,
+.block-editor-page
+  .wp-block-table-content-table-sticky-first-column
+  table
+  th:first-child {
+  left: 0;
+  min-width: 150px;
+  position: sticky;
+  z-index: 2;
+}
+.block-editor-page
+  .wp-block-table-content-table-sticky-first-column
+  table
+  td:first-child:before,
+.block-editor-page
+  .wp-block-table-content-table-sticky-first-column
+  table
+  th:first-child:before {
+  background: #e7f9eb;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 100%;
+}
+.block-editor-page
+  .wp-block-table-content-table-sticky-first-column
+  table
+  td:first-child:after,
+.block-editor-page
+  .wp-block-table-content-table-sticky-first-column
+  table
+  th:first-child:after {
+  background-color: transparent;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 2px;
+}
+.block-editor-page
+  .wp-block-table-content-table-sticky-first-column
+  table
+  tr:last-child
+  td:before {
+  content: none;
+}
+.block-editor-page .wp-block-table-content-nav {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+.block-editor-page .wp-block-table-content-nav-left,
+.block-editor-page .wp-block-table-content-nav-right {
+  background: linear-gradient(90deg, #fff, #fff 20%, hsla(0, 0%, 100%, 0));
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  width: 40px;
+  z-index: 3;
+}
+.block-editor-page .wp-block-table-content-nav-arrow {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOSIgaGVpZ2h0PSIxNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMi4zNjQuMjkzQTEgMSAwIDAgMCAuOTUgMS43MDdMMi4zNjQuMjkzWm00Ljk1IDYuMzY0LjcwNy43MDdhMSAxIDAgMCAwIDAtMS40MTRsLS43MDcuNzA3Wk0uOTUgMTEuNjA3YTEgMSAwIDEgMCAxLjQxNCAxLjQxNEwuOTUgMTEuNjA3Wm0wLTkuOSA1LjY1NyA1LjY1N0w4LjAyIDUuOTUgMi4zNjQuMjkzLjk1IDEuNzA3Wk02LjYwNyA1Ljk1Ljk1IDExLjYwN2wxLjQxNCAxLjQxNCA1LjY1Ny01LjY1N0w2LjYwNyA1Ljk1WiIgZmlsbD0iIzc3NyIvPjwvc3ZnPg==);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  display: block;
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+}
+.block-editor-page .wp-block-table-content-nav-arrow-left {
+  transform: translateY(-50%) scaleX(-1);
+}
+.block-editor-page .wp-block-table-content-nav-arrow-right {
+  left: auto;
+  right: 0;
+}
+.block-editor-page .wp-block-table-content-nav-right {
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #fff 80%, #fff);
+  right: 0;
+}
+.block-editor-page .wp-block-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.block-editor-page .wp-block-table table th {
+  background: #e7f9eb;
+  text-align: left;
+}
+.block-editor-page .wp-block-table table td {
+  background-color: #fff;
+}
+.block-editor-page .wp-block-table table td,
+.block-editor-page .wp-block-table table th {
+  border: 0;
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 18px 16px 20px;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-table table td,
+  .block-editor-page .wp-block-table table td:first-child,
+  .block-editor-page .wp-block-table table th,
+  .block-editor-page .wp-block-table table th:first-child {
+    padding: 18px 22px 20px;
+  }
+  .block-editor-page .wp-block-table table thead th:first-child {
+    padding: 20px 22px 24px;
+  }
+  .block-editor-page .wp-block-table table th {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+  .block-editor-page .wp-block-table table td {
+    font-size: inherit;
+    line-height: inherit;
+  }
+}
+.block-editor-page .wp-block-etoro-tip {
+  background-color: #fff;
+  border-bottom: 1px solid #f7b42c;
+  border-left: 0;
+  border-right: 0;
+  border-top: 1px solid #f7b42c;
+  color: #000021;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-left: 0;
+  margin-right: 0;
+  min-height: 154px;
+  padding: 33px 16px 33px 92px;
+  position: relative;
+  text-align: left;
+}
+.block-editor-page .wp-block-etoro-tip:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-etoro-tip:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-etoro-tip p {
+  margin: 0;
+}
+.block-editor-page .wp-block-etoro-tip p + p {
+  margin-top: 1em;
+}
+.block-editor-page .wp-block-etoro-tip .wp-block-etoro-tip-icon {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nODAnIGhlaWdodD0nODAnIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHJlY3Qgd2lkdGg9JzgwJyBoZWlnaHQ9JzgwJyByeD0nNDAnIGZpbGw9JyNGN0I0MkMnLz48cGF0aCBkPSdNMzUgNTVhMSAxIDAgMSAwIDAgMnYtMlptMTEgMmExIDEgMCAxIDAgMC0ydjJabS0xMSAwaDExdi0ySDM1djJabTEgMmExIDEgMCAxIDAgMCAydi0yWm05IDJhMSAxIDAgMSAwIDAtMnYyWm0tOSAwaDl2LTJoLTl2MlptMSAyYTEgMSAwIDEgMCAwIDJ2LTJabTcgMmExIDEgMCAxIDAgMC0ydjJabS03IDBoN3YtMmgtN3YyWm0tMy41NTUtMTMuMzYxYTEgMSAwIDEgMCAxLjg2NS43MjJsLTEuODY1LS43MjJabS0xLjI2Mi01LjMzLS42NjMuNzQ4LjAwMS4wMDEuNjYyLS43NVptLTQuMDU3LTExLjc0NS0uOTg4LS4xNTguOTg4LjE1OFptMjQuODUuMDA4LS45OTguMDQ4Ljk5OC0uMDQ4Wm0tNC4zNiAxMS43NTcuNzYzLjY0Ny0uNzYzLS42NDdabS0zLjAwMSA1LjQwMmExIDEgMCAwIDAgMS45NDItLjQ4bC0xLjk0Mi40OFpNMzQuMzc4IDUybC45MzIuMzYuMDAxLS4wMDEuMDAxLS4wMDMuMDAzLS4wMDcuMDA2LS4wMTYuMDE2LS4wNDZhNC4yNDYgNC4yNDYgMCAwIDAgLjE0Ni0uNjA4IDUuNCA1LjQgMCAwIDAgLjAxOC0xLjU3Yy0uMTctMS4zMDYtLjg0LTIuOTQ3LTIuNjU2LTQuNTVsLTEuMzI0IDEuNDk5YzEuNDYyIDEuMjkgMS44OSAyLjQ5NSAxLjk5NyAzLjMxMS4wNTUuNDIuMDI4Ljc2LS4wMS45ODdhMi4yMjQgMi4yMjQgMCAwIDEtLjA2Ny4yOTN2LjAwMmwuMDAxLS4wMDQuMDAxLS4wMDQuMDAxLS4wMDJ2LS4wMDFzLjAwMS0uMDAxLjkzNC4zNlptLTEuNTMyLTYuNDRjLS42MDgtLjUzOC0xLjc1Mi0yLjA1My0yLjY0NC00LjA5Ni0uODg1LTIuMDI3LTEuNDU3LTQuNDMtMS4wODktNi43NDJsLTEuOTc0LS4zMTVjLS40NSAyLjgyMS4yNTYgNS42MjYgMS4yMyA3Ljg1Ny45NjcgMi4yMTQgMi4yNiA0LjAwNSAzLjE1MSA0Ljc5M2wxLjMyNi0xLjQ5OFptLTMuNzMyLTEwLjgzOGMuMzc0LTIuMzQ3IDEuNDA0LTQuNzgyIDMuMjIyLTYuNjE4QzM0LjEzNCAyNi4yODcgMzYuNzU0IDI1IDQwLjQ0NiAyNXYtMmMtNC4yMDUgMC03LjM0NCAxLjQ4Ni05LjUzMiAzLjY5Ny0yLjE2OCAyLjE5LTMuMzQ5IDUuMDM4LTMuNzc2IDcuNzFsMS45NzUuMzE1Wk00MC40NDUgMjVjNi42NjQgMCAxMS4zMTYgNS4xMzkgMTEuNTMyIDkuNjJsMS45OTctLjA5NUM1My43MDUgMjguODk1IDQ4LjA5MyAyMyA0MC40NDYgMjN2MlptMTEuNTMyIDkuNjJjLjE1IDMuMS0uNDcxIDUuMzYtMS4zMSA3LjA3NS0uODQ4IDEuNzM0LTEuOTMgMi45NDQtMi44MTQgMy45ODdsMS41MjUgMS4yOTRjLjg1My0xLjAwNiAyLjExLTIuNDA1IDMuMDg2LTQuNDAzLjk4Ni0yLjAxNiAxLjY3Ni00LjYxIDEuNTEtOC4wNDlsLTEuOTk3LjA5N1ptLTQuMTI0IDExLjA2MmMtMS4zODIgMS42MjctMS45NjkgMy4wNy0yLjE5MiA0LjE1OGE1LjUgNS41IDAgMCAwLS4xMTggMS4zMDcgMy42NyAzLjY3IDAgMCAwIC4wNjQuNTU1LjU5Ni41OTYgMCAwIDAgLjAwNC4wMTZsLjAwMi4wMDd2LjAwNGMwIC4wMDEgMCAuMDAyLjk3Mi0uMjM4Ljk3LS4yNC45Ny0uMjM4Ljk3MS0uMjM4di4wMDJsLjAwMS4wMDIuMDAxLjAwNC4wMDIuMDA3di4wMDVsLS4wMDQtLjAyNWExLjY3NyAxLjY3NyAwIDAgMS0uMDE1LS4xNzggMy40NzggMy40NzggMCAwIDEgLjA3OS0uODI4Yy4xNTEtLjc0LjU4LTEuODc4IDEuNzU4LTMuMjY2bC0xLjUyNS0xLjI5NFpNNDIgMTJhMSAxIDAgMSAwLTIgMGgyWm0tMiA2YTEgMSAwIDEgMCAyIDBoLTJabTAtNnY2aDJ2LTZoLTJabTE4LjcwNyA3LjcwN2ExIDEgMCAwIDAtMS40MTQtMS40MTRsMS40MTQgMS40MTRabS02LjQxNCAzLjU4NmExIDEgMCAwIDAgMS40MTQgMS40MTRsLTEuNDE0LTEuNDE0Wm01LTUtNSA1IDEuNDE0IDEuNDE0IDUtNS0xLjQxNC0xLjQxNFptLTMzLjU4NiAwYTEgMSAwIDAgMC0xLjQxNCAxLjQxNGwxLjQxNC0xLjQxNFptMy41ODYgNi40MTRhMSAxIDAgMCAwIDEuNDE0LTEuNDE0bC0xLjQxNCAxLjQxNFptLTUtNSA1IDUgMS40MTQtMS40MTQtNS01LTEuNDE0IDEuNDE0Wm0uMDgyIDMzLjUxM2ExIDEgMCAxIDAgMS4yNSAxLjU2bC0xLjI1LTEuNTZabTYuMjUtMi40NGExIDEgMCAxIDAtMS4yNS0xLjU2bDEuMjUgMS41NlptLTUgNCA1LTQtMS4yNS0xLjU2LTUgNCAxLjI1IDEuNTZabTMzLjc1IDBhMSAxIDAgMSAwIDEuMjUtMS41NmwtMS4yNSAxLjU2Wm0tMy43NS01LjU2YTEgMSAwIDEgMC0xLjI1IDEuNTZsMS4yNS0xLjU2Wm01IDQtNS00LTEuMjUgMS41NiA1IDQgMS4yNS0xLjU2Wk02NSAzOGExIDEgMCAxIDAgMC0ydjJabS02LTJhMSAxIDAgMSAwIDAgMnYtMlptNiAwaC02djJoNnYtMlptLTQ5IDBhMSAxIDAgMSAwIDAgMnYtMlptNiAyYTEgMSAwIDEgMCAwLTJ2MlptLTYgMGg2di0yaC02djJaJyBmaWxsPScjZmZmJy8+PHBhdGggZD0nTTM3LjI3IDI5Ljk2M2ExIDEgMCAwIDAtLjU0LTEuOTI2bC41NCAxLjkyNlptLTYuMjU1IDQuODY0YTEgMSAwIDAgMCAxLjk3LjM0NmwtMS45Ny0uMzQ2Wk0zNyAyOWwtLjI3LS45NjNoLS4wMDJsLS4wMDIuMDAxYS4yNjMuMjYzIDAgMCAwLS4wMjMuMDA3bC0uMDUyLjAxNmE3LjA3OSA3LjA3OSAwIDAgMC0uNzMuMjg3IDguNjgzIDguNjgzIDAgMCAwLTEuNzE4IDEuMDVjLTEuMyAxLjAxOC0yLjcxMiAyLjcyMy0zLjE4OCA1LjQyOWwxLjk3LjM0NmMuMzc1LTIuMTMzIDEuNDY0LTMuNDI4IDIuNDUtNC4yYTYuNjggNi42OCAwIDAgMSAxLjMyLS44MDcgNS4xMzUgNS4xMzUgMCAwIDEgLjUxOC0uMjA0aC4wMDEtLjAwM2MtLjAwMSAwLS4wMDEuMDAxLS4yNzEtLjk2MlonIGZpbGw9JyNmZmYnLz48L3N2Zz4=);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  height: 60px;
+  left: 16px;
+  position: absolute;
+  top: 33px;
+  width: 60px;
+}
+.block-editor-page .wp-block-etoro-tip-border-green {
+  border-color: #1337c6;
+}
+.block-editor-page .wp-block-etoro-tip-border-dark-blue {
+  border-color: #000021;
+}
+.block-editor-page .wp-block-etoro-tip-border-white {
+  border-color: #fff;
+}
+.block-editor-page .wp-block-etoro-tip-border-light-blue {
+  border-color: #c0e8fd;
+}
+.block-editor-page .wp-block-etoro-tip-border-tangerine {
+  border-color: #e96e14;
+}
+.block-editor-page .wp-block-etoro-tip-border-pink-pop {
+  border-color: #f887cc;
+}
+.block-editor-page .wp-block-etoro-tip-border-turquoise {
+  border-color: #6bf5c0;
+}
+.block-editor-page .wp-block-etoro-tip-border-yellow {
+  border-color: #f7b42c;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-tip {
+    padding: 37px 22px 37px 126px;
+  }
+  .block-editor-page .wp-block-etoro-tip .wp-block-etoro-tip-icon {
+    height: 80px;
+    left: 22px;
+    top: 37px;
+    width: 80px;
+  }
+}
+.block-editor-page .wp-block-etoro-what-is-new {
+  background-color: #1337c6;
+  color: #fff;
+  overflow: hidden;
+  padding: 40px 16px;
+}
+.block-editor-page
+  .wp-block-etoro-what-is-new
+  .wp-block-etoro-what-is-new-title {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 0 0 28px;
+}
+.block-editor-page
+  .wp-block-etoro-what-is-new
+  .wp-block-etoro-what-is-new-title
+  strong {
+  font-weight: 700;
+}
+.block-editor-page .wp-block-etoro-what-is-new-posts-wrapper {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  width: 100%;
+}
+.block-editor-page .wp-block-etoro-what-is-new-posts-wrapper:after,
+.block-editor-page .wp-block-etoro-what-is-new-posts-wrapper:before {
+  background: linear-gradient(90deg, #1337c6, transparent);
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+  z-index: 1;
+}
+.block-editor-page .wp-block-etoro-what-is-new-posts-wrapper:after {
+  background: linear-gradient(90deg, transparent, #1337c6);
+  left: auto;
+  right: 0;
+}
+.block-editor-page
+  .wp-block-etoro-what-is-new-posts-wrapper:hover
+  .wp-block-etoro-what-is-new-posts,
+.block-editor-page
+  .wp-block-etoro-what-is-new-posts-wrapper:hover
+  .wp-block-etoro-what-is-new-posts-duplicates {
+  animation-play-state: paused;
+}
+.block-editor-page .wp-block-etoro-what-is-new-posts,
+.block-editor-page .wp-block-etoro-what-is-new-posts-duplicates {
+  align-items: center;
+  animation: scroll var(--etoro-what-is-new-animation-time) linear infinite;
+  display: flex;
+  overflow-x: visible;
+}
+.block-editor-page .wp-block-etoro-what-is-new-posts p,
+.block-editor-page .wp-block-etoro-what-is-new-posts-duplicates p {
+  margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.block-editor-page .wp-block-etoro-what-is-new-posts p:before,
+.block-editor-page .wp-block-etoro-what-is-new-posts-duplicates p:before {
+  content: "|";
+  display: inline-block;
+  margin: 0 12px;
+}
+.block-editor-page .wp-block-etoro-what-is-new-posts a,
+.block-editor-page .wp-block-etoro-what-is-new-posts-duplicates a {
+  text-decoration: underline;
+  text-decoration-color: inherit;
+}
+.block-editor-page .wp-block-etoro-what-is-new-posts a:hover,
+.block-editor-page .wp-block-etoro-what-is-new-posts-duplicates a:hover {
+  color: inherit;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.block-editor-page .wp-block-etoro-what-is-new-background-grey {
+  background-color: #f7f7f7;
+  color: #000021;
+}
+.block-editor-page
+  .wp-block-etoro-what-is-new-background-grey
+  .wp-block-etoro-what-is-new-posts-wrapper:before {
+  background: linear-gradient(90deg, #f7f7f7, transparent);
+}
+.block-editor-page
+  .wp-block-etoro-what-is-new-background-grey
+  .wp-block-etoro-what-is-new-posts-wrapper:after {
+  background: linear-gradient(90deg, transparent, #f7f7f7);
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-what-is-new {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    padding: 0;
+  }
+  .block-editor-page
+    .wp-block-etoro-what-is-new
+    .wp-block-etoro-what-is-new-title {
+    background-color: #fff;
+    color: #000021;
+    font-size: 38px;
+    line-height: 46px;
+    margin: 0;
+    overflow: hidden;
+    padding: 12px 40px 24px;
+    position: relative;
+    white-space: nowrap;
+  }
+  .block-editor-page
+    .wp-block-etoro-what-is-new
+    .wp-block-etoro-what-is-new-title:after {
+    background-image: linear-gradient(95deg, transparent, #fff 30%, #fff);
+    bottom: 0;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+  }
+  .block-editor-page .wp-block-etoro-what-is-new-posts-wrapper:after,
+  .block-editor-page .wp-block-etoro-what-is-new-posts-wrapper:before {
+    width: 82px;
+  }
+  .block-editor-page .wp-block-etoro-what-is-new-posts p:before,
+  .block-editor-page .wp-block-etoro-what-is-new-posts-duplicates p:before {
+    margin: 0 24px;
+  }
+}
+.block-editor-page .wp-etoro-block-related-pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0;
+}
+.block-editor-page .wp-etoro-block-related-pages-menu-name {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0 20px 0 16px;
+  white-space: nowrap;
+  width: auto;
+}
+.block-editor-page .wp-etoro-block-related-pages-to-center {
+  display: flex;
+  justify-content: center;
+  width: -webkit-fill-available;
+}
+.block-editor-page .wp-etoro-block-related-pages-list-container {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+.block-editor-page
+  .wp-etoro-block-related-pages-list-container
+  .wp-etoro-block-related-pages-arrow-left {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+  z-index: 1;
+}
+.block-editor-page
+  .wp-etoro-block-related-pages-list-container
+  .wp-etoro-block-related-pages-arrow-left
+  button {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzAnIGhlaWdodD0nMzAnIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGNpcmNsZSBvcGFjaXR5PScuMycgY3g9JzE1JyBjeT0nMTUnIHI9JzE0LjUnIHN0cm9rZT0nI2ZmZicvPjxwYXRoIGQ9J00xNi44MzIgMjAuODMzYS41MzQuNTM0IDAgMCAwIDAtLjc3N0wxMS42NzggMTVsNS4xNTQtNS4wNTZhLjUzNC41MzQgMCAwIDAgMC0uNzc3QS41MS41MSAwIDAgMCAxNi40NCA5YS42MDguNjA4IDAgMCAwLS4zOTIuMTY3TDEwLjUgMTQuNjFhLjUwMy41MDMgMCAwIDAtLjE2OC4zODljMCAuMTY3LjA1Ni4yNzguMTY4LjM4OWw1LjU0NyA1LjQ0NGMuMTEyLjExMS4yOC4xNjcuMzkyLjE2N2EuNTEuNTEgMCAwIDAgLjM5Mi0uMTY3WicgZmlsbD0nI2ZmZicvPjwvc3ZnPg==);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 0;
+  height: 30px;
+  width: 30px;
+}
+.block-editor-page
+  .wp-etoro-block-related-pages-list-container
+  .wp-etoro-block-related-pages-arrow-right {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  z-index: 1;
+}
+.block-editor-page
+  .wp-etoro-block-related-pages-list-container
+  .wp-etoro-block-related-pages-arrow-right
+  button {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzAnIGhlaWdodD0nMzAnIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGNpcmNsZSBvcGFjaXR5PScuMycgY3g9JzE1JyBjeT0nMTUnIHI9JzE0LjUnIHRyYW5zZm9ybT0ncm90YXRlKC0xODAgMTUgMTUpJyBzdHJva2U9JyNmZmYnLz48cGF0aCBkPSdNMTMuMTY4IDkuMTY3YS41MzQuNTM0IDAgMCAwIDAgLjc3N0wxOC4zMjIgMTVsLTUuMTU0IDUuMDU2YS41MzQuNTM0IDAgMCAwIDAgLjc3Ny41MS41MSAwIDAgMCAuMzkyLjE2N2MuMTEyIDAgLjI4LS4wNTYuMzkyLS4xNjdMMTkuNSAxNS4zOWEuNTAzLjUwMyAwIDAgMCAuMTY4LS4zODkuNTAzLjUwMyAwIDAgMC0uMTY4LS4zODlsLTUuNTQ3LTUuNDQ0QS42MDguNjA4IDAgMCAwIDEzLjU2IDlhLjUxLjUxIDAgMCAwLS4zOTIuMTY3WicgZmlsbD0nI2ZmZicvPjwvc3ZnPg==);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 0;
+  height: 30px;
+  position: inherit;
+  right: 0;
+  width: 30px;
+}
+.block-editor-page
+  .wp-etoro-block-related-pages-list-container
+  .wp-etoro-block-related-pages-list {
+  display: flex;
+  font-size: 16px;
+  gap: 40px;
+  line-height: 22px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+.block-editor-page
+  .wp-etoro-block-related-pages-list-container
+  .wp-etoro-block-related-pages-list.is-overfloved-start:before {
+  content: "";
+  height: 32px;
+  left: -1px;
+  position: absolute;
+  width: 60px;
+}
+.block-editor-page
+  .wp-etoro-block-related-pages-list-container
+  .wp-etoro-block-related-pages-list.is-overfloved-end:after {
+  content: "";
+  height: 32px;
+  position: absolute;
+  right: -1px;
+  width: 60px;
+}
+.block-editor-page
+  .wp-etoro-block-related-pages-list-container
+  .wp-etoro-block-related-pages-list::-webkit-scrollbar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-etoro-block-related-pages-menu-name {
+    font-size: 20px;
+    line-height: 32px;
+    padding-left: 0;
+  }
+  .block-editor-page .wp-etoro-block-related-pages {
+    font-size: 20px;
+    line-height: 32px;
+    padding: 20px 32px;
+  }
+  .block-editor-page
+    .wp-etoro-block-related-pages
+    .wp-etoro-block-related-pages-list {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .block-editor-page
+    .wp-etoro-block-related-pages
+    .wp-etoro-block-related-pages-list.is-overfloved-end:after,
+  .block-editor-page
+    .wp-etoro-block-related-pages
+    .wp-etoro-block-related-pages-list.is-overfloved-start:before {
+    width: 200px;
+  }
+}
+.block-editor-page .wp-etoro-block-related-page-link {
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-thickness: from-font;
+}
+.block-editor-page .wp-etoro-block-related-page-link:after {
+  content: ">";
+  width: 21px;
+}
+.block-editor-page .wp-etoro-block-related-pages-link:first-child {
+  padding-left: 20px;
+}
+.block-editor-page .wp-etoro-block-related-pages-link:last-child {
+  padding-right: 40px;
+}
+@media (max-width: 1024px) {
+  .block-editor-page .wp-etoro-block-related-pages-link:last-child {
+    padding-right: 40px;
+  }
+}
+@keyframes squareSpin {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes circleSpin {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dasharray: 150, 150;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes lineAnim {
+  0% {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.block-editor-page .wp-block-etoro-side-by-side-wrapper:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-etoro-side-by-side-wrapper:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-etoro-side-by-side-right-side-container {
+  cursor: pointer;
+  display: flex;
+  flex-basis: 60%;
+}
+.block-editor-page .wp-block-etoro-side-by-side-item {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 44px;
+  position: unset;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.block-editor-page
+  .wp-block-etoro-side-by-side-item.fade-out
+  .wp-block-etoro-side-by-side-image {
+  animation: unset;
+  display: block;
+}
+.block-editor-page
+  .wp-block-etoro-side-by-side-item:not(.active-slide)
+  .wp-block-etoro-side-by-side-icon {
+  background-color: #eee !important;
+}
+.block-editor-page
+  .wp-block-etoro-side-by-side-item.is-stopped
+  .wp-block-etoro-circle__spinner
+  .path,
+.block-editor-page
+  .wp-block-etoro-side-by-side-item.is-stopped
+  .wp-block-etoro-square__spinner
+  .path {
+  animation-play-state: paused;
+}
+.block-editor-page
+  .wp-block-etoro-side-by-side-item.active-slide
+  .wp-block-etoro-circle__item,
+.block-editor-page
+  .wp-block-etoro-side-by-side-item.active-slide
+  .wp-block-etoro-square__item {
+  display: block;
+}
+.block-editor-page
+  .wp-block-etoro-side-by-side-item.active-slide
+  .wp-block-etoro-side-by-side-image {
+  animation: unset;
+  display: block;
+}
+.block-editor-page
+  .wp-block-etoro-side-by-side-item.active-slide
+  .wp-block-etoro-side-by-side-right-side-container {
+  flex-direction: column;
+}
+.block-editor-page .wp-block-etoro-side-by-side-icon {
+  background-color: #eee;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  height: 55px;
+  margin: 0 6px;
+  width: 55px;
+}
+.block-editor-page .wp-block-etoro-side-by-side-icon.is-icon-square {
+  border-radius: unset;
+}
+.block-editor-page .wp-block-etoro-side-by-side-image {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  height: 380px;
+  margin: auto;
+  width: inherit;
+}
+.block-editor-page .wp-block-etoro-side-by-side-image-container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  left: 0;
+  margin: auto;
+  position: unset;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.block-editor-page .wp-block-etoro-side-by-side-text {
+  padding-right: 0;
+}
+.block-editor-page
+  .wp-block-etoro-side-by-side-text
+  h3.wp-block-etoro-side-by-side-title {
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+.block-editor-page .wp-block-etoro-timeline-mobile {
+  display: flex;
+  flex: 1 0 0;
+  gap: 8px;
+  height: 4px;
+  justify-content: space-around;
+  position: absolute;
+  top: 384px;
+  width: 100%;
+}
+.block-editor-page .wp-block-etoro-timeline-mobile .swiper-pagination-bullet {
+  border: unset;
+  height: 4px;
+  padding: 16px 0 24px;
+  position: relative;
+  width: 100%;
+}
+.block-editor-page
+  .wp-block-etoro-timeline-mobile
+  .swiper-pagination-bullet:after {
+  background-color: #eee;
+  border: unset;
+  border-radius: 100px;
+  content: "";
+  height: 4px;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+.block-editor-page
+  .wp-block-etoro-timeline-mobile
+  .swiper-pagination-bullet-active:before {
+  animation: lineAnim 5s linear;
+  background-color: #1337c6 !important;
+  border-radius: 20px;
+  content: "";
+  display: none;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 16px;
+  transform: unset;
+  width: 100%;
+  z-index: 1;
+}
+.block-editor-page
+  .wp-block-etoro-timeline-mobile
+  .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
+  display: block;
+}
+.block-editor-page
+  .wp-block-etoro-timeline-mobile
+  .swiper-pagination-bullet.swiper-pagination-bullet-active.is-stopped:before {
+  animation-play-state: paused;
+}
+.block-editor-page .wp-block-etoro-circle {
+  align-items: center;
+  display: none;
+  height: 100%;
+  justify-content: center;
+  padding-right: 18px;
+  width: -moz-max-content;
+  width: max-content;
+}
+.block-editor-page
+  .wp-block-etoro-circle.is-icon-square
+  .wp-block-etoro-side-by-side-icon {
+  border-radius: unset;
+}
+.block-editor-page .wp-block-etoro-circle__item {
+  display: none;
+  height: 72px;
+  position: absolute;
+  transform: scaleY(-1) rotate(90deg);
+  width: 72px;
+}
+.block-editor-page .wp-block-etoro-circle__spinner {
+  height: 72px;
+  width: 72px;
+}
+.block-editor-page .wp-block-etoro-circle__spinner .path {
+  stroke-linecap: round;
+  animation: circleSpin 5s linear;
+}
+.block-editor-page .wp-block-etoro-square__item {
+  display: none;
+  height: 72px;
+  position: absolute;
+  transform: scaleY(-1) rotate(90deg);
+  width: 72px;
+}
+.block-editor-page .wp-block-etoro-square__spinner {
+  height: 72px;
+  width: 72px;
+}
+.block-editor-page .wp-block-etoro-square__spinner .path {
+  stroke-dasharray: 400;
+  fill: none;
+  stroke-width: 3px;
+  stroke-dashoffset: 400;
+  animation: squareSpin 5s linear forwards;
+}
+@media screen and (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-side-by-side {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    position: relative;
+  }
+  .block-editor-page .wp-block-etoro-side-by-side-item {
+    flex-direction: row;
+    gap: 0;
+    transform: unset !important;
+  }
+  .block-editor-page
+    .wp-block-etoro-side-by-side-item.fade-out
+    .wp-block-etoro-side-by-side-image {
+    animation: fadeOut 0.5s ease-in-out;
+  }
+  .block-editor-page .wp-block-etoro-side-by-side-item:not(.active-slide) {
+    color: #9999a6;
+  }
+  .block-editor-page
+    .wp-block-etoro-side-by-side-item.active-slide
+    .wp-block-etoro-side-by-side-image {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  .block-editor-page
+    .wp-block-etoro-side-by-side-item.active-slide
+    .wp-block-etoro-side-by-side-right-side-container {
+    flex-direction: row;
+  }
+  .block-editor-page .wp-block-etoro-side-by-side-image {
+    background-position: 100%;
+    display: none;
+    height: inherit;
+    width: 100%;
+  }
+  .block-editor-page .wp-block-etoro-side-by-side-image-container {
+    bottom: 0;
+    flex: 35%;
+    left: unset;
+    max-height: 100%;
+    position: absolute;
+    width: 35%;
+  }
+  .block-editor-page .wp-block-etoro-side-by-side-text {
+    margin: 0 0 8px;
+    padding-right: calc((min(100vw, 1440px) - 576px) / 24 * 1 + 48px);
+  }
+  .block-editor-page
+    .wp-block-etoro-side-by-side-text
+    h3.wp-block-etoro-side-by-side-title {
+    margin-bottom: 16px;
+  }
+  .block-editor-page .wp-block-etoro-timeline-mobile {
+    display: none;
+  }
+  .block-editor-page .wp-block-etoro-circle {
+    display: flex;
+  }
+}
+.block-editor-page .wp-block-etoro-image-and-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.block-editor-page .wp-block-etoro-image-and-text:first-child {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-etoro-image-and-text:last-child {
+  margin-bottom: 0;
+}
+.block-editor-page .wp-block-etoro-image-and-text-item {
+  box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media screen and (min-width: 1024px) {
+  .block-editor-page .wp-block-etoro-image-and-text-item {
+    flex-direction: row;
+    gap: 85px;
+  }
+}
+.block-editor-page .wp-block-etoro-image-and-text-image {
+  background-position: 50%;
+  background-size: cover;
+  display: none;
+  width: calc((min(100vw, 1440px) - 576px) / 24 * 7 + 144px);
+}
+@media screen and (min-width: 1024px) {
+  .block-editor-page .wp-block-etoro-image-and-text-image {
+    display: block;
+  }
+}
+.block-editor-page .wp-block-etoro-image-and-text-image-mobile {
+  display: block;
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .block-editor-page .wp-block-etoro-image-and-text-image-mobile {
+    display: none;
+  }
+}
+.block-editor-page .wp-block-etoro-image-and-text-text {
+  flex: 1 0 0;
+  max-width: 100%;
+  padding: 0 20px 20px;
+}
+@media screen and (min-width: 1024px) {
+  .block-editor-page .wp-block-etoro-image-and-text-text {
+    padding: 80px 60px 80px 0;
+  }
+}
+.block-editor-page .wp-block-etoro-flipped-cards {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media (min-width: 1025px) {
+  .block-editor-page .wp-block-etoro-flipped-cards {
+    align-items: stretch;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+  }
+  .block-editor-page
+    .wp-block-etoro-flipped-cards.wp-block-etoro-flipped-cards-5 {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1441px) {
+  .block-editor-page .wp-block-etoro-flipped-cards {
+    gap: 24px;
+  }
+}
+.block-editor-page .wp-block-etoro-flipped-card {
+  background-color: #2e2c43;
+  padding: 38px 28px;
+  text-align: left;
+  width: 100%;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card
+  .wp-block-etoro-flipped-card-image {
+  max-width: 100%;
+  min-width: 287px;
+  width: 60%;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card
+  .wp-block-etoro-flipped-card-back {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card
+  .wp-block-etoro-flipped-card-back
+  p {
+  color: #fff;
+  margin: 0;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card
+  .wp-block-etoro-flipped-card-back
+  p:first-child
+  a:after {
+  content: none;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card
+  .wp-block-etoro-flipped-card-back
+  a {
+  display: inline-block;
+  position: relative;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card
+  .wp-block-etoro-flipped-card-back
+  a:after {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMScgaGVpZ2h0PSc4JyBmaWxsPSdub25lJz48cGF0aCBkPSdNMTAuMzU0IDQuMzU0YS41LjUgMCAwIDAgMC0uNzA4TDcuMTcyLjQ2NGEuNS41IDAgMSAwLS43MDguNzA4TDkuMjkzIDQgNi40NjQgNi44MjhhLjUuNSAwIDEgMCAuNzA4LjcwOGwzLjE4Mi0zLjE4MlpNMCA0LjVoMTB2LTFIMHYxWicgZmlsbD0nI2ZmZicvPjwvc3ZnPg==);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  margin-left: 10px;
+  position: relative;
+  top: -1px;
+  width: 11px;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card
+  .wp-block-etoro-flipped-card-back
+  a:hover {
+  text-decoration: underline;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card
+  .wp-block-etoro-flipped-card-link
+  svg {
+  margin-left: 8px;
+}
+@media (min-width: 1025px) {
+  .block-editor-page .wp-block-etoro-flipped-card {
+    background-color: transparent;
+    max-width: 278px;
+    min-height: 220px;
+    padding: 0;
+    perspective: 1000px;
+  }
+  .block-editor-page
+    .wp-block-etoro-flipped-cards-5
+    .wp-block-etoro-flipped-card {
+    width: 30%;
+  }
+  .block-editor-page
+    .wp-block-etoro-flipped-card
+    .wp-block-etoro-flipped-card-inner {
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.8s;
+    width: 100%;
+  }
+  .block-editor-page
+    .wp-block-etoro-flipped-card
+    .wp-block-etoro-flipped-card-back,
+  .block-editor-page
+    .wp-block-etoro-flipped-card
+    .wp-block-etoro-flipped-card-front {
+    background-color: #2e2c43;
+    height: 100%;
+    width: 100%;
+  }
+  .block-editor-page
+    .wp-block-etoro-flipped-card
+    .wp-block-etoro-flipped-card-front {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  }
+  .block-editor-page
+    .wp-block-etoro-flipped-card
+    .wp-block-etoro-flipped-card-image {
+    max-width: 100%;
+    min-width: unset;
+    width: 100%;
+  }
+  .block-editor-page
+    .wp-block-etoro-flipped-card
+    .wp-block-etoro-flipped-card-back {
+    backface-visibility: hidden;
+    gap: 12px;
+    justify-content: space-between;
+    padding: 20px 20px 24px;
+    position: relative;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+  .block-editor-page
+    .wp-block-etoro-flipped-card
+    .wp-block-etoro-flipped-card-back
+    a {
+    letter-spacing: -1px;
+  }
+  .block-editor-page
+    .wp-block-etoro-flipped-card
+    .wp-block-etoro-flipped-card-image-mobile {
+    display: none;
+  }
+  .block-editor-page
+    .wp-block-etoro-flipped-card:hover
+    .wp-block-etoro-flipped-card-inner {
+    transform: rotateY(180deg);
+  }
+}
+@media (max-width: 1024px) {
+  .block-editor-page
+    .wp-block-etoro-flipped-card
+    .wp-block-etoro-flipped-card-image-desktop {
+    display: none;
+  }
+  .block-editor-page
+    .wp-block-etoro-flipped-card
+    .wp-block-etoro-flipped-card-front {
+    margin-bottom: 10px;
+  }
+}
+.block-editor-page .wp-block-etoro-category-items-list .e-di-img {
+  padding-top: 65.25%;
+}
+.block-editor-page .wp-block-etoro-category-items-list .e-di-meta {
+  margin-bottom: 20px;
+}
+.block-editor-page .wp-block-etoro-category-items-list .e-di-more {
+  margin-top: 0;
+}
+.block-editor-page .wp-block-etoro-category-items-list .e-di-more.no-more {
+  margin-top: -50px;
+}
+.block-editor-page
+  .wp-block-etoro-category-items-list
+  .e-di-more.no-more
+  .e-di-load-more-cta {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-category-items-list .e-di-items {
+    margin: 0;
+  }
+  .block-editor-page .wp-block-etoro-category-items-list .e-di-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 224px;
+    margin: 0 0 40px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .block-editor-page .wp-block-etoro-category-items-list .e-di-item:hover sup {
+    left: -20px;
+    top: 15px;
+  }
+  .block-editor-page .wp-block-etoro-category-items-list .e-di-item .e-di-img {
+    height: 100%;
+    max-width: 336px;
+    min-width: 250px;
+    padding-top: unset;
+  }
+  .block-editor-page .wp-block-etoro-category-items-list .e-di-item .e-di-info {
+    flex: 1;
+    height: 100%;
+    margin-left: 24px;
+    margin-top: 0;
+    padding: 15px 36px 20px 0;
+  }
+  .block-editor-page
+    .wp-block-etoro-category-items-list
+    .e-di-item-buttons-wrapper {
+    gap: 40px;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .block-editor-page
+    .wp-block-etoro-category-items-list
+    .e-di-item-buttons-wrapper
+    .e-di-item-button-wrapper {
+    flex-basis: auto;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .block-editor-page .wp-block-etoro-category-items-list .e-di-item {
+    margin-bottom: 40px;
+  }
+  .block-editor-page .wp-block-etoro-category-items-list h3.e-di-item-title {
+    margin-bottom: 12px;
+  }
+  .block-editor-page .wp-block-etoro-category-items-list .e-di-meta {
+    margin-bottom: 24px;
+  }
+}
+.block-editor-page .wp-block-etoro-follow-network {
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+.block-editor-page .wp-block-etoro-follow-network svg {
+  height: 50px;
+  width: 50px;
+}
+.block-editor-page .wp-block-etoro-follow-networks {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.block-editor-page .wp-block-etoro-follow-networks-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.block-editor-page .wp-block-etoro-follow-networks-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+@media (min-width: 768px) {
+  .block-editor-page .wp-block-etoro-follow-networks {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.block-editor-page mark {
+  background-color: #a1e8af;
+  color: inherit;
+  padding: 0 4px;
+}
+.block-editor-page .has-green-background-color {
+  background-color: #1337c6;
+}
+.block-editor-page
+  .has-green-background-color
+  .wp-etoro-block-related-pages-link
+  a:hover {
+  color: #000021 !important;
+  text-decoration-color: #000021 !important;
+}
+.block-editor-page .has-grey-background-color {
+  color: #000021;
+}
+.block-editor-page
+  .has-grey-background-color
+  .wp-etoro-block-related-pages-arrow-left,
+.block-editor-page
+  .has-grey-background-color
+  .wp-etoro-block-related-pages-arrow-left
+  button,
+.block-editor-page
+  .has-grey-background-color
+  .wp-etoro-block-related-pages-arrow-right,
+.block-editor-page
+  .has-grey-background-color
+  .wp-etoro-block-related-pages-arrow-right
+  button {
+  background-color: #f7f7f7;
+}
+.block-editor-page
+  .has-grey-background-color
+  .wp-etoro-block-related-pages-link
+  a {
+  text-decoration-color: #000021;
+}
+.block-editor-page
+  .has-grey-background-color
+  .wp-etoro-block-related-pages-link
+  a:hover {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .has-grey-background-color
+  .wp-etoro-block-related-pages-list:before {
+  background: linear-gradient(90deg, #f7f7f7, rgba(0, 0, 33, 0) 100%);
+  margin-left: -1px;
+}
+.block-editor-page
+  .has-grey-background-color
+  .wp-etoro-block-related-pages-list:after {
+  background: linear-gradient(270deg, #f7f7f7, rgba(0, 0, 33, 0) 100%);
+  margin-right: -1px;
+}
+.block-editor-page .has-grey-color {
+  stroke: #f7f7f7;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-grey
+  .wp-block-etoro-flipped-card-back
+  a {
+  color: #f7f7f7;
+  text-decoration-color: #f7f7f7;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-grey
+  .wp-block-etoro-flipped-card-back
+  a:after {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMScgaGVpZ2h0PSc4JyBmaWxsPSdub25lJz48cGF0aCBkPSdNMTAuMzU0IDQuMzU0YS41LjUgMCAwIDAgMC0uNzA4TDcuMTcyLjQ2NGEuNS41IDAgMSAwLS43MDguNzA4TDkuMjkzIDQgNi40NjQgNi44MjhhLjUuNSAwIDEgMCAuNzA4LjcwOGwzLjE4Mi0zLjE4MlpNMCA0LjVoMTB2LTFIMHYxWicgZmlsbD0nI2Y3ZjdmNycvPjwvc3ZnPg==);
+}
+.block-editor-page .has-white-background-color {
+  color: #000021;
+}
+.block-editor-page
+  .has-white-background-color
+  .wp-etoro-block-related-pages-arrow-left,
+.block-editor-page
+  .has-white-background-color
+  .wp-etoro-block-related-pages-arrow-left
+  button,
+.block-editor-page
+  .has-white-background-color
+  .wp-etoro-block-related-pages-arrow-right,
+.block-editor-page
+  .has-white-background-color
+  .wp-etoro-block-related-pages-arrow-right
+  button {
+  background-color: #fff;
+}
+.block-editor-page
+  .has-white-background-color
+  .wp-etoro-block-related-pages-link
+  a {
+  text-decoration-color: #000021;
+}
+.block-editor-page
+  .has-white-background-color
+  .wp-etoro-block-related-pages-link
+  a:hover {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .has-white-background-color
+  .wp-etoro-block-related-pages-list:before {
+  background: linear-gradient(90deg, #fff, rgba(0, 0, 33, 0) 100%);
+  margin-left: -1px;
+}
+.block-editor-page
+  .has-white-background-color
+  .wp-etoro-block-related-pages-list:after {
+  background: linear-gradient(270deg, #fff, rgba(0, 0, 33, 0) 100%);
+  margin-right: -1px;
+}
+.block-editor-page .has-white-color {
+  stroke: #fff;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-white
+  .wp-block-etoro-flipped-card-back
+  a {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-white
+  .wp-block-etoro-flipped-card-back
+  a:after {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMScgaGVpZ2h0PSc4JyBmaWxsPSdub25lJz48cGF0aCBkPSdNMTAuMzU0IDQuMzU0YS41LjUgMCAwIDAgMC0uNzA4TDcuMTcyLjQ2NGEuNS41IDAgMSAwLS43MDguNzA4TDkuMjkzIDQgNi40NjQgNi44MjhhLjUuNSAwIDEgMCAuNzA4LjcwOGwzLjE4Mi0zLjE4MlpNMCA0LjVoMTB2LTFIMHYxWicgZmlsbD0nI2ZmZicvPjwvc3ZnPg==);
+}
+.block-editor-page .has-yellow-background-color {
+  color: #000021;
+}
+.block-editor-page
+  .has-yellow-background-color
+  .wp-etoro-block-related-pages-arrow-left,
+.block-editor-page
+  .has-yellow-background-color
+  .wp-etoro-block-related-pages-arrow-left
+  button,
+.block-editor-page
+  .has-yellow-background-color
+  .wp-etoro-block-related-pages-arrow-right,
+.block-editor-page
+  .has-yellow-background-color
+  .wp-etoro-block-related-pages-arrow-right
+  button {
+  background-color: #f7b42c;
+}
+.block-editor-page
+  .has-yellow-background-color
+  .wp-etoro-block-related-pages-link
+  a {
+  text-decoration-color: #000021;
+}
+.block-editor-page
+  .has-yellow-background-color
+  .wp-etoro-block-related-pages-link
+  a:hover {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .has-yellow-background-color
+  .wp-etoro-block-related-pages-list:before {
+  background: linear-gradient(90deg, #f7b42c, rgba(0, 0, 33, 0) 100%);
+  margin-left: -1px;
+}
+.block-editor-page
+  .has-yellow-background-color
+  .wp-etoro-block-related-pages-list:after {
+  background: linear-gradient(270deg, #f7b42c, rgba(0, 0, 33, 0) 100%);
+  margin-right: -1px;
+}
+.block-editor-page .has-yellow-color {
+  stroke: #f7b42c;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-yellow
+  .wp-block-etoro-flipped-card-back
+  a {
+  color: #f7b42c;
+  text-decoration-color: #f7b42c;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-yellow
+  .wp-block-etoro-flipped-card-back
+  a:after {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMScgaGVpZ2h0PSc4JyBmaWxsPSdub25lJz48cGF0aCBkPSdNMTAuMzU0IDQuMzU0YS41LjUgMCAwIDAgMC0uNzA4TDcuMTcyLjQ2NGEuNS41IDAgMSAwLS43MDguNzA4TDkuMjkzIDQgNi40NjQgNi44MjhhLjUuNSAwIDEgMCAuNzA4LjcwOGwzLjE4Mi0zLjE4MlpNMCA0LjVoMTB2LTFIMHYxWicgZmlsbD0nI2Y3YjQyYycvPjwvc3ZnPg==);
+}
+.block-editor-page .has-turquoise-background-color {
+  color: #000021;
+}
+.block-editor-page
+  .has-turquoise-background-color
+  .wp-etoro-block-related-pages-arrow-left,
+.block-editor-page
+  .has-turquoise-background-color
+  .wp-etoro-block-related-pages-arrow-left
+  button,
+.block-editor-page
+  .has-turquoise-background-color
+  .wp-etoro-block-related-pages-arrow-right,
+.block-editor-page
+  .has-turquoise-background-color
+  .wp-etoro-block-related-pages-arrow-right
+  button {
+  background-color: #6bf5c0;
+}
+.block-editor-page
+  .has-turquoise-background-color
+  .wp-etoro-block-related-pages-link
+  a {
+  text-decoration-color: #000021;
+}
+.block-editor-page
+  .has-turquoise-background-color
+  .wp-etoro-block-related-pages-link
+  a:hover {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .has-turquoise-background-color
+  .wp-etoro-block-related-pages-list:before {
+  background: linear-gradient(90deg, #6bf5c0, rgba(0, 0, 33, 0) 100%);
+  margin-left: -1px;
+}
+.block-editor-page
+  .has-turquoise-background-color
+  .wp-etoro-block-related-pages-list:after {
+  background: linear-gradient(270deg, #6bf5c0, rgba(0, 0, 33, 0) 100%);
+  margin-right: -1px;
+}
+.block-editor-page .has-turquoise-color {
+  stroke: #6bf5c0;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-turquoise
+  .wp-block-etoro-flipped-card-back
+  a {
+  color: #6bf5c0;
+  text-decoration-color: #6bf5c0;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-turquoise
+  .wp-block-etoro-flipped-card-back
+  a:after {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMScgaGVpZ2h0PSc4JyBmaWxsPSdub25lJz48cGF0aCBkPSdNMTAuMzU0IDQuMzU0YS41LjUgMCAwIDAgMC0uNzA4TDcuMTcyLjQ2NGEuNS41IDAgMSAwLS43MDguNzA4TDkuMjkzIDQgNi40NjQgNi44MjhhLjUuNSAwIDEgMCAuNzA4LjcwOGwzLjE4Mi0zLjE4MlpNMCA0LjVoMTB2LTFIMHYxWicgZmlsbD0nIzZiZjVjMCcvPjwvc3ZnPg==);
+}
+.block-editor-page .has-light-blue-background-color {
+  color: #000021;
+}
+.block-editor-page
+  .has-light-blue-background-color
+  .wp-etoro-block-related-pages-arrow-left,
+.block-editor-page
+  .has-light-blue-background-color
+  .wp-etoro-block-related-pages-arrow-left
+  button,
+.block-editor-page
+  .has-light-blue-background-color
+  .wp-etoro-block-related-pages-arrow-right,
+.block-editor-page
+  .has-light-blue-background-color
+  .wp-etoro-block-related-pages-arrow-right
+  button {
+  background-color: #c0e8fd;
+}
+.block-editor-page
+  .has-light-blue-background-color
+  .wp-etoro-block-related-pages-link
+  a {
+  text-decoration-color: #000021;
+}
+.block-editor-page
+  .has-light-blue-background-color
+  .wp-etoro-block-related-pages-link
+  a:hover {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .has-light-blue-background-color
+  .wp-etoro-block-related-pages-list:before {
+  background: linear-gradient(90deg, #c0e8fd, rgba(0, 0, 33, 0) 100%);
+  margin-left: -1px;
+}
+.block-editor-page
+  .has-light-blue-background-color
+  .wp-etoro-block-related-pages-list:after {
+  background: linear-gradient(270deg, #c0e8fd, rgba(0, 0, 33, 0) 100%);
+  margin-right: -1px;
+}
+.block-editor-page .has-light-blue-color {
+  stroke: #c0e8fd;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-light-blue
+  .wp-block-etoro-flipped-card-back
+  a {
+  color: #c0e8fd;
+  text-decoration-color: #c0e8fd;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-light-blue
+  .wp-block-etoro-flipped-card-back
+  a:after {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMScgaGVpZ2h0PSc4JyBmaWxsPSdub25lJz48cGF0aCBkPSdNMTAuMzU0IDQuMzU0YS41LjUgMCAwIDAgMC0uNzA4TDcuMTcyLjQ2NGEuNS41IDAgMSAwLS43MDguNzA4TDkuMjkzIDQgNi40NjQgNi44MjhhLjUuNSAwIDEgMCAuNzA4LjcwOGwzLjE4Mi0zLjE4MlpNMCA0LjVoMTB2LTFIMHYxWicgZmlsbD0nI2MwZThmZCcvPjwvc3ZnPg==);
+}
+.block-editor-page .has-green-background-color {
+  color: #fff;
+}
+.block-editor-page
+  .has-green-background-color
+  .wp-etoro-block-related-pages-arrow-left,
+.block-editor-page
+  .has-green-background-color
+  .wp-etoro-block-related-pages-arrow-left
+  button,
+.block-editor-page
+  .has-green-background-color
+  .wp-etoro-block-related-pages-arrow-right,
+.block-editor-page
+  .has-green-background-color
+  .wp-etoro-block-related-pages-arrow-right
+  button {
+  background-color: #1337c6;
+}
+.block-editor-page
+  .has-green-background-color
+  .wp-etoro-block-related-pages-link
+  a {
+  text-decoration-color: #fff;
+}
+.block-editor-page
+  .has-green-background-color
+  .wp-etoro-block-related-pages-link
+  a:hover {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .has-green-background-color
+  .wp-etoro-block-related-pages-list:before {
+  background: linear-gradient(90deg, #1337c6, rgba(0, 0, 33, 0) 100%);
+}
+.block-editor-page
+  .has-green-background-color
+  .wp-etoro-block-related-pages-list:after {
+  background: linear-gradient(270deg, #1337c6, rgba(0, 0, 33, 0) 100%);
+}
+.block-editor-page
+  .has-green-background-color
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item:before {
+  background-color: #fff;
+}
+.block-editor-page
+  .has-green-background-color
+  .wp-block-etoro-cards
+  .wp-block-etoro-card {
+  background-color: #42d15e;
+}
+.block-editor-page .has-green-background-color .wp-block-etoro-card-accent {
+  background-color: #42d15e;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+}
+.block-editor-page
+  .has-green-background-color
+  .wp-block-etoro-card-accent:hover {
+  background-color: #2bcc4a;
+}
+.block-editor-page
+  .has-green-background-color
+  .wp-block-etoro-card-modern
+  .wp-block-etoro-card-content {
+  color: inherit;
+}
+.block-editor-page
+  .has-green-background-color
+  .wp-block-etoro-faq-item-question:after,
+.block-editor-page
+  .has-green-background-color
+  .wp-block-etoro-faq-item-question:before {
+  background-color: #fff;
+}
+.block-editor-page .has-green-background-color .swiper-pagination-bullet {
+  border-color: #fff;
+}
+.block-editor-page
+  .has-green-background-color
+  .swiper-pagination-bullet-active:before {
+  background-color: #fff;
+}
+.block-editor-page .has-green-background-color .swiper-button-next,
+.block-editor-page .has-green-background-color .swiper-button-prev {
+  border-color: hsla(0, 0%, 100%, 0.3);
+  color: #fff;
+}
+.block-editor-page .has-green-background-color .swiper-button-next:hover,
+.block-editor-page .has-green-background-color .swiper-button-prev:hover {
+  border-color: #fff;
+}
+.block-editor-page
+  .has-green-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-card,
+.block-editor-page
+  .has-green-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-investor,
+.block-editor-page
+  .has-green-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-portfolio {
+  background-color: #42d15e;
+}
+.block-editor-page .has-green-color {
+  stroke: #1337c6;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-green
+  .wp-block-etoro-flipped-card-back
+  a {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-green
+  .wp-block-etoro-flipped-card-back
+  a:after {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMScgaGVpZ2h0PSc4JyBmaWxsPSdub25lJz48cGF0aCBkPSdNMTAuMzU0IDQuMzU0YS41LjUgMCAwIDAgMC0uNzA4TDcuMTcyLjQ2NGEuNS41IDAgMSAwLS43MDguNzA4TDkuMjkzIDQgNi40NjQgNi44MjhhLjUuNSAwIDEgMCAuNzA4LjcwOGwzLjE4Mi0zLjE4MlpNMCA0LjVoMTB2LTFIMHYxWicgZmlsbD0nIzEzYzYzNicvPjwvc3ZnPg==);
+}
+.block-editor-page .has-etoro-green-background-color {
+  color: #fff;
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-etoro-block-related-pages-arrow-left,
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-etoro-block-related-pages-arrow-left
+  button,
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-etoro-block-related-pages-arrow-right,
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-etoro-block-related-pages-arrow-right
+  button {
+  background-color: #1337c6;
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-etoro-block-related-pages-link
+  a {
+  text-decoration-color: #fff;
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-etoro-block-related-pages-link
+  a:hover {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-etoro-block-related-pages-list:before {
+  background: linear-gradient(90deg, #1337c6, rgba(0, 0, 33, 0) 100%);
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-etoro-block-related-pages-list:after {
+  background: linear-gradient(270deg, #1337c6, rgba(0, 0, 33, 0) 100%);
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item:before {
+  background-color: #fff;
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-block-etoro-cards
+  .wp-block-etoro-card {
+  background-color: #42d15e;
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-block-etoro-card-accent {
+  background-color: #42d15e;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-block-etoro-card-accent:hover {
+  background-color: #2bcc4a;
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-block-etoro-card-modern
+  .wp-block-etoro-card-content {
+  color: inherit;
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-block-etoro-faq-item-question:after,
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-block-etoro-faq-item-question:before {
+  background-color: #fff;
+}
+.block-editor-page .has-etoro-green-background-color .swiper-pagination-bullet {
+  border-color: #fff;
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .swiper-pagination-bullet-active:before {
+  background-color: #fff;
+}
+.block-editor-page .has-etoro-green-background-color .swiper-button-next,
+.block-editor-page .has-etoro-green-background-color .swiper-button-prev {
+  border-color: hsla(0, 0%, 100%, 0.3);
+  color: #fff;
+}
+.block-editor-page .has-etoro-green-background-color .swiper-button-next:hover,
+.block-editor-page .has-etoro-green-background-color .swiper-button-prev:hover {
+  border-color: #fff;
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-card,
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-investor,
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-portfolio {
+  background-color: #42d15e;
+}
+.block-editor-page .has-etoro-green-color {
+  stroke: #1337c6;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-etoro-green
+  .wp-block-etoro-flipped-card-back
+  a {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-etoro-green
+  .wp-block-etoro-flipped-card-back
+  a:after {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMScgaGVpZ2h0PSc4JyBmaWxsPSdub25lJz48cGF0aCBkPSdNMTAuMzU0IDQuMzU0YS41LjUgMCAwIDAgMC0uNzA4TDcuMTcyLjQ2NGEuNS41IDAgMSAwLS43MDguNzA4TDkuMjkzIDQgNi40NjQgNi44MjhhLjUuNSAwIDEgMCAuNzA4LjcwOGwzLjE4Mi0zLjE4MlpNMCA0LjVoMTB2LTFIMHYxWicgZmlsbD0nIzEzYzYzNicvPjwvc3ZnPg==);
+}
+.block-editor-page .has-dark-blue-background-color {
+  color: #fff;
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-etoro-block-related-pages-arrow-left,
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-etoro-block-related-pages-arrow-left
+  button,
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-etoro-block-related-pages-arrow-right,
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-etoro-block-related-pages-arrow-right
+  button {
+  background-color: #000021;
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-etoro-block-related-pages-link
+  a {
+  text-decoration-color: #fff;
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-etoro-block-related-pages-link
+  a:hover {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-etoro-block-related-pages-list:before {
+  background: linear-gradient(90deg, #000021, rgba(0, 0, 33, 0) 100%);
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-etoro-block-related-pages-list:after {
+  background: linear-gradient(270deg, #000021, rgba(0, 0, 33, 0) 100%);
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item:before {
+  background-color: #fff;
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-etoro-cards
+  .wp-block-etoro-card {
+  background-color: #33334d;
+}
+.block-editor-page .has-dark-blue-background-color .wp-block-etoro-card-accent {
+  background-color: #33334d;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-etoro-card-accent:hover {
+  background-color: #1a1a37;
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-etoro-card-modern
+  .wp-block-etoro-card-content {
+  color: inherit;
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-etoro-faq-item-question:after,
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-etoro-faq-item-question:before {
+  background-color: #fff;
+}
+.block-editor-page .has-dark-blue-background-color .swiper-pagination-bullet {
+  border-color: #fff;
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .swiper-pagination-bullet-active:before {
+  background-color: #fff;
+}
+.block-editor-page .has-dark-blue-background-color .swiper-button-next,
+.block-editor-page .has-dark-blue-background-color .swiper-button-prev {
+  border-color: hsla(0, 0%, 100%, 0.3);
+  color: #fff;
+}
+.block-editor-page .has-dark-blue-background-color .swiper-button-next:hover,
+.block-editor-page .has-dark-blue-background-color .swiper-button-prev:hover {
+  border-color: #fff;
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-card,
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-investor,
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-portfolio {
+  background-color: #33334d;
+}
+.block-editor-page .has-dark-blue-color {
+  stroke: #000021;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-dark-blue
+  .wp-block-etoro-flipped-card-back
+  a {
+  color: #000021;
+  text-decoration-color: #000021;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-dark-blue
+  .wp-block-etoro-flipped-card-back
+  a:after {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMScgaGVpZ2h0PSc4JyBmaWxsPSdub25lJz48cGF0aCBkPSdNMTAuMzU0IDQuMzU0YS41LjUgMCAwIDAgMC0uNzA4TDcuMTcyLjQ2NGEuNS41IDAgMSAwLS43MDguNzA4TDkuMjkzIDQgNi40NjQgNi44MjhhLjUuNSAwIDEgMCAuNzA4LjcwOGwzLjE4Mi0zLjE4MlpNMCA0LjVoMTB2LTFIMHYxWicgZmlsbD0nIzAwMDAyMScvPjwvc3ZnPg==);
+}
+.block-editor-page .has-tangerine-background-color {
+  color: #fff;
+}
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-etoro-block-related-pages-arrow-left,
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-etoro-block-related-pages-arrow-left
+  button,
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-etoro-block-related-pages-arrow-right,
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-etoro-block-related-pages-arrow-right
+  button {
+  background-color: #e96e14;
+}
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-etoro-block-related-pages-link
+  a {
+  text-decoration-color: #fff;
+}
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-etoro-block-related-pages-link
+  a:hover {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-etoro-block-related-pages-list:before {
+  background: linear-gradient(90deg, #e96e14, rgba(0, 0, 33, 0) 100%);
+}
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-etoro-block-related-pages-list:after {
+  background: linear-gradient(270deg, #e96e14, rgba(0, 0, 33, 0) 100%);
+}
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item:before {
+  background-color: #fff;
+}
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-block-etoro-cards
+  .wp-block-etoro-card {
+  background-color: #ed8b43;
+}
+.block-editor-page .has-tangerine-background-color .wp-block-etoro-card-accent {
+  background-color: #ed8b43;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+}
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-block-etoro-card-accent:hover {
+  background-color: #eb7d2c;
+}
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-block-etoro-card-modern
+  .wp-block-etoro-card-content {
+  color: inherit;
+}
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-block-etoro-faq-item-question:after,
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-block-etoro-faq-item-question:before {
+  background-color: #fff;
+}
+.block-editor-page .has-tangerine-background-color .swiper-pagination-bullet {
+  border-color: #fff;
+}
+.block-editor-page
+  .has-tangerine-background-color
+  .swiper-pagination-bullet-active:before {
+  background-color: #fff;
+}
+.block-editor-page .has-tangerine-background-color .swiper-button-next,
+.block-editor-page .has-tangerine-background-color .swiper-button-prev {
+  border-color: hsla(0, 0%, 100%, 0.3);
+  color: #fff;
+}
+.block-editor-page .has-tangerine-background-color .swiper-button-next:hover,
+.block-editor-page .has-tangerine-background-color .swiper-button-prev:hover {
+  border-color: #fff;
+}
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-card,
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-investor,
+.block-editor-page
+  .has-tangerine-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-portfolio {
+  background-color: #ed8b43;
+}
+.block-editor-page .has-tangerine-color {
+  stroke: #e96e14;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-tangerine
+  .wp-block-etoro-flipped-card-back
+  a {
+  color: #e96e14;
+  text-decoration-color: #e96e14;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-tangerine
+  .wp-block-etoro-flipped-card-back
+  a:after {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMScgaGVpZ2h0PSc4JyBmaWxsPSdub25lJz48cGF0aCBkPSdNMTAuMzU0IDQuMzU0YS41LjUgMCAwIDAgMC0uNzA4TDcuMTcyLjQ2NGEuNS41IDAgMSAwLS43MDguNzA4TDkuMjkzIDQgNi40NjQgNi44MjhhLjUuNSAwIDEgMCAuNzA4LjcwOGwzLjE4Mi0zLjE4MlpNMCA0LjVoMTB2LTFIMHYxWicgZmlsbD0nI2U5NmUxNCcvPjwvc3ZnPg==);
+}
+.block-editor-page .has-pink-pop-background-color {
+  color: #fff;
+}
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-etoro-block-related-pages-arrow-left,
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-etoro-block-related-pages-arrow-left
+  button,
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-etoro-block-related-pages-arrow-right,
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-etoro-block-related-pages-arrow-right
+  button {
+  background-color: #f887cc;
+}
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-etoro-block-related-pages-link
+  a {
+  text-decoration-color: #fff;
+}
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-etoro-block-related-pages-link
+  a:hover {
+  color: #1337c6;
+  text-decoration-color: #1337c6;
+}
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-etoro-block-related-pages-list:before {
+  background: linear-gradient(90deg, #f887cc, rgba(0, 0, 33, 0) 100%);
+}
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-etoro-block-related-pages-list:after {
+  background: linear-gradient(270deg, #f887cc, rgba(0, 0, 33, 0) 100%);
+}
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item:before {
+  background-color: #fff;
+}
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-block-etoro-cards
+  .wp-block-etoro-card {
+  background-color: #f99fd6;
+}
+.block-editor-page .has-pink-pop-background-color .wp-block-etoro-card-accent {
+  background-color: #f99fd6;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+}
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-block-etoro-card-accent:hover {
+  background-color: #f993d1;
+}
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-block-etoro-card-modern
+  .wp-block-etoro-card-content {
+  color: inherit;
+}
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-block-etoro-faq-item-question:after,
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-block-etoro-faq-item-question:before {
+  background-color: #fff;
+}
+.block-editor-page .has-pink-pop-background-color .swiper-pagination-bullet {
+  border-color: #fff;
+}
+.block-editor-page
+  .has-pink-pop-background-color
+  .swiper-pagination-bullet-active:before {
+  background-color: #fff;
+}
+.block-editor-page .has-pink-pop-background-color .swiper-button-next,
+.block-editor-page .has-pink-pop-background-color .swiper-button-prev {
+  border-color: hsla(0, 0%, 100%, 0.3);
+  color: #fff;
+}
+.block-editor-page .has-pink-pop-background-color .swiper-button-next:hover,
+.block-editor-page .has-pink-pop-background-color .swiper-button-prev:hover {
+  border-color: #fff;
+}
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-card,
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-investor,
+.block-editor-page
+  .has-pink-pop-background-color
+  .wp-block-etoro-slider
+  .swiper-slide
+  .wp-block-etoro-portfolio {
+  background-color: #f99fd6;
+}
+.block-editor-page .has-pink-pop-color {
+  stroke: #f887cc;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-pink-pop
+  .wp-block-etoro-flipped-card-back
+  a {
+  color: #f887cc;
+  text-decoration-color: #f887cc;
+}
+.block-editor-page
+  .wp-block-etoro-flipped-card-pink-pop
+  .wp-block-etoro-flipped-card-back
+  a:after {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMScgaGVpZ2h0PSc4JyBmaWxsPSdub25lJz48cGF0aCBkPSdNMTAuMzU0IDQuMzU0YS41LjUgMCAwIDAgMC0uNzA4TDcuMTcyLjQ2NGEuNS41IDAgMSAwLS43MDguNzA4TDkuMjkzIDQgNi40NjQgNi44MjhhLjUuNSAwIDEgMCAuNzA4LjcwOGwzLjE4Mi0zLjE4MlpNMCA0LjVoMTB2LTFIMHYxWicgZmlsbD0nI2Y4ODdjYycvPjwvc3ZnPg==);
+}
+.block-editor-page .has-dark-blue-background-color .is-style-banner-title {
+  color: #fff;
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .is-style-banner-title
+  strong {
+  color: #1337c6;
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-etoro-course-info-style-external
+  .e-cta {
+  background-color: #1337c6;
+  border-color: #1337c6;
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-etoro-course-info-style-external
+  .e-cta:focus,
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-etoro-course-info-style-external
+  .e-cta:hover {
+  background-color: #71dd86;
+  border-color: #71dd86;
+}
+@media (min-width: 768px) {
+  .block-editor-page
+    .has-dark-blue-background-color
+    .wp-block-course-contents-lesson:hover
+    .wp-block-course-contents-lesson-duration {
+    color: #fff;
+  }
+  .block-editor-page
+    .has-dark-blue-background-color
+    .wp-block-course-contents-lesson-cta {
+    background-color: #1337c6;
+    border: 1px solid #1337c6;
+    color: #fff;
+  }
+  .block-editor-page
+    .has-dark-blue-background-color
+    .wp-block-course-contents-lesson-cta:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+}
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-course-contents-navigation
+  .wp-block-course-contents-back-to-all,
+.block-editor-page
+  .has-dark-blue-background-color
+  .wp-block-course-contents-navigation
+  .wp-block-course-contents-show-all {
+  text-decoration-color: #fff;
+}
+.block-editor-page
+  .has-grey-background-color
+  .wp-etoro-block-related-pages-arrow-left
+  button,
+.block-editor-page
+  .has-white-background-color
+  .wp-etoro-block-related-pages-arrow-left
+  button {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzAnIGhlaWdodD0nMzAnIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGNpcmNsZSBvcGFjaXR5PScuMycgY3g9JzE1JyBjeT0nMTUnIHI9JzE0LjUnIHN0cm9rZT0nIzAwMDAyMScvPjxwYXRoIGQ9J00xNi44MzIgMjAuODMzYS41MzQuNTM0IDAgMCAwIDAtLjc3N0wxMS42NzggMTVsNS4xNTQtNS4wNTZhLjUzNC41MzQgMCAwIDAgMC0uNzc3QS41MS41MSAwIDAgMCAxNi40NCA5YS42MDguNjA4IDAgMCAwLS4zOTIuMTY3TDEwLjUgMTQuNjFhLjUwMy41MDMgMCAwIDAtLjE2OC4zODljMCAuMTY3LjA1Ni4yNzguMTY4LjM4OWw1LjU0NyA1LjQ0NGMuMTEyLjExMS4yOC4xNjcuMzkyLjE2N2EuNTEuNTEgMCAwIDAgLjM5Mi0uMTY3WicgZmlsbD0nIzAwMDAyMScvPjwvc3ZnPg==);
+}
+.block-editor-page
+  .has-grey-background-color
+  .wp-etoro-block-related-pages-arrow-right
+  button,
+.block-editor-page
+  .has-white-background-color
+  .wp-etoro-block-related-pages-arrow-right
+  button {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMzAnIGhlaWdodD0nMzAnIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PGNpcmNsZSBvcGFjaXR5PScuMycgY3g9JzE1JyBjeT0nMTUnIHI9JzE0LjUnIHRyYW5zZm9ybT0ncm90YXRlKC0xODAgMTUgMTUpJyBzdHJva2U9JyMwMDAwMjEnLz48cGF0aCBkPSdNMTMuMTY4IDkuMTY3YS41MzQuNTM0IDAgMCAwIDAgLjc3N0wxOC4zMjIgMTVsLTUuMTU0IDUuMDU2YS41MzQuNTM0IDAgMCAwIDAgLjc3Ny41MS41MSAwIDAgMCAuMzkyLjE2N2MuMTEyIDAgLjI4LS4wNTYuMzkyLS4xNjdMMTkuNSAxNS4zOWEuNTAzLjUwMyAwIDAgMCAuMTY4LS4zODkuNTAzLjUwMyAwIDAgMC0uMTY4LS4zODlsLTUuNTQ3LTUuNDQ0QS42MDguNjA4IDAgMCAwIDEzLjU2IDlhLjUxLjUxIDAgMCAwLS4zOTIuMTY3WicgZmlsbD0nIzAwMDAyMScvPjwvc3ZnPg==);
+}
+.block-editor-page .has-grey-background-color .is-style-banner-title strong,
+.block-editor-page .has-white-background-color .is-style-banner-title strong {
+  color: #1337c6;
+}
+.block-editor-page .has-etoro-green-background-color .wp-block-etoro-faq-item a,
+.block-editor-page .has-green-background-color .wp-block-etoro-faq-item a {
+  text-decoration-color: #fff;
+}
+.block-editor-page
+  .has-etoro-green-background-color
+  .wp-block-etoro-faq-item
+  a:hover,
+.block-editor-page
+  .has-green-background-color
+  .wp-block-etoro-faq-item
+  a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .block-editor-page.rtl .wp-block-course-contents-lesson {
+    padding-left: 0;
+    padding-right: 24px;
+  }
+}
+.block-editor-page.rtl .wp-block-etoro-card-size-small {
+  display: flex;
+  justify-content: center;
+  text-align: right;
+}
+.block-editor-page.rtl
+  .wp-block-etoro-card-size-small
+  .wp-block-etoro-card-body {
+  margin: 0 16px 0 0;
+}
+@media (min-width: 768px) {
+  .block-editor-page.rtl
+    .wp-block-etoro-card-size-small
+    .wp-block-etoro-card-body {
+    margin: 24px 0 0;
+  }
+  .block-editor-page.rtl .wp-block-etoro-card-size-small {
+    display: block;
+    text-align: center;
+  }
+  .block-editor-page.rtl
+    .wp-block-etoro-card-size-small-thumbnail-position-side.wp-block-etoro-card-size-small,
+  .block-editor-page.rtl
+    .wp-block-etoro-card-size-small.wp-block-etoro-card-thumbnail-position-side {
+    display: flex;
+    text-align: right;
+  }
+  .block-editor-page.rtl
+    .wp-block-etoro-card-size-small-thumbnail-position-side.wp-block-etoro-card-size-small
+    .wp-block-etoro-card-thumbnail,
+  .block-editor-page.rtl
+    .wp-block-etoro-card-size-small.wp-block-etoro-card-thumbnail-position-side
+    .wp-block-etoro-card-thumbnail {
+    margin: 0 max((min(100vw, 1440px) - 576px)/24 * 2 + 24px - 80px, 0px) 0 24px;
+  }
+  .block-editor-page.rtl
+    .wp-block-etoro-card-size-small-thumbnail-position-side.wp-block-etoro-card-size-small
+    .wp-block-etoro-card-body,
+  .block-editor-page.rtl
+    .wp-block-etoro-card-size-small.wp-block-etoro-card-thumbnail-position-side
+    .wp-block-etoro-card-body {
+    margin: 0;
+    padding-left: calc((min(100vw, 1440px) - 576px) / 24 + 12px);
+    padding-right: 0;
+  }
+  .block-editor-page.rtl .wp-block-columns-2 .wp-block-column {
+    flex: 1 1 50%;
+  }
+  .block-editor-page.rtl
+    .wp-block-columns-2
+    .wp-block-column.is-text-column:first-child {
+    padding-left: 48px;
+    padding-right: 0;
+  }
+  .block-editor-page.rtl
+    .wp-block-columns-2
+    .wp-block-column.is-text-column:last-child {
+    padding-left: 0;
+    padding-right: 48px;
+  }
+}
+.block-editor-page.rtl
+  .wp-block-etoro-course-info-style-internal
+  .wp-block-etoro-course-info-item:before {
+  margin-left: 6px;
+  margin-right: 0;
+}
+.block-editor-page.rtl
+  .wp-block-etoro-course-info-style-external
+  .wp-block-etoro-course-info-item
+  + .wp-block-etoro-course-info-item:before {
+  padding: 0 20px 0 16px;
+}
+@media (min-width: 768px) {
+  .block-editor-page.rtl
+    .wp-block-etoro-course-navigation
+    .wp-block-etoro-course-navigation-item-next {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+.block-editor-page.rtl .wp-block-etoro-emphasis {
+  text-align: right;
+}
+.block-editor-page.rtl .wp-block-etoro-emphasis.has-text-align-left {
+  text-align: left;
+}
+.block-editor-page.rtl .wp-block-etoro-emphasis.has-text-align-center {
+  text-align: center;
+}
+.block-editor-page.rtl .wp-block-etoro-emphasis.has-text-align-right {
+  text-align: right;
+}
+.block-editor-page.rtl .wp-block-etoro-faq-item-question {
+  padding-left: 15px;
+  padding-right: 0;
+}
+.block-editor-page.rtl .wp-block-etoro-faq-item-question:after,
+.block-editor-page.rtl .wp-block-etoro-faq-item-question:before {
+  left: 0;
+  right: auto;
+}
+.block-editor-page.rtl .wp-block-group .wp-block-etoro-faq-item-question {
+  padding-left: 45px;
+  padding-right: 30px;
+}
+.block-editor-page.rtl .wp-block-group .wp-block-etoro-faq-item-question:after,
+.block-editor-page.rtl
+  .wp-block-group
+  .wp-block-etoro-faq-item-question:before {
+  left: 30px;
+  right: auto;
+}
+@media (min-width: 1024px) {
+  .block-editor-page.rtl .wp-block-group .wp-block-etoro-faq-item-question {
+    padding-left: 75px;
+    padding-right: 60px;
+  }
+  .block-editor-page.rtl
+    .wp-block-group
+    .wp-block-etoro-faq-item-question:after,
+  .block-editor-page.rtl
+    .wp-block-group
+    .wp-block-etoro-faq-item-question:before {
+    left: 60px;
+    right: auto;
+  }
+  .block-editor-page.rtl .wp-block-etoro-hero-body {
+    padding-left: 0;
+    padding-right: 52px;
+  }
+}
+@media (min-width: 1441px) {
+  .block-editor-page.rtl .wp-block-etoro-hero-body {
+    padding-left: 0;
+    padding-right: 72px;
+  }
+}
+.block-editor-page.rtl .wp-block-etoro-investor,
+.block-editor-page.rtl .wp-block-etoro-portfolio {
+  text-align: right;
+}
+.block-editor-page.rtl
+  .block-editor-content.block-editor-content-boxed
+  > .container {
+  margin-bottom: 28px;
+  margin-top: 28px;
+}
+@media (min-width: 768px) {
+  .block-editor-page.rtl
+    .block-editor-content.block-editor-content-boxed
+    > .container {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+}
+.block-editor-page.rtl .wp-block-list,
+.block-editor-page.rtl .wp-block-list ul {
+  padding: 0 30px 0 0;
+}
+.block-editor-page.rtl ul.wp-block-list ul > li:before,
+.block-editor-page.rtl ul.wp-block-list > li:before {
+  left: 100%;
+  margin-left: 16px;
+  margin-right: 0;
+  right: auto;
+}
+.block-editor-page.rtl .wp-block-etoro-pros-cons-title {
+  padding-left: 24px;
+  padding-right: 55px;
+}
+.block-editor-page.rtl .wp-block-etoro-pros-cons-title:before {
+  left: auto;
+  margin-left: 12px;
+  margin-right: 0;
+  right: 24px;
+}
+.block-editor-page.rtl .wp-block-etoro-quiz-item:before {
+  margin-left: 8px;
+  margin-right: 0;
+}
+.block-editor-page.rtl .wp-block-etoro-quiz-item:after {
+  left: auto;
+  right: 3px;
+}
+.block-editor-page.rtl .wp-block-quote {
+  padding-left: 16px;
+  padding-right: 66px;
+  text-align: right;
+}
+.block-editor-page.rtl .wp-block-quote:before {
+  left: auto;
+  right: 16px;
+}
+@media (min-width: 768px) {
+  .block-editor-page.rtl .wp-block-quote {
+    padding-left: 40px;
+    padding-right: 84px;
+  }
+  .block-editor-page.rtl .wp-block-quote:before {
+    left: auto;
+    right: 40px;
+  }
+}
+.block-editor-page.rtl
+  .wp-block-etoro-slider-has-arrows.swiper-rtl
+  .swiper-button-next,
+.block-editor-page.rtl
+  .wp-block-etoro-slider-has-arrows.swiper-rtl
+  .swiper-button-prev {
+  left: 50%;
+  right: auto;
+}
+.block-editor-page.rtl
+  .wp-block-etoro-slider-has-arrows.swiper-rtl
+  .swiper-button-prev {
+  transform: translateX(16px);
+}
+.block-editor-page.rtl
+  .wp-block-etoro-slider-has-arrows.swiper-rtl
+  .swiper-button-next {
+  transform: translateX(-46px);
+}
+.block-editor-page.rtl
+  .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-full-screen-slides
+  .swiper-rtl
+  + .swiper-pagination {
+  margin-left: 0;
+  margin-right: -4px;
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  .block-editor-page.rtl
+    .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-full-screen-slides
+    .swiper-rtl
+    + .swiper-pagination {
+    left: auto;
+    padding-left: 0;
+    padding-right: 52px;
+    right: 50%;
+  }
+}
+@media (min-width: 1441px) {
+  .block-editor-page.rtl
+    .wp-block-etoro-slider-wrapper.wp-block-etoro-slider-full-screen-slides
+    .swiper-rtl
+    + .swiper-pagination {
+    padding-left: 0;
+    padding-right: 72px;
+  }
+}
+.block-editor-page.rtl .wp-block-etoro-tip {
+  padding-left: 16px;
+  padding-right: 92px;
+}
+.block-editor-page.rtl .wp-block-etoro-tip .wp-block-etoro-tip-icon {
+  left: auto;
+  right: 16px;
+}
+@media (min-width: 768px) {
+  .block-editor-page.rtl .wp-block-etoro-tip {
+    padding-left: 22px;
+    padding-right: 126px;
+    text-align: right;
+  }
+  .block-editor-page.rtl .wp-block-etoro-tip:before {
+    left: auto;
+    right: 22px;
+  }
+}
+.block-editor-page.rtl .wp-block-etoro-what-is-new-posts,
+.block-editor-page.rtl .wp-block-etoro-what-is-new-posts-duplicates {
+  animation: scroll-rtl var(--etoro-what-is-new-animation-time) linear infinite;
+}
+@keyframes scroll-rtl {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@media (min-width: 768px) {
+  .block-editor-page.rtl .wp-block-etoro-what-is-new-title:after {
+    background-image: linear-gradient(95deg, #fff, #fff 70%, transparent);
+    left: 0;
+    right: auto;
+  }
+}
+.block-editor-page.rtl .wp-etoro-block-related-pages-menu-name {
+  padding: 0 16px 0 20px;
+}
+.block-editor-page.rtl
+  .wp-etoro-block-related-pages-list-container
+  .wp-etoro-block-related-pages-arrow-left
+  button {
+  left: 0;
+  position: inherit;
+}
+.block-editor-page.rtl
+  .wp-etoro-block-related-pages-list-container
+  .wp-etoro-block-related-pages-link:first-child {
+  padding-left: 0;
+  padding-right: 20px;
+}
+.block-editor-page.rtl
+  .wp-etoro-block-related-pages-list-container
+  .wp-etoro-block-related-pages-link:last-child {
+  padding-left: 50px;
+  padding-right: 0;
+}
+@media (min-width: 768px) {
+  .block-editor-page.rtl .wp-etoro-block-related-pages-menu-name {
+    padding-right: 0;
+  }
+}
+.block-editor-page.rtl .wp-block-etoro-side-by-side-image-container {
+  left: 0;
+  right: unset;
+}
+.block-editor-page.rtl .wp-block-etoro-circle {
+  padding-left: 18px;
+  padding-right: 0;
+}
+.block-editor-page.rtl .wp-block-etoro-side-by-side-text {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: right;
+}
+.block-editor-page.rtl .swiper-pagination-bullet:after {
+  left: 0;
+}
+@media screen and (min-width: 768px) {
+  .block-editor-page.rtl .wp-block-etoro-side-by-side-text {
+    padding-left: calc((min(100vw, 1440px) - 576px) / 24 * 1 + 48px);
+  }
+}
+.block-editor-page.rtl .wp-block-etoro-image-and-text-text {
+  text-align: right !important;
+}
+@media screen and (min-width: 1024px) {
+  .block-editor-page.rtl .wp-block-etoro-image-and-text-text {
+    padding: 80px 0 80px 60px;
+  }
+}
+.block-editor-page.rtl .wp-block-etoro-flipped-card {
+  text-align: right;
+}
+.block-editor-page.rtl
+  .wp-block-etoro-flipped-card
+  .wp-block-etoro-flipped-card-back
+  a:after {
+  margin-left: 0;
+  margin-right: 8px;
+  transform: rotate(180deg);
+}
+@media only screen and (min-width: 768px) {
+  .block-editor-page.rtl
+    .wp-block-etoro-category-items-list
+    .e-di-item
+    .e-di-info {
+    margin-left: 0;
+    margin-right: 24px;
+    padding-left: 36px;
+    padding-right: 0;
+  }
+}

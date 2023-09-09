@@ -1,0 +1,2 @@
+(function(){if(window.eToroPopupRules){return;}
+const UK=218;const UAE=217;const Belgium=19;window.eToroPopupRules=[{name:"belgiumPopup",country:[Belgium],paths:['*/crypto/','*/trading/'],languages:['nl','fr']},{name:"moneyUKPopup",country:[UK],paths:['/money/'],languages:[]},{name:"moneyUAEPopup",country:[UAE],paths:['/money/'],languages:[]}];}());
