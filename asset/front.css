@@ -306,13 +306,13 @@
 .block-editor-page .e-cta-primary-bordered:focus,
 .block-editor-page .e-cta-primary-bordered:hover {
   background-color: transparent;
-  border-color: #71dd86;
-  color: #71dd86;
+  border-color: #718cdd;
+  color: #718cdd;
 }
 .block-editor-page .e-cta:focus,
 .block-editor-page .e-cta:hover {
-  background-color: #71dd86;
-  border-color: #71dd86;
+  background-color: #718cdd;
+  border-color: #718cdd;
   box-shadow: none;
   color: #fff;
   outline: none;
@@ -1682,7 +1682,7 @@
 }
 .block-editor-page ul.wp-block-list-circle ul > div > li:before,
 .block-editor-page ul.wp-block-list-circle ul > li:before {
-  background-color: #71dd86;
+  background-color: #718cdd;
   background-image: none;
   height: 12px;
   width: 12px;
@@ -5064,8 +5064,8 @@
   .has-dark-blue-background-color
   .wp-block-etoro-course-info-style-external
   .e-cta:hover {
-  background-color: #71dd86;
-  border-color: #71dd86;
+  background-color: #718cdd;
+  border-color: #718cdd;
 }
 @media (min-width: 768px) {
   .block-editor-page

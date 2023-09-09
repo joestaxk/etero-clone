@@ -1866,8 +1866,8 @@ p + .e-cta-alt {
 .e-cta-alt:hover,
 .e-cta__alt:hover {
   background-color: transparent;
-  border-color: #71dd86;
-  color: #71dd86;
+  border-color: #718cdd;
+  color: #718cdd;
 }
 @media only screen and (min-width: 661px) {
   .e-cta,
