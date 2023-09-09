@@ -414,7 +414,7 @@ body[data-fx*="down"] .logo .logoColor {
   }
   .e-header .logo .logoColor,
   body[data-fx*="down"] .logo .logoColor {
-    fill: #13c636;
+    fill: #1316c6;
   }
 }
 @keyframes showLogo {
@@ -430,7 +430,7 @@ body[data-fx*="down"] .logo .logoColor {
   display: inline-block;
   border-radius: 25px;
   transition: all 0.2s ease-in-out;
-  background: #13c636;
+  background: #1316c6;
   color: #fff;
   padding: 9px 15px 13px;
   min-width: 80px;
@@ -438,7 +438,7 @@ body[data-fx*="down"] .logo .logoColor {
   font-size: 16px;
 }
 .signup:hover {
-  background-color: #22ea49;
+  background-color: #2238ea;
 }
 @media only screen and (max-width: 1024px) {
   .signup {
@@ -836,7 +836,7 @@ body[data-fx*="down"] .navbar_mobile .icon_bar {
   text-overflow: ellipsis;
 }
 .navigation ul ol li a:hover {
-  color: #13c636;
+  color: #1316c6;
 }
 .navigation ul ol li a:empty {
   display: none;
@@ -901,14 +901,14 @@ body[data-fx*="down"] .navbar_mobile .icon_bar {
     padding: 9px 15px 13px;
     width: 100%;
     background-color: #fff;
-    color: #13c636;
+    color: #1316c6;
     letter-spacing: -0.25px;
-    border: 1px solid #13c636;
+    border: 1px solid #1316c6;
     text-align: center;
     border-radius: 25px;
   }
   .download_app:hover {
-    color: #13c636;
+    color: #1316c6;
   }
   body.ar-ae .download_app:before {
     margin-right: 0;
@@ -1817,7 +1817,7 @@ a:hover {
   text-align: center;
   padding: 8px 24px 10px;
   border-radius: 25px;
-  border: solid 1px #13c636;
+  border: solid 1px #1316c6;
   min-width: 150px;
   transition: all 0.3s ease;
 }
@@ -1847,17 +1847,17 @@ p + .e-cta-alt {
   border-color: #000;
 }
 .e-cta {
-  background-color: #13c636;
+  background-color: #1316c6;
   color: #fff;
 }
 .e-cta:hover {
-  background-color: #22ea49;
-  border-color: #22ea49;
+  background-color: #2238ea;
+  border-color: #2238ea;
 }
 .e-cta-alt,
 .e-cta__alt {
   background-color: transparent;
-  color: #13c636;
+  color: #1316c6;
 }
 .dark-bg .e-cta-alt,
 .dark-bg .e-cta__alt {
@@ -2229,7 +2229,7 @@ p + .e-cta-alt {
   }
   .hero-half-cover .cover2022 h1 strong {
     font-weight: bold;
-    color: #00cb00;
+    color: #000dcb;
   }
   body.en-gb .hero-half-cover .cover2022 h1 {
     font-size: clamp(32px, 4.895vw, 94px);
@@ -2357,7 +2357,7 @@ p + .e-cta-alt {
     margin-bottom: 8px;
   }
   .airdrop-text strong {
-    color: #13c636;
+    color: #1316c6;
   }
   .airdrop-terms {
     font-size: 12px;
@@ -2418,7 +2418,7 @@ p + .e-cta-alt {
     margin-bottom: 8px;
   }
   .airdrop-text strong {
-    color: #13c636;
+    color: #1316c6;
   }
   .airdrop-terms {
     font-size: 12px;
@@ -2432,7 +2432,7 @@ p + .e-cta-alt {
   font-style: normal;
 }
 :root {
-  --swiper-theme-color: #13c636;
+  --swiper-theme-color: #1316c6;
 }
 .swiper,
 swiper-container {
