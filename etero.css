@@ -991,7 +991,7 @@ body[data-fx*="down"] .navbar_mobile .icon_bar {
   .navigation ul > li.search {
     display: none;
   }
-  .navigation .li-lvl-1 > a::after {
+  /* .navigation .li-lvl-1 > a::after {
     content: "";
     border: solid #777;
     border-width: 0 2px 2px 0;
@@ -1022,7 +1022,7 @@ body[data-fx*="down"] .navbar_mobile .icon_bar {
   .navigation .li-lvl-1:last-child.open {
     margin-bottom: 0;
     border-bottom: none;
-  }
+  } */
   .navigation ul ol {
     max-height: 0;
     overflow: hidden;
